@@ -1,5 +1,5 @@
 ---
-name: quarterly-content-strategy
+name: produtor-conteudo
 description: Produz o fluxo completo de conteúdo estratégico de marketing a partir de fontes do usuário (briefing de marca, público-alvo, posicionamento), em fases com aprovação por e-mail entre elas — (1) pesquisa de temas em alta e dores do mercado em fontes confiáveis (MIT Technology Review, Deloitte, McKinsey, HBR, Gartner), enviada para aprovação antes de qualquer pauta existir; (2) planejamento trimestral com eixos temáticos mensais e pautas ancoradas em pesquisa, sobre os temas aprovados; (3) blog posts de cada pauta, com SEO e GEO; e (4) roteiro de Reels do Instagram a partir de cada post, alinhado à marca. Use sempre que pedirem planejamento trimestral/editorial, pautas de conteúdo, calendário editorial, pesquisa de temas/tendências para pautar conteúdo, redigir um blogpost de uma pauta definida, ou transformar um artigo em roteiro de Reels/social — mesmo em pedidos separados na mesma conversa. Entrega tudo em .docx por padrão.
 ---
 
