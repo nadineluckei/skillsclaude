@@ -24,6 +24,7 @@ node scripts/generate_docx.js plan.json output.docx
 ```json
 {
   "type": "Tipo:",
+  "social_headline": "Headline para redes sociais:",
   "direcionamento": "Direcionamento:",
   "central_question": "Pergunta central:",
   "structure": "Estrutura esperada:",
@@ -66,6 +67,7 @@ the whole quarter.
 | `number` | number | 1, 2, 3... within the month |
 | `title` | string | The provocative headline/thesis-as-title, usually a quoted line |
 | `type` | string | Two content pillars combined, e.g. `"Liderança + Responsabilidade"` |
+| `social_headline` | string | Optional. A short, punchy hook line for social/Reels — distinct from `title` (which can be a longer, essay-style headline). Suggested already at planning time so Fase 3 has less to invent from scratch; see `references/reels-script.md`. |
 | `direcionamento` | array of `{label, text}` | The strategic reasoning behind the piece. The reference plan always used exactly these four, in this order: `Narrativa comum` (the received wisdom), `Realidade` (what's actually true), `Ângulo` (the specific take), `Tese` (the one-line claim the article defends) |
 | `central_question` | string | The single question the piece answers — sharp enough to hook a reader in the target audience |
 | `structure` | array of string | ~5 bullets sketching the piece's outline, in the order a writer would draft it |

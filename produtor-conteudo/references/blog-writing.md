@@ -70,6 +70,19 @@ ferramentas:
   ajuda tanto SEO de marca quanto a forma como IA generativa atribui
   autoria a uma fonte.
 
+## Revisão anti-slop
+
+Antes de considerar o artigo pronto, revise contra
+`references/anti-slop.md` — vocabulário de enchimento, travessão em
+excesso, "não é X, é Y" repetido a cada parágrafo, rule of three
+automático, parágrafo de "Conclusão" forçado. Um artigo que soa como
+qualquer outro texto gerado por IA enfraquece justamente a autoridade que
+o conteúdo deveria construir (ver "Diagnóstico de autoridade" em
+`assets/brand-profile.md`) — e também prejudica GEO: mecanismos
+generativos preferem citar texto que soa como uma fonte específica e
+confiável, não texto genérico intercambiável com qualquer outro artigo do
+mesmo tema.
+
 ## Entrega
 
 Use a skill `docx` (já disponível no ambiente) para produzir o artigo final

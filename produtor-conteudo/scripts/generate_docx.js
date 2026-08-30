@@ -36,6 +36,7 @@ const plan = JSON.parse(fs.readFileSync(inputPath, "utf-8"));
 
 const DEFAULT_LABELS = {
   type: "Tipo:",
+  social_headline: "Headline para redes sociais:",
   direcionamento: "Direcionamento:",
   central_question: "Pergunta central:",
   structure: "Estrutura esperada:",
@@ -136,6 +137,11 @@ function renderPauta(pauta) {
 
   out.push(labelLine(labels.type));
   out.push(body(pauta.type));
+
+  if (pauta.social_headline) {
+    out.push(labelLine(labels.social_headline));
+    out.push(body(pauta.social_headline));
+  }
 
   out.push(labelLine(labels.direcionamento));
   for (const item of pauta.direcionamento || []) {

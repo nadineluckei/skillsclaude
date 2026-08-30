@@ -120,6 +120,10 @@ Cada pauta tem estes campos fixos, sempre nesta ordem:
   está pronto.
 - **Tipo**: dois pilares de conteúdo combinados (por exemplo, "Liderança +
   Responsabilidade"). Ajuda a garantir variedade de ângulos dentro do mês.
+- **Headline para redes sociais**: uma frase curta e chamativa, no formato
+  de gancho de Reels/social — diferente do `Título` (que pode ser mais
+  "editorial"). Sugira já nesta fase, não só na Fase 3, para o usuário
+  aprovar a linha de manchetes junto com o resto do plano.
 - **Direcionamento**, com exatamente quatro sub-itens:
   - *Narrativa comum*: a crença ou frase que o público já aceita.
   - *Realidade*: o que de fato acontece, muitas vezes o oposto do senso
@@ -221,11 +225,24 @@ Mecânica de cada gate:
    sido enviado com sucesso, ou por uma reação vaga na conversa ("beleza",
    "recebi") — espere uma confirmação explícita antes de seguir. O usuário
    pode confirmar de dois jeitos: respondendo aqui na conversa, ou
-   respondendo o e-mail. Se ele disser que vai responder por e-mail, avise
-   que você pode checar a caixa de entrada quando ele pedir ("já
-   aprovei, pode conferir?") usando a ferramenta de busca de e-mail da
-   sessão para procurar uma resposta na mesma thread — não fique checando
-   sozinho em loop sem ele pedir.
+   respondendo o e-mail (nesse caso, confira a thread com a ferramenta de
+   Gmail — um e-mail enviado para o próprio endereço do usuário funciona
+   normalmente, a resposta aparece na mesma thread sem nenhum problema).
+
+   **Não existe notificação automática de e-mail novo nesta sessão** — nada
+   avisa quando a resposta chega, então checar sozinho de vez em quando é
+   inútil a menos que isso esteja agendado. Se a sessão tiver ferramentas
+   de agendamento/rotina (por exemplo, as ferramentas de trigger/rotina do
+   Claude Code Remote), configure uma checagem periódica (de hora em hora
+   é uma cadência razoável — aprovação de plano de conteúdo não é algo que
+   precise de resposta em segundos) que: (a) busca a thread do e-mail
+   enviado, (b) se achar uma resposta nova, processa a aprovação/ajustes e
+   segue para a próxima fase automaticamente, e (c) se não achar nada,
+   não faz nada e não incomoda o usuário. Cancele essa rotina assim que a
+   aprovação for processada — ela existe só para essa espera, não deve
+   ficar rodando para sempre. Se a sessão não tiver esse tipo de
+   ferramenta, avise o usuário que ele precisa voltar à conversa (ou pedir
+   para você checar) quando responder.
 4. Se o usuário aprovar só parte do que foi enviado (alguns temas, alguns
    meses, algumas pautas), siga apenas com o que foi aprovado na etapa
    seguinte, e trate o resto como rejeitado/pendente de ajuste — não
@@ -239,7 +256,9 @@ definiu tese, ângulo, estrutura e fontes; esta fase executa esse briefing
 em prosa, na voz da marca (`assets/brand-profile.md`), com SEO e GEO
 aplicados. Se o usuário não especificar quais pautas, pergunte quais ele
 quer redigidas agora — não escreva todas de uma vez sem confirmação, mesmo
-já aprovadas no plano.
+já aprovadas no plano. Antes de entregar, revise contra
+`references/anti-slop.md` — texto que soa como IA genérica mina o
+posicionamento de "pensadora" que o artigo deveria construir.
 
 ## Fase 3 — Roteiros de Reels
 
@@ -269,6 +288,7 @@ for em português, inclua um objeto `labels` traduzido no JSON, assim:
 ```json
 "labels": {
   "type": "Type:",
+  "social_headline": "Social headline:",
   "direcionamento": "Direction:",
   "central_question": "Central question:",
   "structure": "Expected structure:",
