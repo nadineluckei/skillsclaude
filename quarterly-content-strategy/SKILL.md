@@ -1,11 +1,32 @@
 ---
 name: quarterly-content-strategy
-description: Produz um planejamento trimestral de conteúdo estratégico de marketing (blog, LinkedIn, newsletter, etc.) com eixos temáticos mensais, pautas detalhadas (narrativa comum, realidade, ângulo, tese, pergunta central, estrutura, palavras-chave, tom) e uma narrativa conectada entre os meses — a partir de fontes específicas fornecidas pelo usuário, como briefing de marca, público-alvo, posicionamento, exemplos de conteúdo anterior ou transcrições. Use esta skill sempre que o usuário pedir um planejamento trimestral/editorial, um calendário de conteúdo, pautas para os próximos meses, um "content plan", um roadmap editorial, ou quiser transformar materiais de origem (documentos, PDFs, notas, briefings) em um plano de conteúdo estratégico estruturado — mesmo que ele não use exatamente essas palavras, ou peça apenas "pautas para o próximo trimestre" ou "planejamento de conteúdo". Entrega o resultado como .docx (Word) por padrão, seguindo uma estrutura fixa e replicável mês a mês.
+description: Produz o fluxo completo de conteúdo estratégico de marketing a partir de fontes do usuário (briefing de marca, público-alvo, posicionamento, conteúdo anterior), em três fases com aprovação explícita entre elas — (1) planejamento trimestral com eixos temáticos mensais e pautas ancoradas em pesquisa de fontes confiáveis (MIT Technology Review, Deloitte, McKinsey, HBR, Gartner etc.); (2) redação dos blog posts de cada pauta aprovada, com SEO e GEO; e (3) transformação de cada blog post em roteiro de Reels do Instagram persuasivo, alinhado à marca. Use sempre que o usuário pedir planejamento trimestral/editorial, pautas de conteúdo, calendário editorial, redigir um blogpost a partir de uma pauta já definida, ou transformar um artigo em roteiro de vídeo/Reels/social — inclusive em pedidos separados na mesma conversa, tipo "redige esse blogpost" ou "transforma isso em roteiro de reels", mesmo sem usar essas palavras exatas. Entrega tudo em .docx por padrão.
 ---
 
-# Planejamento Trimestral de Conteúdo Estratégico
+# Conteúdo Estratégico Trimestral — Plano → Blog Posts → Reels
 
-## O que esta skill produz
+## Visão geral do pipeline
+
+Esta skill cobre três fases sequenciais. Cada uma só começa depois que a
+anterior foi entregue e **aprovada explicitamente pelo usuário** — nunca
+encadeie as três de uma vez só porque o pedido inicial menciona todas.
+
+1. **Fase 1 — Planejamento trimestral**: eixos temáticos mensais + pautas
+   detalhadas, cada uma ancorada em pesquisa real (`references/research.md`).
+2. **Gate de aprovação**: entregar o plano e parar até o usuário aprovar.
+3. **Fase 2 — Blog posts**: redigir o artigo de cada pauta aprovada, com
+   SEO e GEO (`references/blog-writing.md`).
+4. **Fase 3 — Roteiros de Reels**: transformar cada blog post num roteiro
+   de vídeo persuasivo alinhado à marca (`references/reels-script.md`).
+
+O perfil de marca usado nas Fases 2 e 3 (e para checar alinhamento de
+público na Fase 1) está em `assets/brand-profile.md` — leia-o antes de
+redigir qualquer peça, e use um perfil fornecido na conversa em vez dele
+se o usuário der um briefing diferente.
+
+## Fase 1 — Planejamento trimestral
+
+### O que esta fase produz
 
 Um documento de planejamento editorial para um trimestre (ou outro período
 recorrente que o usuário definir), onde cada mês explora um eixo temático
@@ -15,17 +36,19 @@ raciocínio estratégico específico — não é só uma lista de títulos de ar
 
 O valor deste formato não está no template em si, mas no raciocínio que ele
 obriga: toda pauta precisa nomear a crença comum que está desafiando
-(`Narrativa comum`), o que é de fato verdade (`Realidade`), o recorte
+(`Narrativa comum`), o que é de fato verdade e comprovável (`Realidade`,
+apoiada em pesquisa real — ver `references/research.md`), o recorte
 específico que a torna publicável (`Ângulo`) e a frase que resume a defesa
 (`Tese`). Pautas que não conseguem preencher essas quatro linhas com algo
 específico geralmente são genéricas demais — é um sinal de que a ideia
 precisa de mais trabalho antes de entrar no plano.
 
-## Passo 1 — Reunir as fontes
+### Passo 1 — Reunir as fontes
 
 Este planejamento não deve ser inventado do zero: ele precisa refletir a
 marca, o público e o posicionamento reais de quem vai publicar. Antes de
-escrever qualquer pauta, reúna (peça ao usuário se não tiver):
+escrever qualquer pauta, reúna (peça ao usuário se não tiver, e cheque
+`assets/brand-profile.md` se já existir um perfil salvo):
 
 - **Briefing / posicionamento da marca**: o que a empresa/pessoa faz, o que
   a diferencia, que transformação ela vende.
@@ -42,10 +65,9 @@ escrever qualquer pauta, reúna (peça ao usuário se não tiver):
 Se o usuário anexar arquivos (docx, pdf, notas), leia-os primeiro. Se faltar
 alguma peça essencial — sobretudo público-alvo e posicionamento, sem os
 quais é impossível ter um ângulo específico — pergunte antes de prosseguir
-em vez de assumir um público genérico "C-Level de qualquer indústria" que
-não é o do usuário.
+em vez de assumir um público genérico que não é o do usuário.
 
-## Passo 2 — Desenhar o arco do trimestre
+### Passo 2 — Desenhar o arco do trimestre
 
 Antes de gerar pautas individuais, decida a progressão dos eixos temáticos
 mensais. Um bom arco tem uma lógica de causa-e-efeito entre os meses — não
@@ -60,12 +82,18 @@ que ideia maior eles terão absorvido que não estava explícita em nenhuma
 pauta isolada? Essa ideia maior é a "Narrativa Conectada" do trimestre
 (passo 4).
 
-## Passo 3 — Escrever as pautas de cada mês
+### Passo 3 — Pesquisar e escrever as pautas de cada mês
 
 Para cada mês, escreva o eixo temático (título curto + 1-2 frases do que
 ele cobre e por que é o momento certo dele na progressão) e então as pautas
 — o padrão do documento de referência usa 3 por mês, mas ajuste conforme a
 cadência que o usuário definiu no passo 1.
+
+Antes de fechar cada pauta, pesquise um respaldo real para a afirmação da
+`Realidade` — ver `references/research.md` para onde buscar (MIT
+Technology Review, Deloitte, McKinsey, HBR, Gartner e afins), como registrar
+a fonte no campo `sources`, e a regra inegociável de nunca inventar uma
+citação.
 
 Cada pauta tem estes campos fixos, sempre nesta ordem:
 
@@ -77,7 +105,8 @@ Cada pauta tem estes campos fixos, sempre nesta ordem:
   Responsabilidade"). Ajuda a garantir variedade de ângulos dentro do mês.
 - **Direcionamento**, com exatamente quatro sub-itens:
   - *Narrativa comum*: a crença ou frase que o público já aceita.
-  - *Realidade*: o que de fato acontece, muitas vezes o oposto do senso comum.
+  - *Realidade*: o que de fato acontece, muitas vezes o oposto do senso
+    comum — idealmente com um dado pesquisado embutido na frase.
   - *Ângulo*: o recorte específico que torna essa realidade publicável —
     não basta "as empresas erram", precisa dizer como e por quê.
   - *Tese*: a frase de uma linha que resume a posição defendida no texto.
@@ -85,6 +114,8 @@ Cada pauta tem estes campos fixos, sempre nesta ordem:
   o bastante para funcionar como gancho sozinha.
 - **Estrutura esperada**: ~5 bullets esboçando a ordem de argumentação (não
   é o texto final, é o roteiro para quem for escrever).
+- **Fontes** (quando pesquisa encontrar algo): 1-2 citações reais que
+  sustentam a `Realidade`, ver `references/research.md`.
 - **Palavras-chave**: termos de busca/tópico relevantes.
 - **Tom**: 1-2 frases descrevendo o registro (ex.: "Incisivo. Responsabiliza
   o líder pelo fracasso, não o time.").
@@ -92,7 +123,7 @@ Cada pauta tem estes campos fixos, sempre nesta ordem:
 Varie o tom entre pautas dentro do mesmo mês (provocador, educador,
 desafiador...) — um trimestre inteiro no mesmo registro cansa o leitor.
 
-## Passo 4 — Amarrar o trimestre
+### Passo 4 — Amarrar o trimestre
 
 Depois de escrever os meses, feche o documento com duas seções:
 
@@ -106,7 +137,7 @@ frequência de publicação, público, registro de linguagem, foco temático e
 o objetivo de posicionamento por trás do trimestre inteiro (o que a pessoa
 ou marca quer ser vista como, depois de publicar essas peças).
 
-## Passo 5 — Gerar o documento
+### Passo 5 — Gerar o documento
 
 Depois de ter o conteúdo estratégico decidido (passos 1-4), monte um objeto
 JSON no formato descrito em `references/schema.md` — veja
@@ -124,10 +155,11 @@ sempre vem pré-instalado no ambiente de execução.
 
 O script é apenas o "motor de formatação": ele garante que todo mês e toda
 pauta virem os mesmos níveis de título, listas com marcadores de verdade
-(não caracteres "•" digitados) e rótulos em negrito, para o documento ficar
-consistente do primeiro ao último mês sem que você precise pensar em
-formatação Word a cada seção. O raciocínio estratégico (o que vai em cada
-campo) continua sendo o trabalho de verdade, feito nos passos 1-4.
+(não caracteres "•" digitados), rótulos em negrito e fontes como hyperlinks
+de verdade, para o documento ficar consistente do primeiro ao último mês
+sem que você precise pensar em formatação Word a cada seção. O raciocínio
+estratégico (o que vai em cada campo) continua sendo o trabalho de verdade,
+feito nos passos 1-4.
 
 Se o usuário pedir explicitamente outro formato de entrega (Markdown,
 Google Doc, apresentação), monte o mesmo conteúdo dos passos 1-4 nesse
@@ -135,20 +167,68 @@ formato em vez de rodar o script — a estrutura de raciocínio vale
 independente do formato final; o `.docx` via `generate_docx.js` é só o
 padrão quando não especificado.
 
+## O gate de aprovação
+
+**Nunca comece a Fase 2 (blog posts) ou a Fase 3 (roteiros de Reels) sem
+uma aprovação explícita do usuário sobre o que foi entregue na fase
+anterior.** Isso vale mesmo que o pedido original já mencione as três
+fases de uma vez ("monta o planejamento e já vai escrevendo os posts") —
+avise nesse caso que o plano vem primeiro, sozinho, para aprovação, e que
+os posts começam depois que ele confirmar.
+
+Depois de gerar o `.docx` do planejamento (Passo 5):
+
+1. **Pergunte como o usuário quer revisar** se isso não estiver claro:
+   direto na conversa, como arquivo anexado, ou por e-mail.
+2. **Se o usuário pedir por e-mail** (ou já tiver dado um endereço): use a
+   ferramenta de Gmail disponível na sessão para enviar o `.docx` gerado
+   como anexo para o endereço informado, com um assunto claro (ex.:
+   "Planejamento trimestral de conteúdo — [período] — para aprovação") e
+   um corpo curto explicando o que está anexado e que a resposta dele
+   libera as próximas fases. Se nenhuma ferramenta de e-mail estiver
+   disponível na sessão em que a skill está rodando, avise o usuário disso
+   em vez de simular o envio, e ofereça a entrega direto na conversa.
+3. **Pare e espere.** Não presuma aprovação pelo silêncio, por o e-mail ter
+   sido enviado com sucesso, ou por o usuário ter reagido de forma vaga
+   ("beleza", "recebi") — espere uma confirmação explícita de aprovação
+   (ou pedidos de ajuste, que voltam para o Passo 3/4 da Fase 1) antes de
+   iniciar a Fase 2.
+4. Se o usuário aprovar só parte do plano (alguns meses, algumas pautas),
+   siga apenas com o que foi aprovado nas fases seguintes.
+
+## Fase 2 — Blog posts
+
+Depois da aprovação, para cada pauta aprovada, redija o artigo completo
+seguindo `references/blog-writing.md` — a pauta já definiu tese, ângulo,
+estrutura e fontes; esta fase executa esse briefing em prosa, na voz da
+marca (`assets/brand-profile.md`), com SEO e GEO aplicados. Se o usuário
+não especificar quais pautas, pergunte quais ele quer redigidas agora —
+não escreva todas de uma vez sem confirmação, mesmo já aprovadas no plano.
+
+## Fase 3 — Roteiros de Reels
+
+Depois que um blog post está pronto (e, se fizer sentido, aprovado),
+transforme-o num roteiro de Reels seguindo `references/reels-script.md`.
+O ponto mais importante desta fase é o posicionamento: a autora é
+**pensadora, não executora** — o roteiro revela uma forma de enxergar o
+problema, nunca se oferece para executar a solução ou fecha com CTA de
+venda direta. Ver a seção "Posicionamento: pensadora, não executora" em
+`assets/brand-profile.md`.
+
 ## Adaptando para outro idioma ou nicho
 
-Nada aqui é específico de um nicho de C-Level ou de língua portuguesa — o
-documento de referência que moldou esta skill era para um blog B2B em
-português, mas a estrutura (eixo mensal → pautas com direcionamento fixo →
-amarração do trimestre) serve para qualquer público e idioma. Se as fontes
-do usuário estiverem em outro idioma, escreva o plano inteiro nesse idioma.
+Nada aqui é específico de um nicho de C-Level, de RevOps ou de língua
+portuguesa — a estrutura (eixo mensal → pautas com direcionamento fixo →
+amarração do trimestre → blog post → roteiro de Reels) serve para qualquer
+público, marca e idioma. Se as fontes do usuário estiverem em outro
+idioma, escreva o plano inteiro nesse idioma.
 
 Atenção: os rótulos internos de cada pauta (`Tipo:`, `Direcionamento:`,
-`Pergunta central:`, `Estrutura esperada:`, `Palavras-chave:`, `Tom:`) vêm
-com um default em português no script — se o resto do plano estiver em
-outro idioma e você não sobrescrever esses rótulos, o documento final sai
-com português misturado a outro idioma. Sempre que o plano não for em
-português, inclua um objeto `labels` traduzido no JSON, assim:
+`Pergunta central:`, `Estrutura esperada:`, `Fontes:`, `Palavras-chave:`,
+`Tom:`) vêm com um default em português no script — se o resto do plano
+estiver em outro idioma e você não sobrescrever esses rótulos, o documento
+final sai com português misturado a outro idioma. Sempre que o plano não
+for em português, inclua um objeto `labels` traduzido no JSON, assim:
 
 ```json
 "labels": {
@@ -156,6 +236,7 @@ português, inclua um objeto `labels` traduzido no JSON, assim:
   "direcionamento": "Direction:",
   "central_question": "Central question:",
   "structure": "Expected structure:",
+  "sources": "Sources:",
   "keywords": "Keywords:",
   "tone": "Tone:"
 }

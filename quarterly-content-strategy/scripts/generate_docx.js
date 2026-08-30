@@ -22,6 +22,7 @@ const {
   HeadingLevel,
   AlignmentType,
   LevelFormat,
+  ExternalHyperlink,
 } = require("docx");
 
 const [, , inputPath, outputPath] = process.argv;
@@ -38,6 +39,7 @@ const DEFAULT_LABELS = {
   direcionamento: "Direcionamento:",
   central_question: "Pergunta central:",
   structure: "Estrutura esperada:",
+  sources: "Fontes:",
   keywords: "Palavras-chave:",
   tone: "Tom:",
 };
@@ -86,6 +88,27 @@ function labelLine(label) {
   });
 }
 
+// A source is {title, publication, year?, url}. Rendered as one bullet with
+// a real clickable hyperlink, not a plain-text URL, so the citation is
+// actually usable when the plan is reviewed or later turned into a blog post.
+function sourceBullet(source) {
+  const label = source.year
+    ? `${source.title} — ${source.publication} (${source.year})`
+    : `${source.title} — ${source.publication}`;
+  const children = [new TextRun({ text: `${label}: ` })];
+  if (source.url) {
+    children.push(
+      new ExternalHyperlink({
+        link: source.url,
+        children: [
+          new TextRun({ text: source.url, style: "Hyperlink" }),
+        ],
+      })
+    );
+  }
+  return bullet(children);
+}
+
 // Renders the flexible, freeform section list used for intro/closing content
 // (sections_before_months / closing_sections). Each entry may carry a
 // heading, plain paragraphs, and/or a bullet list, in any combination.
@@ -125,6 +148,13 @@ function renderPauta(pauta) {
   out.push(labelLine(labels.structure));
   for (const step of pauta.structure || []) {
     out.push(labeledBullet(null, step));
+  }
+
+  if (pauta.sources && pauta.sources.length) {
+    out.push(labelLine(labels.sources));
+    for (const source of pauta.sources) {
+      out.push(sourceBullet(source));
+    }
   }
 
   out.push(labelLine(labels.keywords));

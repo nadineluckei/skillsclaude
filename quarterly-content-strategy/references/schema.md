@@ -27,6 +27,7 @@ node scripts/generate_docx.js plan.json output.docx
   "direcionamento": "Direcionamento:",
   "central_question": "Pergunta central:",
   "structure": "Estrutura esperada:",
+  "sources": "Fontes:",
   "keywords": "Palavras-chave:",
   "tone": "Tom:"
 }
@@ -68,6 +69,7 @@ the whole quarter.
 | `direcionamento` | array of `{label, text}` | The strategic reasoning behind the piece. The reference plan always used exactly these four, in this order: `Narrativa comum` (the received wisdom), `Realidade` (what's actually true), `Ângulo` (the specific take), `Tese` (the one-line claim the article defends) |
 | `central_question` | string | The single question the piece answers — sharp enough to hook a reader in the target audience |
 | `structure` | array of string | ~5 bullets sketching the piece's outline, in the order a writer would draft it |
+| `sources` | array of `{title, publication, year?, url}` | Optional. Real citations backing the `Realidade` claim — see `references/research.md` for how to find them. Rendered as clickable hyperlinks. Omit the field (don't invent entries) when no credible source was found for that pauta. |
 | `keywords` | string | Comma-separated SEO/topic keywords |
 | `tone` | string | 1-2 sentences describing the register (e.g. "Incisivo. Responsabiliza o líder pelo fracasso, não o time.") |
 
