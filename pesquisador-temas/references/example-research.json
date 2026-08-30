@@ -1,0 +1,80 @@
+{
+  "date": "2026-08-30",
+  "rapidThemes": [
+    {
+      "title": "OpenAI anuncia novo modelo com custos 70% menores",
+      "why": "Empresa compete com Anthropic e Google; mercado quer IA mais barata; redução de custo operacional é pain point real",
+      "socialAngle": "Enquanto isso, seu concorrente já tá usando IA por 1/3 do preço que você paga",
+      "source": "OpenAI Blog, 28 ago 2026"
+    },
+    {
+      "title": "Startups de AI Sales Agents explodem em Product Hunt",
+      "why": "Vendedores sobrecarregados; IA pode fazer follow-ups, priorização, atualização de CRM; demanda de automação em B2B",
+      "socialAngle": "A IA tá fazendo o trabalho mais chato dos vendedores (e eles adoram)",
+      "source": "Product Hunt Top 10 Trending, última semana"
+    },
+    {
+      "title": "Claude 5 bate Opus em benchmarks de coding — novo padrão de eficiência",
+      "why": "Guerra entre modelos; eficiência é nova moeda de troca (custo + latência + qualidade); devs escolhem ferramenta por speed",
+      "socialAngle": "Novo modelo de IA coda mais rápido que você (sem brincadeira)",
+      "source": "Hugging Face Benchmark, Twitter tech community, 27 ago 2026"
+    }
+  ],
+  "painPoints": [
+    {
+      "pain": "Execução falha em projetos de transformação digital",
+      "data": "McKinsey 2025: 60% dos projetos de transformação digital não atingem ROI esperado; muitos viram gaveta",
+      "why": "Pressão por resultados rápidos mas sem fundação; falta de talent com skills reais em implementação; silagem de dados impede decisão rápida",
+      "whoAffected": "CMOs, CTOs, COOs, CFOs, diretores de transformação",
+      "source": "McKinsey 'Digital Transformation Success Rates 2025'"
+    },
+    {
+      "pain": "Ceticismo executivo com ROI de IA — 'vimos hype before'",
+      "data": "Gartner 2025: 74% dos líderes de marketing têm dúvida se investimento em IA vai compensa; 58% dos CIOs consideram IA 'trend que vai passar'",
+      "why": "Muitos pilotos de IA não viraram negócio real; resultado são pago mas não quantificado; board pressiona por métrica clara",
+      "whoAffected": "CMOs, CFOs, CEOs, board members",
+      "source": "Gartner 'State of Marketing Survey 2025', Gartner 'CIO Agenda Report 2025'"
+    },
+    {
+      "pain": "Silagem de dados entre marketing, vendas e operações bloqueia decisão rápida",
+      "data": "HBR 2025: 68% das empresas não conseguem usar dados entre departamentos de forma integrada; dados 'locked' em silos",
+      "why": "Cada área tem seu próprio stack de ferramentas (MarTech vs SalesStack vs OperationsStack); falta governança de dados corporativa; KPIs desalinhados entre áreas",
+      "whoAffected": "CDOs (Chief Data Officers), CTOs, heads de marketing, heads de vendas, heads de ops",
+      "source": "Harvard Business Review 'Data Silos Kill Strategy 2025'"
+    },
+    {
+      "pain": "Dificuldade em medir impacto real de IA em operações",
+      "data": "Deloitte 2025: 52% das empresas que implementam IA não conseguem quantificar ROI; 'feels better' não é métrica",
+      "why": "IA traz benefícios qualitativos (qualidade, velocidade, confiança) mas mensuração é complexa; atribuição de impacto é difícil em processos com múltiplas variáveis",
+      "whoAffected": "CFOs, heads de operações, diretores de AI/Analytics",
+      "source": "Deloitte 'State of AI in the Enterprise 2025'"
+    }
+  ],
+  "risingThemes": [
+    {
+      "theme": "Product-Led Growth (PLG) consolidando de verdade em B2B Enterprise",
+      "definition": "Estratégia onde o produto é o principal motor de aquisição e expansão (não sales-driven). Auto-serve demo, freemium convertendo naturalmente, usuário final compra sem precisa procurement. Diferente do SaaS B2B de 5 anos atrás.",
+      "why": "Venda consultiva explodiu em custo (CAC + ciclo longo); corporates Gen Z preferem self-serve; IA cópias dentro do produto torna PLG mais viável; redução de tempo de decisão",
+      "whereHot": "SaaS B2B de $10M-$100M ARR; startups Series A-C expandindo pra enterprise; ferramentas dev-first que precisam viralizar internamente",
+      "next6Months": "IA agents dentro do produto PLG (recomendações inteligentes, automação de workflows); consolidação de métrica PLG vs SQL; PLG em verticais mais tradicionais (enterprise software, não só startups)",
+      "source": "Pavilion 'The Future of Sales Tech', SaaStr 2025, LinkedIn posts de Lenny Rachitsky, Reforge Product Strategy"
+    },
+    {
+      "theme": "IA como agente autônomo em operações — não só 'gerar insights'",
+      "definition": "Modelos de IA que transcendem 'dar dados' e passam a executar ações reais de forma independente: agendar follow-ups, priorizar leads, atualizar CRM, sugerir próximo passo, até negociar via email. Diferente de IA generativa que só responde (ChatGPT) — é IA que age.",
+      "why": "2024 foi de 'IA gera insights melhor'; 2025 é 'IA executa operações melhor'; pressão por automação de trabalho repetitivo; LLMs + tools integration ficou maduro; empresas querem ROI não papers",
+      "whereHot": "Enterprise operations, RevOps, marketing ops, vendas; especialmente em processos que são 80% executados e 20% decisão",
+      "next6Months": "Regulação sobre 'IA autônoma' e responsabilidade legal; integração profunda com CRMs (Salesforce AI Cloud, HubSpot Ops); benchmarks abertos de ROI de IA agent; preocupação com hallucination e confiança",
+      "source": "McKinsey 'Agentic AI: The Next Frontier of AI', HBR 'The Rise of Autonomous AI Systems', Gartner 'AI Autonomy Maturity Model'"
+    },
+    {
+      "theme": "Composable Architecture no marketing/ops — no-code fermentando",
+      "definition": "Em vez de 'um platform único' (Salesforce, HubSpot), empresas montam seu próprio stack de microserviços + ferramentas. No-code/low-code permitem ops teams construir integrações e automações complexas sem dev skills.",
+      "why": "Plataformas monolíticas custam 10-20x mais, demoram a adaptar, criam vendor lock-in; empresas querem liberdade; ferramentas de automação ficaram mais acessíveis; dados fragmentados precisam ser conectados rapidamente",
+      "whereHot": "Mid-market pra enterprise; marketing ops + sales ops teams; orgs com $50M+ ARR e budget pra customização; tech-first companies",
+      "next6Months": "IA gerando código em plataformas no-code (prompt 'cria esse fluxo' → IA faz); consolidação de players no espaço (alguns vão virar acquisitions); standartização de conectores entre tools; emergência de 'API-first' marketing",
+      "source": "Forrester 'The Composable Stack for Modern Marketing', Gartner 'Magic Quadrant Low-Code Application Platforms 2025', HashiCorp State of Infrastructure"
+    }
+  ],
+  "executiveSummary": "Mercado de 2026 é de execução sobre insight: IA não é mais 'gerar ideias melhor', é 'executar operações melhor sem humans tirando foco'. Dores mais urgentes estão em transformação digital falhando (60% sem ROI), ceticismo com IA por falta de métrica clara (74% duvidoso), e silagem de dados travando decisão rápida (68% com problema). Três temas em alta abrem oportunidade: (1) Product-Led Growth ganhando em enterprise (reduz CAC + ciclo de venda), (2) IA agents operando autonomamente (não consultiva), (3) Arquitetura composta em no-code (vs plataforma monolítica cara). Quem priorizar essas três frentes nos próximos 6 meses e conseguir medir ROI real tira vantagem competitiva."
+}

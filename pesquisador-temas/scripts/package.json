@@ -1,0 +1,9 @@
+{
+  "name": "pesquisador-temas-docx",
+  "version": "1.0.0",
+  "description": "Generate .docx for research output",
+  "main": "generate_docx.js",
+  "dependencies": {
+    "docx": "^8.5.0"
+  }
+}
