@@ -1,0 +1,12 @@
+{
+  "name": "copy-reels-script-docx-generator",
+  "version": "1.0.0",
+  "description": "Generate .docx documents from Copy-Reels Script JSON",
+  "main": "generate_docx.js",
+  "scripts": {
+    "generate": "node generate_docx.js"
+  },
+  "dependencies": {
+    "docx": "^8.5.0"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "date": "2026-08-30",
+  "metadata": {
+    "objetivo": "conversão",
+    "publico": "Heads de marketing em SaaS B2B série A-C",
+    "plataforma": "Reels",
+    "duracao": "30s",
+    "tom": "provocador"
+  },
+  "roteiroPrincipal": {
+    "titulo": "Atribuição Multi-Channel: O Pesadelo Real",
+    "hook": {
+      "texto": "71% dos CMOs dizem que atribuição multi-canal é adivinhação. Vou te mostrar por quê.",
+      "padrao": "Results First",
+      "timing": "0-3s",
+      "confianca": "high"
+    },
+    "setup": {
+      "texto": "Você tá em call de forecast, CEO pergunta: 'De onde saiu esse lead?' — e você não consegue rastrear porque passou por 5 touchpoints diferentes.",
+      "timing": "3-8s"
+    },
+    "solucao": {
+      "texto": "Cada plataforma tem seu próprio banco de dados (email, website, CRM, ads). Unificar custa tempo e grana. Resultado: você gasta budget cego.",
+      "timing": "8-20s"
+    },
+    "benefit": {
+      "texto": "Medir real = investir em canais que convertem. Não em canais que parecem converter.",
+      "timing": "20-27s"
+    },
+    "cta": {
+      "texto": "Salva esse — próximo post explico a estrutura",
+      "tipo": "soft",
+      "timing": "27-30s"
+    }
+  },
+  "hookVariations": [
+    {
+      "variacao": 1,
+      "padrao": "Identity Call",
+      "texto": "Se você é head de marketing e não consegue rastrear jornada real do cliente — continua vendo.",
+      "confianca": "high"
+    },
+    {
+      "variacao": 2,
+      "padrao": "Contrarian Strike",
+      "texto": "Todo mundo fala em inbound e marketing automation. Mas 68% das empresas não conseguem rastrear multi-touch.",
+      "confianca": "high"
+    },
+    {
+      "variacao": 3,
+      "padrao": "Mistake Warning",
+      "texto": "Você tá cometendo o erro mais caro em marketing: gastando budget sem saber qual canal converteu.",
+      "confianca": "high"
+    },
+    {
+      "variacao": 4,
+      "padrao": "Direct Question",
+      "texto": "Você consegue rastrear exatamente qual touchpoint converteu seu lead?",
+      "confianca": "high"
+    },
+    {
+      "variacao": 5,
+      "padrao": "POV/Relatable",
+      "texto": "Estava em call com CMO ontem, CEO perguntou 'Onde saiu esse lead?' — silence total.",
+      "confianca": "high"
+    }
+  ],
+  "ctaVariants": [
+    {
+      "cta": 1,
+      "texto": "Salva esse",
+      "tipo": "soft",
+      "notaDeUso": "Educational, posicionamento"
+    },
+    {
+      "cta": 2,
+      "texto": "Comenta: qual seu maior desafio?",
+      "tipo": "soft",
+      "notaDeUso": "Community building"
+    },
+    {
+      "cta": 3,
+      "texto": "Testa free (link na bio)",
+      "tipo": "hard",
+      "notaDeUso": "Conversão direta"
+    }
+  ],
+  "testingNotes": {
+    "metricaPrincipal": "3-second retention",
+    "duracao": "3-5 dias por hook",
+    "benchmark": "70%+ retention @ 3s",
+    "comoProceder": "Substitua hook se não atingir benchmark. Testar sem parar em variação única.",
+    "dataUltimaTeste": "2026-09-06"
+  },
+  "qualityChecks": {
+    "hookPor3s": true,
+    "silentTest": true,
+    "autenticoTom": true,
+    "aiSlops": false,
+    "ctaEspecifico": true,
+    "batchVariations": true,
+    "testedMindset": true
+  },
+  "notasBrand": {
+    "alinhamentoComMarca": "Estrategista de campo de batalha — recusa copy-paste do mercado. Tom provocador mas não agressivo.",
+    "exemploBrand": "Atacar o conceito (atribuição impossível), não as pessoas (CMOs que não conseguem medir)."
+  }
+}

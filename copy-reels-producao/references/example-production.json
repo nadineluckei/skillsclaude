@@ -1,0 +1,110 @@
+{
+  "date": "2026-08-30",
+  "metadata": {
+    "titulo": "Atribuição Multi-Channel: O Pesadelo Real",
+    "tipo": "talking-head",
+    "duracao": "30s",
+    "nivelProducao": "profissional"
+  },
+  "producaoTable": [
+    {
+      "timeRange": "0-1s",
+      "visual": "Wide shot, apresentador de frente para câmera, ombros + rosto, iluminação frontal + keylight morno, background desfocado (bokeh cinzento), câmera em nível de olho, sem movimento inicial",
+      "voiceover": "71% dos CMOs dizem que atribuição multi-canal é adivinhação.",
+      "onScreenText": "71% DOS CMOS\natribuição é adivinhação",
+      "transicao": "Cut (nenhuma)"
+    },
+    {
+      "timeRange": "1-3s",
+      "visual": "Zoom suave in (zoom speed: 0.3s), close-up do rosto mantendo profundidade (olhos + nariz), iluminação mantém warmth, focus eyes, shallow depth of field (f/2.8), câmera estabilizada, pausa por 1.7s",
+      "voiceover": "Vou te mostrar por quê.",
+      "onScreenText": "ASSISTA ATÉ FIM\nvamos desvendar isso",
+      "transicao": "Zoom in (0.3s) — smooth, nenhuma aceleração"
+    },
+    {
+      "timeRange": "3-5s",
+      "visual": "Fade para screen capture de CRM dashboard (Salesforce ou Hubspot mockup), wide view mostrando múltiplos touchpoints em cores diferentes (azul, verde, vermelho), pointer (seta branca) indicando dados específicos com atraso de 0.5s",
+      "voiceover": "Seu CEO exige: 'De onde saiu esse lead?'",
+      "onScreenText": "PROBLEMA: 5 touchpoints\n50% dos dados perdidos",
+      "transicao": "Fade (0.3s)"
+    },
+    {
+      "timeRange": "5-8s",
+      "visual": "Close-up do screen capture, zoom in suave 1.5x, pointer move de ponto A para ponto B (timing sincronizado com VO), highlighting em amarelo os dados problemáticos, fundo fica mais escuro (edge blur/vignette 2%)",
+      "voiceover": "Email, ads, direct, orgânico, referral — cada um separado.",
+      "onScreenText": "CHAOS TOTAL\ncinco silos, zero conexão",
+      "transicao": "Zoom (0.2s)"
+    },
+    {
+      "timeRange": "8-12s",
+      "visual": "Cut para apresentador em close-up novamente (mantém framing idêntico ao 1-3s), mantém olhar contemplativo por 1s, depois expressão muda para determinada (micro-expressão), iluminação steady",
+      "voiceover": "Mas tem uma forma de ver tudo junto. Integração em tempo real.",
+      "onScreenText": "MAS TEM SOLUÇÃO\nintegração real-time",
+      "transicao": "Cut (hard cut, nenhuma transição)"
+    },
+    {
+      "timeRange": "12-18s",
+      "visual": "Fade para animação gráfica (motion graphics), começando com 5 círculos coloridos (azul, verde, vermelho, laranja, roxo) em posições diferentes, cada um move em direção ao centro num timing escalonado (100ms entre cada), se encontram e formam um único círculo maior branco no centro, efeito glow suave (20ms duração), background cinzento escuro",
+      "voiceover": "Todos os touchpoints em um lugar. Claro. Mensurável. Confiável.",
+      "onScreenText": "INTEGRADO\nconsolidação real-time",
+      "transicao": "Fade (0.4s)"
+    },
+    {
+      "timeRange": "18-22s",
+      "visual": "Back to close-up apresentador (framing idêntico), olhar direto para câmera (eye contact), fundo bokeh, lighting mantém warmth, mão enters frame ligeiramente (gesto natural de ênfase), slow-motion effect 0.8x (levemente desacelerado) por 1s para dramatizar momento",
+      "voiceover": "Medir real = investir nos canais certos. Sem adivinhar.",
+      "onScreenText": "MEDIÇÃO REAL\ninvestir certo",
+      "transicao": "Cut"
+    },
+    {
+      "timeRange": "22-27s",
+      "visual": "Fade para screen capture de dashboard com dados consolidados (gráfico de barras mostrando ROI por channel, cores diferenciadas), pointer move indicando o maior ROI (destacado em verde brilhante), números aparecem em animação (contador) de 0 a 250% (timing 2s), background vignette aplicada",
+      "voiceover": "Canais que funcionam aparecem. Canais que matam orçamento desaparecem. Simples assim.",
+      "onScreenText": "RESULTADOS CLAROS\nROI por canal identificado",
+      "transicao": "Fade (0.3s)"
+    },
+    {
+      "timeRange": "27-30s",
+      "visual": "Zoom out leve (zoom speed 0.4s, ease-out) do apresentador de close-up para wide shot, mantendo eye contact até frame sair, expressão confiante, iluminação final mais brilhante (boost 10% nas keys), fade final aplicado nos últimos 0.5s para preto",
+      "voiceover": "Salva esse — próximo post explico como fazer isso em sua conta.",
+      "onScreenText": "SALVA ESSE\ntutorial no próximo post",
+      "transicao": "Fade (0.5s) para preto"
+    }
+  ],
+  "assetsNecessarios": {
+    "video": [
+      "Wide shot (30s) — apresentador rosto + ombros, room bem iluminado com keylight morno (3200K), background bokeh cinzento ou desfocado, sem objetos distratores, câmera nivel dos olhos",
+      "Close-up (15s) — apresentador rosto em profundidade 0.5m da câmera, shallow DoF (f/2.8-4.0), iluminação soft frontal + rim light subtil, olho em foco nítido",
+      "Screen capture (15s) — CRM dashboard (Salesforce/Hubspot mockup) com dados realistas, 1920x1080 mínimo, cores contrastantes (azul, verde, vermelho), mock data clara",
+      "Motion graphics (6s) — 5 círculos coloridos convergirem para 1 círculo branco central, glow effect, background neutro, duração 6s total"
+    ],
+    "audio": [
+      "Voiceover: 30s gravado em room tratado com foam acoustics, sem eco, ganho normalizador -3dB, sem pops/clicks, formato WAV 48kHz stereo",
+      "Bed music: Subtle electronic background (tipo Epidemic Sound 'Ambient Minimal'), volume 20-25% durante apresentador, fade para 30% durante animações gráficas, fade out nos últimos 0.5s",
+      "Efeitos sonoros: Whoosh suave (0.2s) em transições Fade (opcional, baixíssimo volume), pop click em Cut transitions (OPCIONAL — apenas se marca usa)"
+    ],
+    "texto": [
+      "Font: Helvetica Neue Bold 700 para títulos (ALL CAPS), Helvetica Neue Regular 400 para subtextos (lowercase), mínimo 48pt testado legível em iPhone 6 polegadas @ 1m distância",
+      "Cor: Branco (#FFFFFF) com sombra preta leve (drop shadow 2px offset, 40% opacity) para contraste alto contra qualquer background, subtextos em cinza claro (#CCCCCC) @ 50% opacity",
+      "Tamanho: Título 56pt, subtexto 32pt, margins 16px de segurança da borda, alinhamento center ou left com safe area respeitada"
+    ],
+    "outros": [
+      "Captions: .srt file com 30s de duração, timing sincronizado com voiceover exato",
+      "Color grade: Consistente entre wide/close-up/screen capture, temp de cor uniforme 3200K, saturação +10% (vibrant mas não artificial), contrast +5%, highlights -2%, shadows +3%",
+      "Vignette: 1% edge blur aplicado aos 18-22s e 22-27s para focar atenção, removed em outros segments"
+    ]
+  },
+  "qualityChecklist": {
+    "syncVoiceVisual": true,
+    "textLegivelMobile": true,
+    "transicoesBreves": true,
+    "efeitosDiscretos": true,
+    "audioBalanced": true,
+    "semArtifatos": true,
+    "coresConsistentes": true,
+    "durationCorreta": true,
+    "audioExport128": true,
+    "testedNoPhone": true
+  },
+  "notasEdicao": "Estrategista de campo de batalha — não aceita copy-paste do mercado. Produção deve ser profissional mas NADA artificial. Zoom in no 1-3s deve ser suave e natural, nenhuma aceleração brusca. Close-up do apresentador em 8-12s e 18-22s DEVE ter micro-expressões genuínas (não atuado). Animação gráfica em 12-18s deve parecer óbvia (não complexa) — o insight é simples, a produção não deve competir. Pointer em screen captures deve ser branco (não amarelo/neon). Bed music deve SEMPRE ser mais silenciosa que voiceover (70% VO / 30% música máximo). Teste em iPhone 11 Pro @ 1m e Pixel 6 @ 1m antes de export final. Color grade deve favorecer tom morno (not cool), apresentador parece confiável e acessível."
+}
