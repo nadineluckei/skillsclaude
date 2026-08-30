@@ -314,6 +314,103 @@ artigos-blog-geo-seo/
     └── schema-markup.json            # JSON-LD template
 ```
 
+## ESTRATÉGIA AVANÇADA: Topic Cluster + 6 Pautas
+
+### O Que É Topic Cluster?
+
+Em vez de criar artigos isolados, você cria uma **rede semântica conectada**:
+
+```
+                  [PILAR - 2500 palavras]
+           "Clareza Estratégica: Guia Completo"
+                     /        |        \
+                    /         |         \
+                   ↓          ↓          ↓
+            [CLUSTER]    [CLUSTER]   [CLUSTER]
+            1500w        1500w       1500w
+```
+
+**Benefícios**:
+- Google entende que você é especialista em tema (profundidade temática)
+- Rankea melhor para TODAS as keywords relacionadas
+- IA busca (Perplexity, Claude) prefere sites com cobertura conectada
+- Leitores ficam mais tempo no site (clicam entre artigos relacionados)
+
+### As 6 Pautas Estruturadas
+
+Cada PAUTA é um PILAR + 3-4 CLUSTERS:
+
+| Pauta | Tema | Keywords Primárias |
+|-------|------|--------------------|
+| 1 | "Seu Time Não Falha..." | Clareza estratégica, Comunicação, Autonomia |
+| 2 | "Decisão Sem Dados..." | Dados, Contexto, Decisão |
+| 3 | "Ouvir Cliente = Sem Visão" | Estratégia, Visão, Customer feedback |
+| 4 | "Foco é Raro" | Foco, Priorização, Sacrifício |
+| 5 | "Qualidade = Começo" | Qualidade, Arquitetura, Teste |
+| 6 | "Escala = Mudança" | Escala, Crescimento, Estrutura |
+
+### Como Implementar
+
+**Calendário de Publicação** (6 meses):
+- Mês 1: Pauta 1 (Pilar + 3 Clusters)
+- Mês 2: Pauta 2 (Pilar + 3 Clusters)
+- ...
+- Mês 6: Pauta 6 (Pilar + 3 Clusters)
+
+**Total**: 18 artigos (~40k palavras) cobrindo comportamento, cultura, processos
+
+### Arquivos de Referência
+
+As estratégias completas estão em:
+- `blog-strategy-geo-seo.md` — Estrutura Pillar + Cluster com 6 Pautas
+- `social-strategy-final.md` — Mesmas 6 Pautas aplicadas a Redes Sociais
+- Ambos com referências completas e links de fontes (Gallup, McKinsey, HBR, Google, Gartner, etc)
+
+### Critério: Português BR Only
+
+**Importante**: Todas as palavras-chave, títulos e conteúdo em português brasileiro puro.
+- ❌ Nenhuma keyword em inglês
+- ✅ Localizado para Brasil (mas pesquisas internacionais citadas com fonte)
+
+### Estrutura do Pilar (2500 palavras)
+
+```
+H1: [Palavra-chave primária]: [Proposta]
+Intro (300w) → Realidade (400w) → 3 Pilares (1000w) → Como Implementar (600w) → Próximas Ações (200w)
+
+Referências:
+- Mínimo 3 fontes confiáveis (Gallup, McKinsey, HBR, etc)
+- Cada fonte com link clicável
+- Ano das pesquisas citadas (2024-2025)
+```
+
+### Estrutura do Cluster (1500-1800 palavras)
+
+```
+H1: [Palavra-chave secundária]: [Foco específico]
+Intro (200w) → Problema (300w) → 3 Soluções/Modelos (700w) → Checklist (300w) → Próximas Ações (200w)
+
+Links:
+- 3-4 de volta ao PILAR
+- 1 link para outro CLUSTER relacionado
+```
+
+### Exemplo Completo
+
+**PAUTA 1: "Seu Time Não Falha. Você Está Pedindo Para Eles Fracassarem."**
+
+Pilar Page: "Clareza Estratégica: Por Que Seu Time Está Frustrado"
+- Palavra-chave: "clareza estratégica"
+- Dados: Gallup 70%, HBR 2.5x menos turnover, McKinsey 40% menos ambiguidade
+- Estrutura: Problema → 3 Pilares (Clareza, Transparência, Autonomia) → Implementação
+
+Clusters:
+1. "Como Comunicar Estratégia Para Times Remotos" (keyword: comunicação estratégia)
+2. "Transparência em Decisão: 3 Modelos" (keyword: decisão transparente)
+3. "Autonomia No Trabalho: Quando Deixar Agir" (keyword: autonomia)
+
+Cada cluster aprofunda 1 tema específico, linkando de volta ao pilar e para os outros clusters.
+
 ---
 
-_Artigos Blog GEO/SEO v1.0 — 2026-08-30_
+_Artigos Blog GEO/SEO v2.0 — Topic Cluster + 6 Pautas + Português BR + Referências — 2026-08-30_
