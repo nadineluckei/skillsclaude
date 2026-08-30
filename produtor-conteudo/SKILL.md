@@ -301,3 +301,78 @@ for em português, inclua um objeto `labels` traduzido no JSON, assim:
 Veja `references/example-plan.json` (português, usa os defaults) e
 `references/example-plan-en.json` (inglês, com `labels` sobrescrito) como
 os dois pontos de partida.
+
+## Estratégia Avançada: 6 Pautas para Redes Sociais + AIDA
+
+### O Que São as 6 Pautas?
+
+Seis narrativas core que estruturam TODA comunicação (blog + social):
+
+| Pauta | Tema | Keywords |
+|-------|------|----------|
+| 1 | "Seu Time Não Falha..." | Talento, Clareza, Liderança |
+| 2 | "Decisão Sem Dados..." | Dados, Contexto, Decisão |
+| 3 | "Ouvir Cliente = Sem Visão" | Estratégia, Visão, Customer |
+| 4 | "Foco é Raro" | Foco, Priorização, Sacrifício |
+| 5 | "Qualidade = Começo" | Qualidade, Processo, Arquitetura |
+| 6 | "Escala = Mudança" | Crescimento, Estrutura, Evolução |
+
+### Como Estruturar Cada Pauta Para Social
+
+Cada pauta tem **4 formatos de conteúdo** para redes:
+
+#### 1. REEL (8-15 segundos)
+- **Estrutura AIDA**: Atenção (hook) → Interesse (desenvolvimento) → Desejo (framework/solução) → Ação (reflexão)
+- Exemplo: "Você diz que talento não é bom / Mas talento não entende sua estratégia / Falta clareza, não talento / Qual dessas 3 seu time tá faltando?"
+
+#### 2. THREAD (6-7 tweets)
+- Narrativa coerente: Problema → Observação → Processo verdadeiro → Framework → Reflexão
+- Links internos para blog posts relacionados
+- Sem CTA de venda (educacional)
+
+#### 3. CAROUSEL (8 slides)
+- Slide 1: Título/Capa
+- Slides 2-3: Narrativa comum vs Realidade
+- Slides 4-6: 3 pilares (comportamento/cultura/processo)
+- Slide 7: Checklist/Sinais
+- Slide 8: Reflexão final
+
+#### 4. QUICK TAKES (2-3 frases)
+- Insight direto + consequência + pergunta reflexiva
+- Sem blá-blá, direto ao ponto
+
+### Dados & Referências
+
+Cada pauta deve incluir:
+- Mínimo **2-3 fontes confiáveis** (Gallup, McKinsey, HBR, Google Re:Work, Gartner, Deloitte, etc)
+- **Links clicáveis** nas posts (quando possível)
+- **Ano das pesquisas** (2024-2025)
+- **Sem inventar dados** — sempre verificar origem
+
+### Calendário de Publicação
+
+- **Setembro 2026**: Pautas 1 + 2 (1 por semana)
+- **Novembro 2026**: Pautas 3-6 (1 por semana)
+
+Para cada pauta, criar:
+- 1 REEL (Instagram/TikTok)
+- 1 THREAD (LinkedIn/X)
+- 1 CAROUSEL (Instagram/LinkedIn)
+- 2-3 QUICK TAKES (LinkedIn/X)
+
+**Total**: 24-30 peças de conteúdo social aligned com blog pillars
+
+### Arquivos de Referência
+
+- `../social-strategy-final.md` — Estratégia completa com exemplos de cada formato
+- `../blog-strategy-geo-seo.md` — Pillar Pages correlacionadas (blog backbone)
+- Ambos com todas as fontes citadas + links
+
+### Posicionamento: Questionar Dogmas, Não Culpar
+
+Importante: as 6 pautas questionam **narrativas comuns do mercado**, não culpam líderes.
+
+❌ **Evitar**: "Seu líder está fazendo isso errado"  
+✅ **Fazer**: "Existe uma narrativa de que [X], mas a realidade é [Y]. Aqui está o comportamento/processo que muda isso."
+
+Foco em **comportamento, cultura, processos** — não em culpa pessoal.
