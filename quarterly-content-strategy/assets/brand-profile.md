@@ -94,6 +94,12 @@ solução. Isso significa evitar CTAs de venda direta ("contrate", "eu faço
 pra você") e preferir fechamentos que convidam à reflexão, ao comentário ou
 a seguir para mais perspectiva estratégica.
 
+## E-mail padrão para aprovações
+
+`luckeitolotti@gmail.com` — usar como destinatário padrão dos gates de
+aprovação (ver "Os gates de aprovação" em `SKILL.md`) quando o usuário não
+indicar outro endereço na conversa.
+
 ## Direcionamento editorial por formato
 
 - **Feed (Reels / Carrosséis)** — conteúdo de **atração e autoridade**:

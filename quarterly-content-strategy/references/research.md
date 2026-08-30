@@ -1,4 +1,10 @@
-# Pesquisa e fontes confiáveis
+# Pesquisa e fontes confiáveis (Fase 1.2)
+
+Esta é a pesquisa que sustenta uma pauta já escolhida — para a etapa
+anterior, que descobre quais temas valem virar pauta antes de qualquer
+uma delas existir, ver `references/topic-research.md` (Fase 1.1). As duas
+etapas usam a mesma lista de fontes confiáveis, mas com alvos diferentes:
+lá é descoberta de tema, aqui é comprovação de uma afirmação específica.
 
 Uma pauta forte não é uma opinião — é uma opinião apoiada em algo real. O
 campo `Realidade` de cada pauta (ver `references/schema.md`) fica muito mais
