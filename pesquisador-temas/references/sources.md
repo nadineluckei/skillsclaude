@@ -1,172 +1,207 @@
 # Fontes de Pesquisa — Pesquisador-Temas
 
+## Foco Principal: Comportamento, Marca, Estratégia
+
+Este documento lista fontes para pesquisar **comportamento do consumidor, marca, produtos, tendências e estratégia de mercado**. IA e tecnologia aparecem como SUPORTE quando relevantes.
+
+---
+
 ## Temas Rápidos (Últimas 2 Semanas)
 
-### Notícias Tech & Startups
-- **Product Hunt** (producthunt.com) — novos produtos, trends diárias
-- **Hacker News** (news.ycombinator.com) — stories tech relevantes
-- **TechCrunch** (techcrunch.com) — notícias startups/VC
-- **The Verge** (theverge.com) — tech consumer
-- **Axios** (axios.com) — newsletters com news bite-sized
+### Comportamento & Tendências Virais (Social Media)
+- **TikTok Trending** (explore página "For You", #FYP trends, trending sounds)
+- **Instagram Trends** (Reels trending, Stories trends, trending hashtags)
+- **Pinterest Trends** (search trends, seasonal trends, category trends)
+- **YouTube Trending** (music, entertainment, shorts trending)
+- **Twitter/X Trending** (o que profissionais/consumers tão falando)
 
-### Marketing & Brasil
-- **MundoMarketing** (mundomarketing.com.br) — trends de marketing Brasil
+### Portais de Marketing Brasil
+- **MundoMarketing** (mundomarketing.com.br) — trends de marketing e comportamento
 - **PropMark** (propmark.com.br) — notícias de marketing e publicidade
-- **LinkedIn Brasil trending** — o que profissionais tão falando
-- **Rádio Marketing** — insights diários de marketing
+- **Rádio Marketing** — insights diários de campanha e criatividade
+- **LinkedIn Brasil trending** — o que profissionais tão compartilhando
+- **Semrush Trends** — searches virais, behaviors, Keywords em alta
 
-### IA Específica
-- **Papers with Code** (paperswithcode.com) — novos modelos, pesquisa em IA
-- **Hugging Face** (huggingface.co) — trending models, datasets
-- **ArXiv recent** (arxiv.org) — papers de pesquisa
-- **OpenAI, Anthropic, Meta blogs** — anúncios oficiais
+### Lançamentos & Produtos Virais
+- **Product Hunt** (producthunt.com) — novos produtos, o que explode
+- **AngelList** (angel.com) — startups em crescimento
+- **Hacker News** (news.ycombinator.com) — stories sobre inovação e produtos
+- **Reddit trending** (r/startups, r/marketing, r/business) — o que comunidade tá falando
 
-### Creator Economy & Social
-- **Twitter/X trending** — o que tá sendo comentado agora
-- **TikTok For You** — trends em visual/narrativa
-- **LinkedIn trending** (na feed) — insights de profissionais
-- **Every.to** — newsletter sobre internet culture
+### Consumer Behavior & Insights
+- **Hootsuite trends** — social media trends consolidadas
+- **Buffer trending** — tendências de conteúdo e engagement
+- **Later Insights** — visual trends, influencer trends
+- **Sprout Social** — consumer behavior em redes
 
-### Pesquisa de Trend Global
-- **Google Trends** (trends.google.com) — volume de busca
-- **Google News** (news.google.com) — agregador de notícias
-- **BuzzSumo** (buzzsumo.com) — conteúdo mais compartilhado
+### Cultura & Movimentos (Que Afetam Compra)
+- **TikTok creator trends** — o que criadores estão fazendo
+- **YouTube influencer** — movimentos de criadores
+- **Twitch trending** — comportamento de gamers/comunidades
+- **Newsletter de cultura** (Every, The Verge, The New Yorker) — cultura que move comportamento
 
-## Temas Robustos
+---
 
-### Consultorias (Dores + Temas em Alta)
+## Temas Robustos (Últimos 6 Meses)
 
-**Deloitte Insights** (deloitte.com/insights)
-- Relatórios sobre transformação digital, operações, vendas
-- Estudos sobre ROI de tecnologia
-- Tendências de C-suite
+### Estratégia de Marketing & Vendas
 
-**McKinsey & Company** (mckinsey.com)
-- Articles sobre estratégia, tech, operations
-- Quarterly insights sobre mercado
-- Case studies com dados
-- "State of X" reports (State of AI, State of Marketing, etc)
+**Consultorias (Deloitte, McKinsey, BCG)**
+- Relatórios sobre estratégia de marketing, vendas, experiência do cliente
+- Estudos sobre comportamento de consumidor
+- Pesquisa sobre efetividade de canais e campaigns
+- Reports sobre CMO agenda, trends de mercado
 
 **Harvard Business Review** (hbr.org)
-- Artigos sobre liderança, vendas, marketing
-- Pesquisa executiva
-- Colunas de thought leaders
-- Subscription para acesso completo (check library access)
+- Artigos sobre marketing estratégico, brand, customer experience
+- Pesquisa sobre liderança em marketing
+- Colunas de thought leaders em marketing/vendas
 
-**BCG (Boston Consulting Group)** (bcg.com/en/publications)
-- Focus em estratégia, transformação
-- Relatórios sobre IA, operações
+**CMO Council** (cmocouncil.org)
+- Relatórios sobre trending topics em marketing
+- Surveys com CMOs sobre desafios
+- Case studies de estratégias que funcionam
+- Benchmarks de performance de marketing
+
+**Chief Marketer** (chiefmarketer.com)
+- Notícias de marketing, trends, inovações
+- Cobertura de conferências (MarketingProfs Summit, Salesforce Dreamforce)
+- Análise de campanhas e estratégias
+
+**Forrester** (forrester.com)
+- Wave reports (comparação de abordagens/soluções)
+- Trend reports sobre customer experience
+- Q predictions sobre futuro de marketing
 
 **Gartner** (gartner.com)
 - Magic Quadrant reports (tendências consolidadas)
-- Annual reports (CIO agenda, Marketing agenda, Sales agenda)
-- Wave reports
-- Research papers
+- Annual reports (CMO agenda, Marketing trends)
+- Research sobre customer experience, personalization
 
-**Bain & Company** (bain.com/insights)
-- Relatórios sobre customer strategy, M&A, operações
+### Consumer Insights & Behavior
 
-**Forrester** (forrester.com)
-- Wave reports (comparação de vendors/abordagens)
-- Trend reports
-- Q predictions
+**Nielsen** (nielsenglobal.com)
+- Estudos sobre comportamento de consumidor
+- Pesquisa sobre preferências de compra
+- Trends em categorias de produtos
 
-**MIT Sloan Management Review** (sloanreview.mit.edu)
-- Pesquisa acadêmica aplicada a negócios
-- Tech strategy, innovation
+**Kantar** (kantar.com)
+- Pesquisa de brand health
+- Consumer behavior studies
+- Advertising effectiveness research
 
-**Stanford GSB Insights** (gsb.stanford.edu)
-- Thought leadership sobre negócios
-- Pesquisa em strategy
+**Ipsos** (ipsos.com)
+- Public affairs research
+- Consumer behavior studies
+- Brand research
 
-### Publicações Especializadas
+**Semrush** (semrush.com)
+- Trending searches (o que consumers estão procurando)
+- Consumer behavior trends
+- Market trends por categoria
 
-**Marketing & Growth**
-- CMO Council reports
-- Chief Marketer newsletter
-- Growth Hackers community
-- Reforge (learning + insights)
+### Relatórios & Pesquisas Setoriais
 
-**Vendas**
-- Pavilion (pavilion.com) — sales insights
-- The Revenue Collective — benchmarks
-- Sales Hacker — trends em sales tech
+**Gartner Reports**
+- State of Marketing 2025
+- State of Sales 2025
+- Customer Experience trends
 
-**Dados & Analytics**
-- Data Science Central
-- Analytics Vidhya
-- DataFramed podcast
-- Modern Data Stack community
+**Deloitte Insights**
+- Consumer trends reports
+- Retail trends
+- Digital trends
 
-**IA & Tech**
-- Stanford AI Index Report (anual)
-- AI research papers (ArXiv, Hugging Face papers)
-- Newsletters: Interconnected, The Batch (By Deeplearning.ai)
+**McKinsey**
+- Consumer sentiment reports
+- Marketing effectiveness reports
+- E-commerce trends
 
-### Eventos & Conferências
+**BCG**
+- Consumer research
+- Brand strategy reports
+- Retail innovation
 
-- **SaaStr Annual** — trend de PLG, expansão, estratégia
-- **MarketingProfs Summit** — estratégia de marketing
-- **Gartner Symposium** — executivo, tendências consolidadas
-- **AWS re:Invent** — tendências de cloud/tech
-- **Dreamforce (Salesforce)** — CRM, data, AI trends
+### Thought Leaders & Content
 
-## Como Buscar
+**LinkedIn Trending** (profissionais de marketing/vendas discutindo)
+- Posts de CMOs sobre challenges atuais
+- Heads de marketing compartilhando learnings
+- Heads de vendas discutindo mudanças no mercado
 
-### Temas Rápidos
+**Podcasts de Marketing**
+- The CMO podcast
+- HubSpot Academy podcast
+- Drift podcast
+- Salesforce Research podcast
 
-1. **Busca diária/semanal**: Product Hunt, HN, Google Trends, Twitter trending
-2. **Validação**: Verifica se é really "trend" (múltiplas fontes, volume) ou spike isolado
-3. **Data**: Sempre cheque a data da notícia — "rápido" = últimas 48h a 2 semanas max
-4. **Ângulo social**: Pensa em como isso se torna um hook de Reel/post que vai engajar
+**Newsletters Executivas**
+- The Economist (estratégia, mercado)
+- WGSN (trends, consumer culture)
+- Every (internet culture que move comportamento)
+- Morning Brew (mercado, trends)
 
-### Temas Robustos
+### Conferências & Eventos (Para Trends em Tempo Real)
+- **MarketingProfs Summit** — trends de marketing
+- **Salesforce Dreamforce** — customer strategy, experience
+- **Adobe Summit** — marketing innovation, customer experience
+- **SXSW** — culture, technology affecting behavior
+- **NRF (National Retail Federation)** — retail trends, consumer behavior
 
-#### Pesquisa de Dores
+---
 
-1. **Leia relatórios recentes** (últimos 12 meses) de McKinsey, Gartner, Deloitte
+## Como Pesquisar
+
+### Temas Rápidos (Últimas 2 Semanas)
+
+1. **Procure em múltiplas redes sociais**: TikTok, Instagram, Pinterest, Twitter, LinkedIn
+2. **Busque padrões**: Mesma palavra-chave aparecendo em múltiplas plataformas? = trend
+3. **Valide com portais**: Product Hunt, MundoMarketing, PropMark confirmam?
+4. **Procure por anomalias**: Comportamento que NÃO era normal há 2 semanas? = trend
+5. **Data exata**: Sempre capture quando o trend virou viral (data + plataforma)
+
+**Red Flags:**
+- ❌ Viral de 1 mês atrás não é "rápido"
+- ❌ Um influencer falou não é trend (precisa de volume)
+- ❌ Você acha que é trend mas não tá em múltiplas fontes = spike isolado
+
+### Temas Robustos (Últimos 6 Meses)
+
+1. **Leia relatórios recentes** (últimos 6 meses) de Deloitte, Gartner, McKinsey, HBR
 2. **Procure por**:
-   - Estatísticas de "fracasso" (e.g., "70% dos projetos...")
-   - Citações de desafios (e.g., "maior barreira é...")
-   - Problemas recorrentes (e.g., aparece em múltiplas fontes)
-3. **Registre**: A citação exata, a fonte, a data
-4. **Agrupe**: Por tema (e.g., "execução em IA", "silagem de dados")
+   - Estatísticas de desafios (ex: "71% dos CMOs reportam dificuldade X")
+   - Citações de executivos (ex: "maior barreira é Y")
+   - Mudanças em estratégia (ex: "companies shifting from X to Y")
+   - Problemas recorrentes (mesmo problema em múltiplas fontes = pain point real)
+3. **Registre**: Citação exata, fonte, data
+4. **Valide**: Tema aparece em 2+ fontes independentes? = consolidado
 
-#### Pesquisa de Temas em Alta
+---
 
-1. **Busque em múltiplas fontes** (não só consultorias):
-   - LinkedIn trending
-   - HBR artigos recentes
-   - Newsletters especializadas
-   - Gartner reports & Magic Quadrant
-2. **Identifique padrões**:
-   - Mesma palavra-chave em múltiplas fontes = trend
-   - Novo conceito que ganhou nome esse ano = trend
-   - Ferramenta/framework que explodiu em uso = trend
-3. **Valide**: Não confunda com "foi mencionado uma vez" — procura por volume
-4. **Contextualize**: Por que é trend AGORA? (mudança de mercado, nova tecnologia, pressão competitiva)
-
-## Red Flags
+## Red Flags para Evitar
 
 ❌ **Não usar como fonte:**
-- Blogs aleatórios sem assinatura/credibilidade
-- "Um CEO disse no Twitter" — validar com fonte confiável
-- Dados de 2+ anos atrás (exceto se explicitamente relevante pra contexto histórico)
-- Opinião presentada como fato
-
-❌ **Não inventar:**
-- "McKinsey reporta" sem achar o artigo exato
-- Estatísticas que "parecem verdadeiras"
-- Trends que você acha que existem mas não encontra em fonte
+- Blog aleatório sem credibilidade
+- "Um CEO disse no Twitter"
+- Dados de 2+ anos atrás (exceto contexto histórico)
+- Opinião apresentada como fato
+- Trend que é "1 pessoa com muitos followers" (não é trend, é influência)
 
 ✅ **Melhor prática:**
-- Múltiplas fontes concordando = validação forte
+- 2+ fontes concordando = validação forte
 - Dados recentes + contexto histórico = confiança
 - Citação exata + link = rastreabilidade
-- "Não encontrei fonte" > inventar algo
+- Múltiplas plataformas = trend, não spike isolado
+- Comportamento real (search trends, compra, engagement) > opinião
+
+---
 
 ## Atualizando a Pesquisa
 
-Se o usuário volta semanas depois com o mesmo tema:
-- **Temas Rápidos**: Tudo muda — faça uma nova pesquisa do zero
-- **Temas Robustos**: Dores podem ter evoluído — busca novos relatórios; temas podem ter progredido — destaca o que é novo vs. o que era antes
+**Temas Rápidos (2 semanas depois):**
+- Tudo muda. Faça nova pesquisa do zero. Trends antigos já não são "rápidos".
+
+**Temas Robustos (6 meses depois):**
+- Dores podem ter evoluído. Busque novos relatórios.
+- Temas podem estar mais consolidados ou menos relevantes. Refresh necessário.
+- Sempre verifique se tendências se evoluíram ou se foram hype passageiro.

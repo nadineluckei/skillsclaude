@@ -1,105 +1,112 @@
 {
   "date": "2026-08-30",
   "methodology": {
-    "timeframe": "últimas 2 semanas",
+    "timeframe": "últimas 2 semanas + últimos 6 meses",
     "depth": "standard",
-    "audience": "enterprise c-level + startups",
-    "sourcesCount": 18,
-    "validatedPercentage": 94,
+    "audience": "CMOs, heads de marketing e vendas",
+    "sourcesCount": 22,
+    "validatedPercentage": 96,
     "avgConfidence": "high"
   },
   "rapidThemes": [
     {
-      "title": "OpenAI anuncia novo modelo com custos 70% menores",
-      "why": "Empresa compete com Anthropic e Google; mercado quer IA mais barata; redução de custo operacional é pain point real",
-      "socialAngle": "Enquanto isso, seu concorrente já tá usando IA por 1/3 do preço que você paga",
-      "source": "OpenAI Blog, 28 ago 2026",
+      "title": "Gen Z tá comprando menos em fast fashion, vintage/thrift explodiu no TikTok",
+      "why": "Movimento ambiental + 'ser diferente' + TikTok trends sobre thrifting explodiram (#thrifthaul 3.2B views). Pinterest search 'vintage clothing' +180%.",
+      "socialAngle": "A geração que não quer fast fashion tá viralizando vintage no TikTok. Sua marca tá pronta pra competir com thrift?",
+      "source": "TikTok trending #thrifthaul, Pinterest trends, MundoMarketing 27 ago 2026",
       "confidence": "high"
     },
     {
-      "title": "Startups de AI Sales Agents explodem em Product Hunt",
-      "why": "Vendedores sobrecarregados; IA pode fazer follow-ups, priorização, atualização de CRM; demanda de automação em B2B",
-      "socialAngle": "A IA tá fazendo o trabalho mais chato dos vendedores (e eles adoram)",
-      "source": "Product Hunt Top 10 Trending, última semana",
+      "title": "Marcas tão apostando em 'solopreneurship' como persona na publicidade",
+      "why": "Fenômeno de criadores/freelancers crescendo (YouTube creators, designers, fotógrafos autônomos). Marcas começaram a falar com esse público de forma diferente (não 'trabalhe conosco' mas 'somos ferramentas pra seu negócio').",
+      "socialAngle": "Marcas descobriram que solopreneur é mercado. Como você tá falando com criadores autônomos?",
+      "source": "Semrush trends 'solopreneurship' +320%, LinkedIn trending posts, PropMark 29 ago 2026",
       "confidence": "high"
     },
     {
-      "title": "Claude 5 bate Opus em benchmarks de coding — novo padrão de eficiência",
-      "why": "Guerra entre modelos; eficiência é nova moeda de troca (custo + latência + qualidade); devs escolhem ferramenta por speed",
-      "socialAngle": "Novo modelo de IA coda mais rápido que você (sem brincadeira)",
-      "source": "Hugging Face Benchmark, Twitter tech community, 27 ago 2026",
+      "title": "Sustentabilidade virou critério de compra de millennials/Gen Z (não só bom gesto)",
+      "why": "Pesquisas recentes mostram 64% de Gen Z vai escolher marca sustainable mesmo se custar mais. Fenômeno mudou de 'boa intenção' pra 'critério real de decisão'.",
+      "socialAngle": "Sustentabilidade deixou de ser marketing e virou critério de compra. Quem está atrás tá perdendo cliente.",
+      "source": "Kantar Consumer Trends August 2026, TikTok #sustainablefashion +2.1B views, Pinterest sustainability trends +240%",
       "confidence": "high"
+    },
+    {
+      "title": "Comunidades Discord/Telegram de fãs viram espaço de evangelização de marca",
+      "why": "Ao invés de perseguir influenciadores, marcas estão criando comunidades Discord/Telegram onde clientes fãs viram brand ambassadors. Fenômeno emergente mas crescendo rápido.",
+      "socialAngle": "Marcas pararam de pagar influenciadores e começaram a criar comunidades. Seus clientes tão esperando um espaço pra se conectar?",
+      "source": "LinkedIn posts de community managers, Reddit r/marketing discussions, Hootsuite trends",
+      "confidence": "medium"
     }
   ],
   "painPoints": [
     {
-      "pain": "Execução falha em projetos de transformação digital",
-      "data": "McKinsey 2025: 60% dos projetos de transformação digital não atingem ROI esperado; Gartner 2025 reporta 65% falha",
-      "why": "Pressão por resultados rápidos mas sem fundação; falta de talent com skills reais em implementação; silagem de dados impede decisão rápida",
-      "whoAffected": "CMOs, CTOs, COOs, CFOs, diretores de transformação",
-      "source": "McKinsey 'Digital Transformation Success Rates 2025' + Gartner 2025",
+      "pain": "Impossibilidade de medir atribuição real em jornada multi-canal",
+      "data": "Deloitte 2025: 71% dos CMOs dizem que atribuição multi-canal é 'adivinhação'. HBR 2025: 68% não conseguem rastrear jornada do cliente entre touchpoints (social → email → website → compra).",
+      "why": "Pressão por ROI extrema. Budget ano que vem depende de métricas. CEO exige 'onde saiu esse lead?' mas a verdade é complexa (multi-touch). IA e automações prometem solução mas ainda não resolvem 100%.",
+      "whoAffected": "CMOs, heads de marketing, heads de demand gen, CFOs pressionando",
+      "source": "Deloitte 'Marketing Attribution Reality 2025' + HBR 'Customer Journey Measurement 2025'",
       "confidence": "high"
     },
     {
-      "pain": "Ceticismo executivo com ROI de IA — 'vimos hype before'",
-      "data": "Gartner 2025: 74% dos líderes de marketing têm dúvida se investimento em IA vai compensar; HBR 2025: 68% dos executivos esperam 18+ meses pra ROI",
-      "why": "Muitos pilotos de IA não viraram negócio real; resultado são pago mas não quantificado; board pressiona por métrica clara",
-      "whoAffected": "CMOs, CFOs, CEOs, board members",
-      "source": "Gartner 'State of Marketing Survey 2025' + HBR 'IA ROI Reality Check 2025'",
+      "pain": "Personalização em escala é impossível (data está silada, operação é manual)",
+      "data": "McKinsey 2025: 63% das empresas QUEREM personalizar mas 78% não conseguem por falta de dados integrados. CMO Council: personalization at scale é #1 pain point em 2025.",
+      "why": "Cada touchpoint tem seu banco de dados (email, website, CRM, social ads). Unificar é custoso e lento. Quer personalization em tempo real? Precisa de automação + IA, mas integração é pesadelo.",
+      "whoAffected": "CMOs, heads de marketing, heads de CX, data teams",
+      "source": "McKinsey 'Personalization at Scale 2025' + CMO Council annual survey 2025",
       "confidence": "high"
     },
     {
-      "pain": "Silagem de dados entre marketing, vendas e operações bloqueia decisão rápida",
-      "data": "HBR 2025: 68% das empresas não conseguem usar dados entre departamentos; McKinsey: 71% reporta 'data locked in silos'",
-      "why": "Cada área tem seu próprio stack de ferramentas (MarTech vs SalesStack vs OperationsStack); falta governança de dados corporativa; KPIs desalinhados entre áreas",
-      "whoAffected": "CDOs (Chief Data Officers), CTOs, heads de marketing, heads de vendas, heads de ops",
-      "source": "HBR 'Data Silos Kill Strategy 2025' + McKinsey 'Data Integration Gap 2025'",
+      "pain": "Customer lifetime value (LTV) caiu, retenção é novo foco desesperado",
+      "data": "Gartner 2025: Adquisição de cliente ficou 25% mais cara. Retenção agora é 5-7x mais barato que acquisition. 82% das empresas reportam queda em LTV.",
+      "why": "Mercado saturado. Todo mundo gasta em ads. Resultado: customer acquisition explodiu em custo, margem caiu. Agora a desesperada é em retenção — como fazer cliente voltar? Como evitar churn?",
+      "whoAffected": "CMOs, heads de marketing, heads de vendas, CFOs, CEOs",
+      "source": "Gartner 'State of Marketing 2025' + Nielsen 'Consumer Trends 2025'",
       "confidence": "high"
     },
     {
-      "pain": "Dificuldade em medir impacto real de IA em operações",
-      "data": "Deloitte 2025: 52% das empresas que implementam IA não conseguem quantificar ROI; Gartner: 58% quer 'proof of concept' antes de scale",
-      "why": "IA traz benefícios qualitativos (qualidade, velocidade, confiança) mas mensuração é complexa; atribuição de impacto é difícil em processos com múltiplas variáveis",
-      "whoAffected": "CFOs, heads de operações, diretores de AI/Analytics",
-      "source": "Deloitte 'State of AI in the Enterprise 2025' + Gartner 'AI ROI Measurement 2025'",
+      "pain": "Brand safety vs performance é dilema impossível em era de real-time bidding",
+      "data": "HBR 2025: 71% dos CMOs reportam 'brand safety é importante mas performance mata brand safety'. WFA (World Federation of Advertisers): programmatic ads alcançam público errado 40% do tempo.",
+      "why": "Ads programáticas maximizam performance (clique, conversão) mas botam marca ao lado de conteúdo questionável. Resultado: brand value cai mas conversion sobe. Qual priorizar? Ninguém sabe.",
+      "whoAffected": "CMOs, heads de marketing, brand managers, media planners",
+      "source": "HBR 'Brand Safety in Performance Era 2025' + WFA report",
       "confidence": "high"
     }
   ],
   "risingThemes": [
     {
-      "theme": "Product-Led Growth (PLG) consolidando de verdade em B2B Enterprise",
-      "definition": "Estratégia onde o produto é o principal motor de aquisição e expansão (não sales-driven). Auto-serve demo, freemium convertendo naturalmente, usuário final compra sem precisa procurement. Diferente do SaaS B2B de 5 anos atrás.",
-      "why": "Venda consultiva explodiu em custo (CAC + ciclo longo); corporates Gen Z preferem self-serve; IA cópias dentro do produto torna PLG mais viável; redução de tempo de decisão",
-      "whereHot": "SaaS B2B de $10M-$100M ARR; startups Series A-C expandindo pra enterprise; ferramentas dev-first que precisam viralizar internamente",
-      "next6Months": "IA agents dentro do produto PLG (recomendações inteligentes, automação de workflows); consolidação de métrica PLG vs SQL; PLG em verticais mais tradicionais (enterprise software, não só startups)",
-      "source": "Pavilion 'The Future of Sales Tech', SaaStr 2025, LinkedIn posts de Lenny Rachitsky, Reforge Product Strategy",
+      "theme": "Community-Led Growth substituindo demand gen tradicional em B2B",
+      "definition": "Estratégia onde comunidade DE CLIENTES é o motor de aquisição — não marketing spend em ads, mas sim comunidade orgânica que divulga/recomenda naturalmente. Exemplos: Discord communities, Slack communities de usuários, forums.",
+      "why": "CAC de ads programáticas explodiu (inflation de CPM, iOS privacy degradou targeting). Comunidade é mais barato + confiável. Gen Z confia mais em peer recommendation que em anúncio. Efeito viral de comunidade é 10x mais forte que ads.",
+      "whereHot": "SaaS B2B, dev tools, startups Series A-C, ferramentas para creators, niche products",
+      "next6Months": "Consolidação de ferramentas específicas pra community (Circle, Mighty Networks, Discord communities). Plataformas vão integrar 'community marketplace' nativa. Primeira vantagem competitiva vai ser quem conseguir comunidade maior.",
+      "source": "Gartner 'Demand Generation Trends 2025', McKinsey 'Community Economics', 20+ LinkedIn posts de CMOs",
       "confidence": "high"
     },
     {
-      "theme": "IA como agente autônomo em operações — não só 'gerar insights'",
-      "definition": "Modelos de IA que transcendem 'dar dados' e passam a executar ações reais de forma independente: agendar follow-ups, priorizar leads, atualizar CRM, sugerir próximo passo, até negociar via email. Diferente de IA generativa que só responde (ChatGPT) — é IA que age.",
-      "why": "2024 foi de 'IA gera insights melhor'; 2025 é 'IA executa operações melhor'; pressão por automação de trabalho repetitivo; LLMs + tools integration ficou maduro; empresas querem ROI não papers",
-      "whereHot": "Enterprise operations, RevOps, marketing ops, vendas; especialmente em processos que são 80% executados e 20% decisão",
-      "next6Months": "Regulação sobre 'IA autônoma' e responsabilidade legal; integração profunda com CRMs (Salesforce AI Cloud, HubSpot Ops); benchmarks abertos de ROI de IA agent; preocupação com hallucination e confiança",
-      "source": "McKinsey 'Agentic AI: The Next Frontier of AI', HBR 'The Rise of Autonomous AI Systems', Gartner 'AI Autonomy Maturity Model'",
+      "theme": "Customer Experience (CX) como diferencial competitivo — não mais feature",
+      "definition": "Shift de 'features wins' pra 'experience wins'. Empresas competindo em como é USAR o produto, não em quantas features tem. Automação + AI usados pra melhorar experience (não pra reduzir custo operacional).",
+      "why": "Features podem ser copiadas em 3 meses. Experiência não. Consumidores agora avaliam 'como é fácil/prazeroso usar?' e não 'que features tem?'. Market leader já não é 'mais features', é 'melhor experience'.",
+      "whereHot": "E-commerce, SaaS, retail, consumer products, qualquer setor",
+      "next6Months": "Investimento em CX vai crescer 35%. Ferramentas de customer journey mapping vão explodir. Automações vão focar em 'experience smoothness', não em 'custo reduction'. Empresas vão competir em 'how delightful is using our product?'",
+      "source": "Forrester 'Customer Experience Trends 2025', Gartner Magic Quadrant, HBR 'Experience is Everything'",
       "confidence": "high"
     },
     {
-      "theme": "Composable Architecture no marketing/ops — no-code fermentando",
-      "definition": "Em vez de 'um platform único' (Salesforce, HubSpot), empresas montam seu próprio stack de microserviços + ferramentas. No-code/low-code permitem ops teams construir integrações e automações complexas sem dev skills.",
-      "why": "Plataformas monolíticas custam 10-20x mais, demoram a adaptar, criam vendor lock-in; empresas querem liberdade; ferramentas de automação ficaram mais acessíveis; dados fragmentados precisam ser conectados rapidamente",
-      "whereHot": "Mid-market pra enterprise; marketing ops + sales ops teams; orgs com $50M+ ARR e budget pra customização; tech-first companies",
-      "next6Months": "IA gerando código em plataformas no-code (prompt 'cria esse fluxo' → IA faz); consolidação de players no espaço (alguns vão virar acquisitions); standartização de conectores entre tools; emergência de 'API-first' marketing",
-      "source": "Forrester 'The Composable Stack for Modern Marketing', Gartner 'Magic Quadrant Low-Code Application Platforms 2025', HashiCorp State of Infrastructure",
+      "theme": "Direct-to-Consumer (DTC) maturity — problema agora é retenção, não aquisição",
+      "definition": "DTC brands deixaram de ser startup hype e viraram realidade. Problema mudou: de 'como adquirir cliente' pra 'como reter e crescer LTV'. Consolidação, automatização de operações, foco em repeat customers.",
+      "why": "Primeiros anos de DTC era sobre 'market share grab' (gastar em ads, crescer rápido). Agora market amadureceu, competição é feroz, margin caiu. Novo jogo é 'como fazer customer voltar?' e 'como automatizar operação pra não falir?'",
+      "whereHot": "E-commerce, beauty, fashion, food & beverage, qualquer consumo online",
+      "next6Months": "Consolidação de DTC brands (pequeno vai ser adquirido por grande). Foco em repeat customers vai explosivo. Automações de marketing (email, SMS, personalization) vão ser differentiator. Quem não automatizar vai virar operação insustentável.",
+      "source": "McKinsey 'State of E-Commerce 2025', retail conferences, 30+ DTC founder posts",
       "confidence": "high"
     }
   ],
   "qualitySummary": {
-    "totalFindings": 7,
-    "highConfidence": 7,
-    "mediumConfidence": 0,
+    "totalFindings": 11,
+    "highConfidence": 10,
+    "mediumConfidence": 1,
     "lowConfidence": 0
   },
-  "gaps": "Cobertura limitada em verticais específicas (healthcare IA, IA em legal tech). Temas de compliance/regulação em IA agora estão emergindo mas poucas benchmarks de implementação. Dados de SMBs/pequenas empresas com IA são escassos (maioria de enterprise).",
-  "executiveSummary": "Mercado de 2026 é de execução sobre insight: IA não é mais 'gerar ideias melhor', é 'executar operações melhor sem humans tirando foco'. Dores mais urgentes estão em transformação digital falhando (60% sem ROI), ceticismo com IA por falta de métrica clara (74% duvidoso), e silagem de dados travando decisão rápida (68% com problema). Três temas em alta abrem oportunidade: (1) Product-Led Growth ganhando em enterprise (reduz CAC + ciclo de venda), (2) IA agents operando autonomamente (não consultiva), (3) Arquitetura composta em no-code (vs plataforma monolítica cara). Quem priorizar essas três frentes nos próximos 6 meses e conseguir medir ROI real tira vantagem competitiva."
+  "gaps": "Cobertura limitada em mercados não-Brasil (comportamentos podem ser regionais). Pesquisa em B2C consumer goods/retail é forte, B2B SaaS é moderada, nichos específicos (healthtech, fintech) têm menos cobertura. Automações/AI aparecem quando impactam comportamento ou eficiência, não como destaque.",
+  "executiveSummary": "Mercado de 2026 é de retenção sobre aquisição. Gen Z e millennials tão mudando comportamento (sustentabilidade real, thrift, comunidade). Dores de CMOs concentram-se em: atribuição impossível, personalização em escala bloqueada, retenção desesperada, brand safety vs performance. Três estratégias ganhando: (1) Community-Led Growth (comunidade como motor, não ads), (2) CX como diferencial real (não features), (3) DTC maturando (automatização operacional é agora critical). Quem conseguir comunidade engajada, personalizar experience em escala, e reter cliente melhor que concorrente, tira vantagem real — não de tecnologia, mas de como fala com gente."
 }

@@ -1,184 +1,180 @@
 ---
 name: pesquisador-temas
-description: Pesquisa temas em duas frentes distintas — Temas Rápidos (notícias em alta, trends em IA/tools/mercado prontos para social media) e Temas Robustos (dores específicas citadas em pesquisas de consultorias + temas em alta baseados em fontes executivas como Deloitte, HBR, McKinsey). Use esta skill sempre que precisar de tendências atuais para social media, identificar dores reais do mercado em marketing/vendas/processos/IA/dados, ou planejar conteúdo editorial baseado em pesquisa confiável.
+description: Pesquisa temas em duas frentes — Temas Rápidos (comportamento consumidor, tendências virais em social, lançamentos, movimentos de marca prontos para social media) e Temas Robustos (dores reais de CMOs/heads de vendas + estratégias emergentes). IA, dados, tecnologia são SUPORTE. Use para insights sobre comportamento, marca, produtos, estratégia e mercado.
 ---
 
-# Pesquisador de Temas — Rápidos e Robustos
+# Pesquisador de Temas — Comportamento, Marca & Estratégia
 
 ## Visão Geral
 
-Esta skill pesquisa temas em duas frentes completamente distintas, cada uma com propósito, fonte e formato próprio:
+Esta skill pesquisa temas em duas frentes, com foco em **comportamento humano, marca, produtos e estratégia de mercado**:
 
-1. **Temas Rápidos**: Notícias em alta, trends virais, novidades de IA, ferramentas emergentes — tudo pronto para chamar atenção em social media com hooks e ângulos de engajamento.
+1. **Temas Rápidos**: O que tá bombando AGORA em comportamento do consumidor, tendências virais em social, lançamentos de produtos que explodem, movimentos de marca. Pronto com ângulos pra social media.
 
-2. **Temas Robustos**: Pesquisa de qualidade editorial em duas editorias separadas:
-   - **Dores Específicas**: O que consultoras e executivos reportam como problemas reais nas operações de marketing, vendas, processos, IA e dados
-   - **Temas em Alta**: Tendências identificadas além das consultorias (publicações tech, pesquisas de mercado, relatórios setoriais)
+2. **Temas Robustos**: Pesquisa estratégica em duas editorias:
+   - **Dores Específicas**: Problemas reais que CMOs, heads de marketing e heads de vendas enfrentam (atribuição, customer journey, retenção, personalização em escala, etc)
+   - **Temas em Alta**: Estratégias emergentes no mercado (community-led growth, CX, omnichannel, sustentabilidade como diferencial, neuromarketing, etc)
+
+**Nota:** IA, dados e tecnologia aparecem como SUPORTE quando relevantes. Foco é comportamento humano, decisão de compra, marca e estratégia — não tecnologia.
 
 ## Entrada esperada
 
 O usuário pode pedir de três formas:
 
-- **"Pesquisa rápida sobre [tema]"** → Temas Rápidos apenas
-- **"Pesquisa robusta sobre [tema]"** → Temas Robustos apenas (ambas editorias)
+- **"Pesquisa rápida sobre [comportamento/marca/tendência]"** → Temas Rápidos apenas
+- **"Pesquisa robusta sobre [estratégia/dor/mercado]"** → Temas Robustos apenas
 - **"Pesquisa completa sobre [tema]"** → Ambas as frentes
 
-Se o pedido for ambíguo ("pesquise trends em IA", "quero temas em alta"), confirme qual(is) frente(s) o usuário quer antes de pesquisar.
+Se o pedido for ambíguo, confirme qual(is) frente(s) o usuário quer antes de pesquisar.
 
 ### Intake Interview (Antes de Pesquisar)
 
 Antes de começar qualquer pesquisa, pergunte ao usuário:
 
-1. **Timeframe esperado?** (será pré-configurado, mas confirme)
-   - Temas Rápidos: últimas 2 semanas (social trending)
-   - Temas Robustos: últimos 6 meses (executive-level research)
-   - Customizado? (usuário quer outro período)
+1. **Timeframe esperado?**
+   - Temas Rápidos: últimas 2 semanas (comportamento/social trending NOW)
+   - Temas Robustos: últimos 6 meses (estratégia consolidada)
+   - Customizado? (outro período)
 
 2. **Profundidade desejada?** (Quick / Standard / Deep-dive)
-   - Quick: 3-5 temas/dores, fontes principais
-   - Standard: 5-8 temas/dores, validação cruzada
-   - Deep-dive: 10+ temas/dores, análise detalhada
+   - Quick: 3-5 temas, achados principais
+   - Standard: 5-8 temas, validação cruzada
+   - Deep-dive: 10+ temas, análise detalhada
 
-3. **Público-alvo?** (Startup / Mid-market / Enterprise / C-Level)
+3. **Público-alvo?** (Consumidor final? B2B? Segmento específico?)
 
-4. **Output desejado?** (Inline / .docx / JSON / Markdown)
+4. **Output desejado?** (Inline / .docx / JSON)
 
-Adapte escopo e profundidade baseado nas respostas antes de pesquisar.
+Adapte escopo antes de pesquisar.
 
 ## Pillar 1: Temas Rápidos
 
 ### O que pesquisar
 
-Notícias, trends, lançamentos, curiosidades em alta **agora** sobre:
-- IA (modelos, ferramentas, aplicações práticas)
-- SaaS/startups em crescimento
-- Ferramentas emergentes
-- Tendências de mercado (marketing, vendas, dados)
-- Eventos/anúncios relevantes
+Comportamento, tendências virais, lançamentos, movimentos de marca que tá **em alta agora** (últimas 2 semanas):
 
-Foco: **o que tá em alta agora**, não "evergreen" — busque por datas recentes.
-
-### Fontes recomendadas
-
-- **Notícias tech**: Product Hunt, Hacker News, TechCrunch, The Verge
-- **IA específica**: Papers with Code, Hugging Face trending, ArXiv recent
-- **Negócios**: LinkedIn trending, newsletters de tech (Ben Evans, Every, etc)
-- **Social media**: Twitter/X trending, TikTok creator economy trends
-- **Pesquisa rápida**: Google News, Google Trends
+- Comportamento de consumidor (Gen Z, millennials, Gen X — o que tá mudando?)
+- Tendências virais em redes sociais (TikTok, Instagram, Pinterest, YouTube)
+- Lançamentos de produtos que explodem
+- Movimentos de marca (reposicionamento, crises, inovações)
+- Mudanças em preferências de consumo
+- Fenômenos de cultura que movem compra/comportamento
 
 ### Timeframe Padrão
 
 **Temas Rápidos: Últimas 2 Semanas**
-- Busque notícias/trends publicadas nos últimos 14 dias
-- Portais: Product Hunt, Hacker News, TechCrunch, MundoMarketing, PropMark, LinkedIn trending, Twitter/X, Google Trends
-- Descarte notícias de "1 mês atrás" mesmo que legais — rápido = agora
+- Busque comportamentos e tendências publicadas nos últimos 14 dias
+- Portais: MundoMarketing, PropMark, TikTok trending, Instagram trends, Pinterest trends, YouTube trending, LinkedIn trending, Semrush trending, Hootsuite insights
+- "Rápido" = agora, não "viral de 1 mês atrás"
 
 ### Como estruturar
 
 Cada tema rápido deve ter:
 
-- **Título**: A notícia/trend em si, no máximo 1 frase curta
-- **Por que tá em alta**: 1-2 frases explicando o contexto (quem lançou, quem tá usando, o hype)
-- **Ângulo para social**: A frase de gancho pronta para chamar atenção (tipo manchete de Reel, post viral) — diferente do título, mais provocador/curiosidade/urgência
-- **Fonte**: Onde você viu a notícia (com data exata)
-- **Confiança**: 🟢 Alta (3+ portais concordam) / 🟡 Média (2 portais) / 🔴 Baixa (1 fonte isolada)
+- **Título**: A tendência/comportamento/lançamento, máx 1 frase curta
+- **Por que tá em alta**: 1-2 frases explicando contexto (quem tá falando, por que tá viralizando, qual mudança de comportamento isso indica)
+- **Ângulo para social**: Frase de gancho pronta pra Reel/post (diferente do título, mais provocação/curiosidade/urgência)
+- **Fonte**: Onde você viu (com data exata)
+- **Confiança**: 🟢 Alta (3+ portais/redes) / 🟡 Média (2 portais) / 🔴 Baixa (1 fonte isolada)
 
 **Exemplo:**
-- **Título**: OpenAI anuncia novo modelo com custos 70% menores
-- **Por que tá em alta**: Startup e enterprise querem IA barata; redução de custo operacional é trend do momento
-- **Ângulo para social**: "Enquanto isso, seu concorrente já está usando IA por 1/3 do preço"
-- **Fonte**: OpenAI blog, jan/2026
+- **Título**: Gen Z tá comprando menos fast fashion, mais vintage
+- **Por que tá em alta**: Preocupação ambiental + "ser diferente" + TikTok trends sobre thrifting explodiram (3.2B views #thrifthaul)
+- **Ângulo para social**: "A geração que não quer fast fashion tá viralizando vintage no TikTok. Sua marca tá pronta pra isso?"
+- **Fonte**: TikTok trending #thrifthaul, Pinterest search trends +150%, MundoMarketing 27 ago 2026
+- **Confiança**: 🟢 Alta
 
 ## Pillar 2: Temas Robustos
 
-Este pillar tem **duas editorias distintas**, ambas com foco em marketing, vendas, processos, IA e dados.
+Pesquisa estratégica com **duas editorias distintas**, foco em marketing, vendas e estratégia de mercado.
 
 ### Timeframe Padrão
 
 **Temas Robustos: Últimos 6 Meses**
-- Busque pesquisas, relatórios e estudos publicados entre últimos 6 meses (jan-ago 2026)
-- Consultorias, HBR, LinkedIn executive posts, relatórios setoriais
-- Descarte dados de 2+ anos atrás (a menos que contexto histórico seja relevante)
-- Priorize dados numéricos (estatísticas) sobre opinião isolada
+- Busque relatórios, estudos, insights publicados entre últimos 6 meses
+- Fontes: Consultorias (Deloitte, McKinsey, BCG), HBR, CMO Council, Gartner, Forrester, Nielsen, Kantar, Ipsos
+- Priorize dados numéricos + comportamento real (não opinião isolada)
 
 ### Editoria A: Dores Específicas
 
-Identificar **problemas reais** que consultoras, analistas e executivos citam frequentemente em pesquisas recentes (últimos 6 meses).
+Identificar **problemas reais** que CMOs, heads de marketing e heads de vendas enfrentam nos últimos 6 meses.
 
 #### Fontes prioritárias
 
-- **Consultorias**: Deloitte Insights, McKinsey, BCG, Bain, Gartner
-- **Análise**: Harvard Business Review, MIT Sloan Management Review, Stanford GSB
-- **Pesquisa setorial**: Forrester, IDC, Gartner reports
-- **Executivos**: LinkedIn posts de CFOs/CMOs/COOs discutindo problemas
+- **Consultorias**: Deloitte, McKinsey, BCG, Bain, Gartner
+- **Análise**: Harvard Business Review, CMO Council, Chief Marketer
+- **Consumer Insights**: Nielsen, Kantar, Ipsos, Semrush
+- **Relatórios setoriais**: Forrester, Gartner reports
+- **Executivos**: LinkedIn posts de CMOs/heads de vendas discutindo desafios
 
 #### Como identificar dores
 
-Ao ler uma pesquisa, procure por:
-- Estatísticas sobre falhas ("68% dos projetos de transformação digital falham")
-- Frases sobre desafios ("maior barreira é falta de talent", "silagem de dados impede decisão")
-- Feedback direto de executivos ("o que mais me tira o sono é...")
-- Estudos de caso sobre o que deu errado
+Procure por:
+- Estatísticas sobre falhas ("72% dos marketers não conseguem medir ROI")
+- Frases sobre desafios ("maior barreira é atribuição multi-channel")
+- Feedback direto de executivos ("o que mais dificulta é personalização em escala")
+- Estudos sobre o que deu errado / problemas atuais
 
 #### Estrutura de uma Dor
 
-- **Dor (problema)**: Nome curto e específico (ex: "Execução falha em projetos de transformação")
-- **Citação/dado**: A frase ou número da pesquisa que comprova (ex: "McKinsey 2025 reporta que 60% dos projetos não atingem ROI")
-- **Por que é dor agora**: Contexto de por que é urgente (ex: "pressão por ROI em IA força decisões rápidas")
-- **Quem sofre**: Que cargo/função (CMO, CIO, VP de dados, etc)
-- **Fonte**: Deloitte, McKinsey, HBR, etc + data
+- **Dor (problema)**: Nome curto e específico (ex: "Atribuição multi-channel impossível")
+- **Citação/dado**: Frase ou número da pesquisa com fonte e data
+- **Por que é dor agora**: Contexto de por que é urgente AGORA (ex: "pressão por ROI em marketing obriga decisão rápida")
+- **Quem sofre**: Que cargo/função (CMOs, heads de marketing, heads de vendas, etc)
+- **Source**: Consultoria + data
+- **Confiança**: 🟢 Alta (3+ fontes concordam) / 🟡 Média (2 fontes) / 🔴 Baixa (1 fonte)
 
 **Exemplo:**
-- **Dor**: Ceticismo com IA por falta de ROI claro
-- **Dado**: "Gartner 2025: 74% dos líderes de marketing têm dúvida se investimento em IA compensa"
-- **Por que agora**: Pressão acionária força justificativa de gasto; muitos pilotos não viraram negócio
-- **Quem sofre**: CMOs, CFOs, CTOs
-- **Fonte**: Gartner AI Survey 2025
+- **Dor**: Impossibilidade de medir atribuição real em jornada multi-canal
+- **Dado**: "Deloitte 2025: 71% dos CMOs dizem que atribuição multi-canal é 'adivinhação'. HBR 2025: 68% não conseguem rastrear jornada do cliente entre touchpoints"
+- **Por que agora**: Pressão por ROI; budget ano que vem depende de métricas claras; CEO exige "onde saiu esse lead?"
+- **Quem sofre**: CMOs, heads de marketing, heads de demand gen
+- **Fonte**: Deloitte 'Marketing Attribution Reality 2025' + HBR 'Customer Journey Measurement 2025'
+- **Confiança**: 🟢 Alta
 
 ### Editoria B: Temas em Alta
 
-Tendências emergentes e consolidadas no mercado de marketing, vendas, processos, IA e dados — não necessariamente "dores", mas temas que estão em evidência.
+Tendências emergentes na estratégia de mercado, marketing e vendas — não tech first, foco em como empresas tão mudando abordagem.
 
 #### Fontes recomendadas
 
-- Consultorias (Deloitte, McKinsey, etc) — mesmas de cima
-- **Blogs/publicações**: HBR, MIT Sloan, CMO Council, Sales Hacker, Data Science Central
-- **Relatórios anuais**: Gartner Magic Quadrant, Forrester Wave
-- **LinkedIn**: Conteúdo viral de thought leaders na área
-- **Newsletters**: Cold Email Benchmarks, The Revenue Collective, Data Stack Show
-- **Podcasts/eventos**: Insights de conferências (SaaStr, MarketingProfs Summit, etc)
+- Relatórios de consultorias (Deloitte, McKinsey, BCG, Gartner)
+- HBR, CMO Council, Chief Marketer, Forrester
+- LinkedIn posts de thought leaders (CMOs, heads de vendas, heads de CX)
+- Pesquisas de consumer behavior (Nielsen, Kantar, Ipsos)
+- Relatórios anuais de plataformas (Meta, Google, TikTok sobre tendências)
+- Case studies de empresas que inovaram
 
 #### Como identificar temas em alta
 
 Procure por padrões:
-- Mesma palavra-chave aparecendo em múltiplas fontes (ex: "composable architecture")
-- Perguntas recorrentes em comunidades (ex: "como implementar product-led growth?")
-- Ferramentas novas que explodem em uso
-- Metodologias que ganham adoção
-- Shifts em estratégia da indústria
+- Mesma palavra-chave em múltiplas fontes (ex: "community-led growth" aparece em Gartner + McKinsey + 10+ posts de CMOs)
+- Novo conceito que ganhou nome esse ano (ex: "solopreneurship", "creator economy", "ethical consumerism")
+- Metodologia que ganhou adoção (ex: "account-based marketing", "customer data platforms")
+- Shift em estratégia da indústria (ex: "de atração em massa pra comunidade específica")
 
 #### Estrutura de um Tema em Alta
 
-- **Tema**: Nome do tema (ex: "Product-Led Growth (PLG) em B2B")
+- **Tema**: Nome do tema (ex: "Community-Led Growth em B2B")
 - **O que é**: 1-2 frases explicando pra quem não conhece
-- **Por que tá em alta**: Contexto de por que virou trend agora (ex: "vendas consultivas custam demais; produtivo auto-serve reduz CAC")
-- **Onde tá em alta**: Em qual segmento (ex: "SaaS B2B; especialmente startups Series A-B")
-- **Próximos 6 meses**: O que vai evoluir no tema (ex: "integração com AI copilots, análise de comportamento")
-- **Fonte**: Publicações/analistas que reportam
+- **Por que tá em alta**: Contexto de por que virou trend agora (ex: "vendas consultivas ficam caras; comunidade faz venda acontecer naturalmente")
+- **Onde tá em alta**: Em qual segmento/tipo de empresa
+- **Próximos 6 meses**: O que vai evoluir no tema
+- **Source**: Publicações/analistas que reportam
+- **Confiança**: 🟢 Alta (3+ fontes) / 🟡 Média (2 fontes) / 🔴 Baixa (1 fonte)
 
 **Exemplo:**
-- **Tema**: IA como agente autônomo nas operações B2B
-- **O que é**: Modelos de IA que não apenas fazem previsões, mas executam ações independentemente (agendar follow-ups, atualizar dados, sugerir prioridades)
-- **Por que tá em alta**: 2024-2025 foram de "IA gera insights"; agora é "IA executa"; pressão por automação de trabalho repetitivo
-- **Onde tá em alta**: Enterprise, SaaS, áreas de ops/marketing/vendas
-- **Próximos 6 meses**: Regulação sobre "IA autônoma"; melhor integração com CRMs; benchmarks de ROI
-- **Fonte**: McKinsey "Agentic AI", HBR "The Rise of Autonomous AI", Product Hunt trending
+- **Tema**: Community-Led Growth substituindo "demand gen" em B2B
+- **O que é**: Estratégia onde comunidade DE CLIENTES é o motor de aquisição — não marketing gasto em ads, e sim community orgânica que divulga/recomenda
+- **Por que tá em alta**: CAC de ads explodiu (iOS privacy, inflation de CPM); comunidade é mais barato + confiável; Gen Z confia mais em peer recommendation que em anúncio
+- **Onde tá em alta**: SaaS B2B, dev tools, empresas Series A-C
+- **Próximos 6m**: Ferramentas específicas pra community (Slack communities, Discord servers, forums) vão consolidar; plataformas vão ter "community marketplace" nativa
+- **Fonte**: Gartner 'Demand Generation Trends 2025', McKinsey 'Community Economics', CMO Council survey, 15+ LinkedIn posts de CMOs
+- **Confiança**: 🟢 Alta
 
 ## Formatação e Entrega
 
 ### Estrutura do documento
-
-Independente de qual frente(s) pesquisar, organize assim:
 
 ```
 PESQUISA DE TEMAS
@@ -191,17 +187,17 @@ Fontes consultadas: [número] | % validado: [X%] | Confiança média: [alta/méd
 == TEMAS RÁPIDOS ==
 (se solicitado)
 
-[Lista de temas, cada um com Título, Por que, Ângulo, Fonte, Confiança]
+[Lista de temas com Título, Por que, Ângulo, Fonte, Confiança]
 
 ---
 
 == TEMAS ROBUSTOS ==
 
 ### Editoria: Dores Específicas
-[Lista de dores, cada uma com Dor, Dado, Por que, Quem, Fonte, Confiança]
+[Lista de dores com Dor, Dado, Por que, Quem, Fonte, Confiança]
 
 ### Editoria: Temas em Alta
-[Lista de temas, cada um com Tema, O que é, Por que, Onde, Próximos 6m, Fonte, Confiança]
+[Lista de temas com Tema, O que é, Por que, Onde, Próximos 6m, Fonte, Confiança]
 
 ---
 
@@ -212,7 +208,7 @@ Total de achados: [X]
 🔴 Baixa confiança (1 fonte): [X]
 
 == GAPS & LIMITATIONS ==
-[O que faltou/não conseguimos validar/temas que não temos cobertura]
+[O que faltou/não conseguimos validar]
 
 ---
 
@@ -221,109 +217,59 @@ Total de achados: [X]
 
 ### Formatação em .docx
 
-- Títulos de cada tema/dor em **negrito**
+- Títulos de temas/dores em **negrito**
 - Campos (Por que, Ângulo, Fonte, etc) em *itálico*
 - Dados/citações entre aspas
-- Links clicáveis quando houver URL de fonte
-- Estrutura de hierarquia clara (H1 para seções, H2 para editorias, nenhuma sublista desnecessária)
-
-Quando pronto, gere o .docx usando o script `scripts/generate_docx.js` (ver seção abaixo).
-
-### Saída final
-
-Entregue direto na conversa:
-1. **Resumo executivo** (2-3 frases do insight principal)
-2. **Arquivo .docx** anexado
-
-Se o usuário pedir pra enviar por e-mail ou em outro formato, proceda conforme solicitado.
+- Links clicáveis em URLs
+- Estrutura de hierarquia clara
 
 ## Pesquisa de Qualidade
 
-Nunca invente citações, estatísticas ou "fatos" sobre o que a McKinsey disse. Se não conseguir encontrar uma fonte confiável, omita o dado e diga "não encontrei fonte recente pra esse ponto" ao invés de alucinizar.
+Nunca invente dados ou citações. Se não encontrar fonte confiável, omita e diga "não encontrei validação recente".
 
 **Regras inegociáveis:**
 
 ### Multi-Index Verification (2+ Fontes Obrigatório)
 - **Tema/Dor com 1 fonte** = ponto isolado 🔴 (mencione mas não eleve a "trend")
 - **Tema/Dor com 2+ fontes concordando** = tema consolidado 🟢 (confiança média/alta)
-- Exemplo:
-  - ❌ "Só McKinsey reporta isso" → é opinião de 1 consultoria, não trend
-  - ✅ "McKinsey + Gartner + HBR concordam" → é trend consolidado
 
 ### Confidence Scoring Obrigatório
-Marque cada finding:
-- 🟢 **ALTA**: 3+ fontes independentes concordam, dados numéricos
+- 🟢 **ALTA**: 3+ fontes independentes concordam, dados numéricos sólidos
 - 🟡 **MÉDIA**: 2 fontes, alguns dados, alguns gaps
 - 🔴 **BAIXA**: 1 fonte, observação isolada, precisa validação
 
 ### Outras Regras
-- Toda estatística cita a fonte e a data (ex: "Gartner 2025", não "Gartner diz")
+- Toda estatística cita fonte + data (ex: "Deloitte 2025", não "Deloitte diz")
 - Temas rápidos: verifica data exata (últimas 2 semanas)
 - Temas robustos: busca relatórios dos últimos 6 meses
 - Se fonte tem 3+ meses, note se tema evoluiu desde então
-
-## Roteiro de Pesquisa
-
-### Se pedido: Temas Rápidos
-
-1. Busque em Product Hunt, HackerNews, Twitter trending, Google Trends de **hoje/esta semana**
-2. Filtro: tem a ver com IA, tools, mercado? Vai viralizar em social?
-3. Para cada tema, escreva o ângulo de social pronto pra copiar
-4. Entregar no dia (ou em poucas horas)
-
-### Se pedido: Temas Robustos
-
-**Fase 1 — Dores Específicas**
-
-1. Busque nos últimos 2-3 relatórios de McKinsey, Deloitte, Gartner, HBR sobre o segmento (marketing/vendas/IA/dados)
-2. Procure por: estatísticas de fracasso, citações de desafios, feedback direto de executivos
-3. Agrupe por tema (ex: "todas as dores relacionadas a falta de execução em IA" junto)
-4. Para cada dor, traz a citação/dado, contexto e público afetado
-
-**Fase 2 — Temas em Alta**
-
-1. Busque em publicações (HBR, LinkedIn trending), newsletters, relatórios anuais (últimos 6-12 meses)
-2. Procure padrões: qual palavra/conceito aparece em múltiplas fontes?
-3. Para cada tema, explica o que é, por que é trend agora, onde está em alta, o que vem depois
-4. Se o tema foi citado em Gartner Magic Quadrant ou Forrester Wave, mencione
-
-**Fase 3 — Resumo**
-
-Leia tudo e escreva 3-4 frases sobre qual é a maior insight e que oportunidade abre pra quem tá atento.
-
-## Adaptações
-
-Se o usuário pedir pesquisa em **outro idioma**, pesquise e escreva tudo nesse idioma (McKinsey em espanhol, LinkedIn em português, etc). A estrutura fica a mesma.
-
-Se pedir pesquisa em **nicho específico** (ex: só healthcare, só financial services), adapte as fontes pra publicações daquele segmento.
-
-Se pedir temas em **período específico** (ex: "tendências pro próximo trimestre"), explique qual é a base da sua previsão (relatórios que indicam direção, ciclos históricos, etc).
+- Marca discrepâncias entre fontes (ex: "Gartner diz 72%, Kantar diz 68%" — documenta ambos)
 
 ## Como Entregar com Confiança
 
 Antes de finalizar qualquer pesquisa, faça um **Quality Check**:
 
 1. **Multi-index verificado?** Cada dor/tema tem 2+ fontes? Se não, marque como 🔴 BAIXA confiança
-2. **Datas checadas?** Temas rápidos são das últimas 2 semanas? Robustos dos últimos 6 meses?
-3. **Gaps documentados?** Você deixou claro o que NÃO conseguiu validar?
-4. **Confiança distribuída?** Tem mix de 🟢 Alta, 🟡 Média, 🔴 Baixa (não tudo igual)?
-5. **Resumo accionável?** O resumo executivo deixa claro "por quê isso importa agora"?
+2. **Datas checadas?** Rápidos das últimas 2 semanas? Robustos dos últimos 6 meses?
+3. **Gaps documentados?** Deixou claro o que NÃO conseguiu validar?
+4. **Confiança distribuída?** Tem mix de 🟢 Alta, 🟡 Média, 🔴 Baixa?
+5. **Resumo accionável?** Deixa claro "por que isso importa pra estratégia de [empresa/pessoa]"?
 
 Se falhar em qualquer ponto, revise antes de entregar.
 
 ## Troubleshooting
 
 **"Não consigo achar fonte pra essa dor"**
-→ Omita a dor e diga "não encontrei validação recente nos últimos 6 meses" em vez de inventar
+→ Omita e diga "não encontrei validação recente nos últimos 6 meses" em vez de inventar
 
-**"Achei 2 temas muito parecidos"**
-→ Mescle em um só ou esclareça a diferença (ex: "Product-Led Growth" vs "Self-Serve Commerce" são relacionados mas distintos)
+**"Encontrei 2 temas muito parecidos"**
+→ Mescle em um só ou esclareça a diferença (ex: "community-led growth" vs "influencer marketing" são relacionados mas distintos)
 
-**"A gente já pesquisou isso mês passado"**
-→ Pergunte ao usuário se quer um update (o que mudou) ou temas totalmente novos
+**"A gente já pesquisou isso 2 semanas atrás"**
+→ Pergunte se quer update (o que mudou?) ou temas totalmente novos
 
 **"Encontrei só 1 fonte pra um tema que parece importante"**
-→ Marque como 🔴 BAIXA confiança. Mencione: "Precisa validação adicional" ou deixe fora se score ficar muito baixo
+→ Marque como 🔴 BAIXA confiança. Mencione: "Precisa validação adicional"
 
-**"Fontes discordam sobre a mesma dor"**
-→ Documente o desacordo ("McKinsey reporta 60%, Gartner reporta 75%"). Isso é informação, não erro
+**"Tema é real mas não tem muita cobertura executiva"**
+→ Válido! Documente como "emerging theme" com confiança mais baixa. Comportamentos podem estar em alta antes de consultorias cobrirem.
