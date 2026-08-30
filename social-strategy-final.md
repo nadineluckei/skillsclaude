@@ -1510,4 +1510,46 @@ Cada PAUTA tem:
 
 ---
 
-_Estratégia de Redes Sociais v4.0 — 6 Pautados Sem Culpa No Líder — 2026-08-30_
+---
+
+## REFERÊNCIAS PARA DADOS CITADOS
+
+### Pesquisas de Talento & Liderança
+- [Gallup Engagement Index 2024](https://www.gallup.com/workplace/354632/engagement-index.aspx) - Compreensão de estratégia
+- [Harvard Business Review - The Engagement Gap](https://hbr.org/2023/06/the-engagement-gap) - Turnover de high performers
+- [Korn Ferry - Organizational Culture](https://www.kornferry.com/insights/this-week-in-leadership) - Saída de talentos
+- [Work Institute 2024](https://www.getworkstephen.com/research) - Custo de turnover
+
+### Pesquisas de Comunicação Remota
+- [Buffer State of Remote Work 2024](https://buffer.com/state-of-remote-work) - Comunicação em times remotos
+- [Owl Labs 2024](https://www.owllabs.com/state-of-remote-work) - Frequência de comunicação
+- [McKinsey 2024](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights) - Comunicação assíncrona
+
+### Pesquisas de Decisão & Dados
+- [Google Re:Work](https://rework.withgoogle.com/) - Transparência em decisão
+- [MIT Sloan Management Review](https://sloanreview.mit.edu/) - Engajamento em decisão
+- [Deloitte 2024 - Human Capital Trends](https://www2.deloitte.com/global/en/pages/human-capital/solutions/human-capital-trends.html) - Contexto em decisão
+
+### Pesquisas de Produto & Estratégia
+- [Reforge - Product Strategy](https://www.reforge.com/) - Visão vs Customer
+- [Product School 2024](https://www.productschool.com/) - Feature creep e roadmap
+- [Boston Consulting Group 2024](https://www.bcg.com/) - Inovação em times autônomos
+
+### Pesquisas de Autonomia & Foco
+- [Gallup 2024](https://www.gallup.com/) - Autonomia e burnout
+- [Bain & Company 2024](https://www.bain.com/) - Foco e resultados
+- [McKinsey 2024](https://www.mckinsey.com/) - Decisões e execução
+
+### Pesquisas de Qualidade & Engenharia
+- [IEEE Software 2024](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=52) - Custo de bugs
+- [Google SRE Book](https://sre.google/books/) - Arquitetura e qualidade
+- [Forrester 2024](https://www.forrester.com/) - QA e qualidade
+
+### Pesquisas de Escala & Crescimento
+- [Y Combinator 2024](https://www.startupschool.org/) - Crescimento e processo
+- [Deloitte 2024](https://www2.deloitte.com/) - Comunicação ao escalar
+- [Harvard Business Review](https://hbr.org/) - Mudança de cultura
+
+---
+
+_Estratégia de Redes Sociais v4.0 — 6 Pautados Sem Culpa No Líder + Links de Referências — 2026-08-30_
