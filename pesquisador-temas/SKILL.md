@@ -25,6 +25,26 @@ O usuário pode pedir de três formas:
 
 Se o pedido for ambíguo ("pesquise trends em IA", "quero temas em alta"), confirme qual(is) frente(s) o usuário quer antes de pesquisar.
 
+### Intake Interview (Antes de Pesquisar)
+
+Antes de começar qualquer pesquisa, pergunte ao usuário:
+
+1. **Timeframe esperado?** (será pré-configurado, mas confirme)
+   - Temas Rápidos: últimas 2 semanas (social trending)
+   - Temas Robustos: últimos 6 meses (executive-level research)
+   - Customizado? (usuário quer outro período)
+
+2. **Profundidade desejada?** (Quick / Standard / Deep-dive)
+   - Quick: 3-5 temas/dores, fontes principais
+   - Standard: 5-8 temas/dores, validação cruzada
+   - Deep-dive: 10+ temas/dores, análise detalhada
+
+3. **Público-alvo?** (Startup / Mid-market / Enterprise / C-Level)
+
+4. **Output desejado?** (Inline / .docx / JSON / Markdown)
+
+Adapte escopo e profundidade baseado nas respostas antes de pesquisar.
+
 ## Pillar 1: Temas Rápidos
 
 ### O que pesquisar
@@ -46,6 +66,13 @@ Foco: **o que tá em alta agora**, não "evergreen" — busque por datas recente
 - **Social media**: Twitter/X trending, TikTok creator economy trends
 - **Pesquisa rápida**: Google News, Google Trends
 
+### Timeframe Padrão
+
+**Temas Rápidos: Últimas 2 Semanas**
+- Busque notícias/trends publicadas nos últimos 14 dias
+- Portais: Product Hunt, Hacker News, TechCrunch, MundoMarketing, PropMark, LinkedIn trending, Twitter/X, Google Trends
+- Descarte notícias de "1 mês atrás" mesmo que legais — rápido = agora
+
 ### Como estruturar
 
 Cada tema rápido deve ter:
@@ -53,7 +80,8 @@ Cada tema rápido deve ter:
 - **Título**: A notícia/trend em si, no máximo 1 frase curta
 - **Por que tá em alta**: 1-2 frases explicando o contexto (quem lançou, quem tá usando, o hype)
 - **Ângulo para social**: A frase de gancho pronta para chamar atenção (tipo manchete de Reel, post viral) — diferente do título, mais provocador/curiosidade/urgência
-- **Fonte**: Onde você viu a notícia
+- **Fonte**: Onde você viu a notícia (com data exata)
+- **Confiança**: 🟢 Alta (3+ portais concordam) / 🟡 Média (2 portais) / 🔴 Baixa (1 fonte isolada)
 
 **Exemplo:**
 - **Título**: OpenAI anuncia novo modelo com custos 70% menores
@@ -65,9 +93,17 @@ Cada tema rápido deve ter:
 
 Este pillar tem **duas editorias distintas**, ambas com foco em marketing, vendas, processos, IA e dados.
 
+### Timeframe Padrão
+
+**Temas Robustos: Últimos 6 Meses**
+- Busque pesquisas, relatórios e estudos publicados entre últimos 6 meses (jan-ago 2026)
+- Consultorias, HBR, LinkedIn executive posts, relatórios setoriais
+- Descarte dados de 2+ anos atrás (a menos que contexto histórico seja relevante)
+- Priorize dados numéricos (estatísticas) sobre opinião isolada
+
 ### Editoria A: Dores Específicas
 
-Identificar **problemas reais** que consultoras, analistas e executivos citam frequentemente em pesquisas recentes.
+Identificar **problemas reais** que consultoras, analistas e executivos citam frequentemente em pesquisas recentes (últimos 6 meses).
 
 #### Fontes prioritárias
 
@@ -148,20 +184,35 @@ Independente de qual frente(s) pesquisar, organize assim:
 PESQUISA DE TEMAS
 [Data da pesquisa]
 
+== METHODOLOGY ==
+Timeframe: [especificar] | Profundidade: [quick/standard/deep] | Público: [target]
+Fontes consultadas: [número] | % validado: [X%] | Confiança média: [alta/média/baixa]
+
 == TEMAS RÁPIDOS ==
 (se solicitado)
 
-[Lista de temas, cada um com Título, Por que, Ângulo, Fonte]
+[Lista de temas, cada um com Título, Por que, Ângulo, Fonte, Confiança]
 
 ---
 
 == TEMAS ROBUSTOS ==
 
 ### Editoria: Dores Específicas
-[Lista de dores, cada uma com Dor, Dado, Por que, Quem, Fonte]
+[Lista de dores, cada uma com Dor, Dado, Por que, Quem, Fonte, Confiança]
 
 ### Editoria: Temas em Alta
-[Lista de temas, cada um com Tema, O que é, Por que, Onde, Próximos 6m, Fonte]
+[Lista de temas, cada um com Tema, O que é, Por que, Onde, Próximos 6m, Fonte, Confiança]
+
+---
+
+== QUALITY SUMMARY ==
+Total de achados: [X]
+🟢 Alta confiança (3+ fontes): [X]
+🟡 Média confiança (2 fontes): [X]
+🔴 Baixa confiança (1 fonte): [X]
+
+== GAPS & LIMITATIONS ==
+[O que faltou/não conseguimos validar/temas que não temos cobertura]
 
 ---
 
@@ -191,10 +242,25 @@ Se o usuário pedir pra enviar por e-mail ou em outro formato, proceda conforme 
 Nunca invente citações, estatísticas ou "fatos" sobre o que a McKinsey disse. Se não conseguir encontrar uma fonte confiável, omita o dado e diga "não encontrei fonte recente pra esse ponto" ao invés de alucinizar.
 
 **Regras inegociáveis:**
-- Toda estatística cita a fonte e a data (ex: "Gartner 2025, not 'Gartner diz'")
-- Se um tema/dor está em alta segundo **uma única fonte**, mencione que é um ponto isolado, não trend consolidado
-- Temas rápidos: verifica a data da notícia (notícia de 2023 não é "rápida" em 2026)
-- Temas robustos: busca por relatórios dos últimos 12-18 meses, não dados de 3 anos atrás
+
+### Multi-Index Verification (2+ Fontes Obrigatório)
+- **Tema/Dor com 1 fonte** = ponto isolado 🔴 (mencione mas não eleve a "trend")
+- **Tema/Dor com 2+ fontes concordando** = tema consolidado 🟢 (confiança média/alta)
+- Exemplo:
+  - ❌ "Só McKinsey reporta isso" → é opinião de 1 consultoria, não trend
+  - ✅ "McKinsey + Gartner + HBR concordam" → é trend consolidado
+
+### Confidence Scoring Obrigatório
+Marque cada finding:
+- 🟢 **ALTA**: 3+ fontes independentes concordam, dados numéricos
+- 🟡 **MÉDIA**: 2 fontes, alguns dados, alguns gaps
+- 🔴 **BAIXA**: 1 fonte, observação isolada, precisa validação
+
+### Outras Regras
+- Toda estatística cita a fonte e a data (ex: "Gartner 2025", não "Gartner diz")
+- Temas rápidos: verifica data exata (últimas 2 semanas)
+- Temas robustos: busca relatórios dos últimos 6 meses
+- Se fonte tem 3+ meses, note se tema evoluiu desde então
 
 ## Roteiro de Pesquisa
 
@@ -233,13 +299,31 @@ Se pedir pesquisa em **nicho específico** (ex: só healthcare, só financial se
 
 Se pedir temas em **período específico** (ex: "tendências pro próximo trimestre"), explique qual é a base da sua previsão (relatórios que indicam direção, ciclos históricos, etc).
 
+## Como Entregar com Confiança
+
+Antes de finalizar qualquer pesquisa, faça um **Quality Check**:
+
+1. **Multi-index verificado?** Cada dor/tema tem 2+ fontes? Se não, marque como 🔴 BAIXA confiança
+2. **Datas checadas?** Temas rápidos são das últimas 2 semanas? Robustos dos últimos 6 meses?
+3. **Gaps documentados?** Você deixou claro o que NÃO conseguiu validar?
+4. **Confiança distribuída?** Tem mix de 🟢 Alta, 🟡 Média, 🔴 Baixa (não tudo igual)?
+5. **Resumo accionável?** O resumo executivo deixa claro "por quê isso importa agora"?
+
+Se falhar em qualquer ponto, revise antes de entregar.
+
 ## Troubleshooting
 
 **"Não consigo achar fonte pra essa dor"**
-→ Omita a dor e diga "não encontrei validação recente" em vez de inventar
+→ Omita a dor e diga "não encontrei validação recente nos últimos 6 meses" em vez de inventar
 
 **"Achei 2 temas muito parecidos"**
 → Mescle em um só ou esclareça a diferença (ex: "Product-Led Growth" vs "Self-Serve Commerce" são relacionados mas distintos)
 
 **"A gente já pesquisou isso mês passado"**
 → Pergunte ao usuário se quer um update (o que mudou) ou temas totalmente novos
+
+**"Encontrei só 1 fonte pra um tema que parece importante"**
+→ Marque como 🔴 BAIXA confiança. Mencione: "Precisa validação adicional" ou deixe fora se score ficar muito baixo
+
+**"Fontes discordam sobre a mesma dor"**
+→ Documente o desacordo ("McKinsey reporta 60%, Gartner reporta 75%"). Isso é informação, não erro

@@ -79,10 +79,47 @@ Quando gerar o .docx, estruture os dados assim:
 | Campo | Tipo | Obrigatório | Descrição |
 |-------|------|------------|-----------|
 | `date` | string (YYYY-MM-DD) | Não | Data da pesquisa. Omita pra usar data atual. |
+| `methodology` | object | Recomendado | Contexto da pesquisa (ver abaixo). |
 | `rapidThemes` | array | Não | Lista de temas rápidos (ver abaixo). Omita se só quer robustos. |
 | `painPoints` | array | Não | Lista de dores específicas (ver abaixo). Omita se não tem. |
 | `risingThemes` | array | Não | Lista de temas em alta (ver abaixo). Omita se não tem. |
+| `qualitySummary` | object | Recomendado | Resumo de confiança (ver abaixo). |
+| `gaps` | string | Recomendado | Limitações e gaps da pesquisa. |
 | `executiveSummary` | string | Não | 3-4 frases de insight final. Omita e o script não inclui a seção. |
+
+### Metodologia (`methodology`)
+
+```json
+{
+  "timeframe": "string (ex: 'últimas 2 semanas', 'últimos 6 meses')",
+  "depth": "enum (quick / standard / deep)",
+  "audience": "string (ex: 'enterprise c-level', 'startups')",
+  "sourcesCount": "number (total de fontes consultadas)",
+  "validatedPercentage": "number (0-100, % de achados validados)",
+  "avgConfidence": "enum (high/medium/low)"
+}
+```
+
+### Quality Summary (`qualitySummary`)
+
+```json
+{
+  "totalFindings": "number (total de temas/dores)",
+  "highConfidence": "number (3+ fontes)",
+  "mediumConfidence": "number (2 fontes)",
+  "lowConfidence": "number (1 fonte)"
+}
+```
+
+**Exemplo:**
+```json
+"qualitySummary": {
+  "totalFindings": 12,
+  "highConfidence": 8,
+  "mediumConfidence": 3,
+  "lowConfidence": 1
+}
+```
 
 ### Temas Rápidos (`rapidThemes`)
 
@@ -91,9 +128,15 @@ Quando gerar o .docx, estruture os dados assim:
   "title": "string (máx 1 frase)",
   "why": "string (1-2 frases, contexto de por que tá em alta)",
   "socialAngle": "string (frase de gancho pronta pra social, diferente do title)",
-  "source": "string (onde viu, idealmente com data)"
+  "source": "string (onde viu, idealmente com data exata)",
+  "confidence": "enum (high/medium/low) — 'high' = 3+ portais concordam, 'medium' = 2 portais, 'low' = 1 fonte isolada"
 }
 ```
+
+**Confidence Scores:**
+- `high`: 3+ portais diferentes (ex: Product Hunt + Hacker News + TechCrunch)
+- `medium`: 2 portais concordando
+- `low`: 1 fonte isolada (procure validar com mais fontes)
 
 ### Dores Específicas (`painPoints`)
 
@@ -103,9 +146,15 @@ Quando gerar o .docx, estruture os dados assim:
   "data": "string (citação/estatística + fonte, ex: 'McKinsey 2025: 60% dos...')",
   "why": "string (contexto de por que é dor AGORA)",
   "whoAffected": "string (cargos/funções afetadas)",
-  "source": "string (consultoria + data, ex: 'McKinsey State of Org 2025')"
+  "source": "string (consultoria + data, ex: 'McKinsey State of Org 2025')",
+  "confidence": "enum (high/medium/low) — 'high' = 3+ consultorias concordam, 'medium' = 2 fontes, 'low' = 1 consultoria"
 }
 ```
+
+**Confidence Scores:**
+- `high`: 3+ fontes executivas independentes (ex: McKinsey + Gartner + HBR) concordam
+- `medium`: 2 fontes concordando
+- `low`: 1 consultoria reporta, precisa validação adicional
 
 ### Temas em Alta (`risingThemes`)
 
@@ -116,9 +165,15 @@ Quando gerar o .docx, estruture os dados assim:
   "why": "string (por que virou trend agora)",
   "whereHot": "string (segmentos/áreas onde está em alta)",
   "next6Months": "string (evolução esperada do tema)",
-  "source": "string (publicações/analistas que reportam)"
+  "source": "string (publicações/analistas que reportam)",
+  "confidence": "enum (high/medium/low) — 'high' = 3+ publicações concordam, 'medium' = 2 fontes, 'low' = 1 fonte"
 }
 ```
+
+**Confidence Scores:**
+- `high`: 3+ publicações/relatórios diferentes (ex: Gartner + McKinsey + LinkedIn thought leaders) identificam o mesmo tema
+- `medium`: 2 fontes concordando
+- `low`: 1 fonte reporta, pode ser hype isolado ou emergente
 
 ## Exemplo Mínimo
 

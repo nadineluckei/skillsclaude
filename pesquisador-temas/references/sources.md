@@ -1,6 +1,6 @@
 # Fontes de Pesquisa — Pesquisador-Temas
 
-## Temas Rápidos
+## Temas Rápidos (Últimas 2 Semanas)
 
 ### Notícias Tech & Startups
 - **Product Hunt** (producthunt.com) — novos produtos, trends diárias
@@ -8,6 +8,12 @@
 - **TechCrunch** (techcrunch.com) — notícias startups/VC
 - **The Verge** (theverge.com) — tech consumer
 - **Axios** (axios.com) — newsletters com news bite-sized
+
+### Marketing & Brasil
+- **MundoMarketing** (mundomarketing.com.br) — trends de marketing Brasil
+- **PropMark** (propmark.com.br) — notícias de marketing e publicidade
+- **LinkedIn Brasil trending** — o que profissionais tão falando
+- **Rádio Marketing** — insights diários de marketing
 
 ### IA Específica
 - **Papers with Code** (paperswithcode.com) — novos modelos, pesquisa em IA
