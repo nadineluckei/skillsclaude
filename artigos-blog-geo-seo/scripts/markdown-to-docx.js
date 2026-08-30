@@ -269,8 +269,11 @@ function buildDocx(elements) {
 }
 
 async function main() {
-  const markdownPath = '/tmp/claude-0/-home-user-skillsclaude/56a33cb1-8a8f-5cae-800d-56039414b217/scratchpad/topic-clusters-geo-seo-social.md';
-  const outputPath = '/tmp/claude-0/-home-user-skillsclaude/56a33cb1-8a8f-5cae-800d-56039414b217/scratchpad/topic-clusters-geo-seo-social.docx';
+  const args = process.argv.slice(2);
+  const fileName = args[0] || 'blog-strategy';
+
+  const markdownPath = `/tmp/claude-0/-home-user-skillsclaude/56a33cb1-8a8f-5cae-800d-56039414b217/scratchpad/${fileName}.md`;
+  const outputPath = `/tmp/claude-0/-home-user-skillsclaude/56a33cb1-8a8f-5cae-800d-56039414b217/scratchpad/${fileName}.docx`;
 
   try {
     console.log('📄 Lendo markdown...');
