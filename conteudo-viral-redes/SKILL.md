@@ -1,5 +1,5 @@
 ---
-name: weekly-viral-trends
+name: conteudo-viral-redes
 description: Pesquisa o que está em alta NESTA SEMANA especificamente em marketing, vendas, tecnologia e IA, usando fontes confiáveis e citáveis — consultorias e institutos de peso (Deloitte, MIT Technology Review, McKinsey, Gartner, HBR, BCG, PwC, Bain, Forrester, WEF) e veículos de alto padrão editorial (The Economist, Bloomberg, WSJ, FT) — com WebSearch/WebFetch reais, nunca inventando dado, estudo ou fonte. Filtra e ranqueia os achados por potencial de viralização em redes sociais como conteúdo RÁPIDO (post de LinkedIn, thread, Reels/TikTok, carrossel), priorizando dados contraintuitivos, viradas de expectativa e declarações polêmicas de fontes de peso — não relatórios genéricos ou desatualizados. Para cada tendência selecionada entrega o achado, a fonte real com link, por que é contraintuitivo/viral, e 1-2 ângulos de hook prontos para post curto — sem escrever o post inteiro, porque o objetivo é agilidade de produção. Use sempre que o usuário pedir pesquisa de tendências da semana, conteúdo para viralizar, pauta rápida baseada em dado de mercado recente, ou perguntar algo como "o que está bombando essa semana em IA/marketing/vendas/tech" ou "me dá ideias de post com dado real" — mesmo sem usar essas palavras exatas.
 ---
 
