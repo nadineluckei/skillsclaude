@@ -1,0 +1,12 @@
+{
+  "name": "artigos-blog-geo-seo",
+  "version": "1.0.0",
+  "description": "Generate strategic blog articles with SEO & GEO optimization for executive audiences",
+  "main": "article-generator.js",
+  "scripts": {
+    "generate": "node article-generator.js"
+  },
+  "dependencies": {
+    "docx": "^8.5.0"
+  }
+}
