@@ -1,0 +1,4 @@
+interface:
+  display_name: "Faster Whisper Transcriber"
+  short_description: "Transcribe local audio with Faster Whisper"
+  default_prompt: "Use $faster-whisper-transcriber to transcribe a local audio file into transcript markdown and segment TSV files."
