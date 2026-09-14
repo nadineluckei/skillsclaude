@@ -1,0 +1,183 @@
+{
+  "title": "QUARTERLY CONTENT STRATEGY",
+  "subtitle": "January • February • March / 2027",
+  "channel": "Newsletter: Founder Finance",
+  "labels": {
+    "type": "Type:",
+    "direcionamento": "Direction:",
+    "central_question": "Central question:",
+    "structure": "Expected structure:",
+    "keywords": "Keywords:",
+    "tone": "Tone:"
+  },
+  "sections_before_months": [
+    {
+      "heading": "OVERVIEW",
+      "level": 1,
+      "paragraphs": [
+        "This plan covers 8 weeks of strategic content (2 pieces per month = 4 total in the quarter).",
+        "Each month explores a different thematic axis, but keeps one throughline: early-stage founders don't fail at finance because of bad spreadsheets, they fail because they treat cash like a scoreboard instead of a decision tool."
+      ]
+    },
+    {
+      "heading": "AUDIENCE",
+      "level": 2,
+      "paragraphs": [
+        "Pre-seed to Series A founders who just took on their first real finance responsibility and don't yet have a CFO."
+      ]
+    },
+    {
+      "heading": "STRUCTURE",
+      "level": 2,
+      "bullets": [
+        "January: Cash as a decision tool",
+        "February: The illusion of growth metrics"
+      ]
+    }
+  ],
+  "months": [
+    {
+      "label": "JANUARY / 2027",
+      "axis_title": "THEMATIC AXIS: Cash as a Decision Tool",
+      "axis_description": "What separates founders who use runway to make decisions from founders who just watch it shrink.",
+      "pautas": [
+        {
+          "number": 1,
+          "title": "\"Your runway number is real. Your runway feeling is not.\"",
+          "type": "Finance + Psychology",
+          "direcionamento": [
+            { "label": "Common narrative", "text": "\"We have 14 months of runway, we're fine\"" },
+            { "label": "Reality", "text": "Founders quietly extend their mental runway by ignoring hiring plans already agreed to, or planned spend increases" },
+            { "label": "Angle", "text": "The number on the dashboard and the number a founder acts on are usually two different numbers" },
+            { "label": "Thesis", "text": "\"If your runway number hasn't changed your last three decisions, you don't have a runway number, you have a runway feeling.\"" }
+          ],
+          "central_question": "Why do founders with 12 months of runway make the same decisions as founders with 3?",
+          "structure": [
+            "Open with the gap between stated runway and behavior",
+            "Explain the hidden assumptions that inflate a runway number",
+            "Example: a founder who kept the runway number flat by not updating for a signed lease",
+            "Show a simple test to know if your runway number is decision-grade",
+            "Close with a checklist for making runway operational, not decorative"
+          ],
+          "keywords": "runway, cash management, startup finance, decision making",
+          "tone": "Direct. Calls out the gap between saying and doing."
+        },
+        {
+          "number": 2,
+          "title": "\"Burn multiple is a report card. It should be a steering wheel.\"",
+          "type": "Metrics + Strategy",
+          "direcionamento": [
+            { "label": "Common narrative", "text": "\"Investors want to see our burn multiple, so we track it\"" },
+            { "label": "Reality", "text": "Most founders check burn multiple after the quarter closes, when it's too late to change anything" },
+            { "label": "Angle", "text": "A metric only earns its keep if it changes a decision before the period ends, not after" },
+            { "label": "Thesis", "text": "\"A burn multiple you only see in board decks isn't a metric, it's a postmortem.\"" }
+          ],
+          "central_question": "Why do founders with a great burn multiple still run out of cash?",
+          "structure": [
+            "Define burn multiple in one sentence, no jargon",
+            "Explain the lag between when it's calculated and when it's acted on",
+            "Example: a team that hit target burn multiple by cutting the wrong spend",
+            "Show how to turn it into a monthly, forward-looking check instead of a quarterly grade",
+            "Close with the one question to ask before every hiring decision"
+          ],
+          "keywords": "burn multiple, startup metrics, fundraising, efficiency",
+          "tone": "Practical. Turns a vanity metric into a working tool."
+        }
+      ]
+    },
+    {
+      "label": "FEBRUARY / 2027",
+      "axis_title": "THEMATIC AXIS: The Illusion of Growth Metrics",
+      "axis_description": "Why the metrics that look best in a pitch deck are often the ones hiding the real problem.",
+      "pautas": [
+        {
+          "number": 1,
+          "title": "\"MRR growth can mask a dying business.\"",
+          "type": "Metrics + Risk",
+          "direcionamento": [
+            { "label": "Common narrative", "text": "\"MRR is up 20% month over month, we're winning\"" },
+            { "label": "Reality", "text": "Aggregate MRR growth can hide churn eating the base while a few large deals cover the gap" },
+            { "label": "Angle", "text": "Founders who only watch the total number get blindsided when the large deals stop coming" },
+            { "label": "Thesis", "text": "\"Growing MRR and a healthy business are not the same claim. Only one of them survives a bad quarter.\"" }
+          ],
+          "central_question": "Why do founders get blindsided by churn right after their best growth quarter?",
+          "structure": [
+            "Show how blended MRR growth can hide segment-level decay",
+            "Explain the difference between net new and gross new revenue",
+            "Example: a company whose MRR chart looked perfect until one contract didn't renew",
+            "Give a simple cohort view founders can build without a data team",
+            "Close with what to report to the board instead of the single MRR line"
+          ],
+          "keywords": "MRR, churn, growth metrics, SaaS metrics",
+          "tone": "Skeptical. Questions the metric everyone trusts by default."
+        },
+        {
+          "number": 2,
+          "title": "\"You don't have a growth problem. You have a definition problem.\"",
+          "type": "Strategy + Clarity",
+          "direcionamento": [
+            { "label": "Common narrative", "text": "\"We need to grow faster\"" },
+            { "label": "Reality", "text": "Teams disagree internally on what 'growth' means (logos, revenue, usage) and optimize for different things without noticing" },
+            { "label": "Angle", "text": "Most growth stalls are actually a coordination problem dressed up as a performance problem" },
+            { "label": "Thesis", "text": "\"Before you fix growth, agree on what you're growing. Half the time nobody actually agreed.\"" }
+          ],
+          "central_question": "Why do sales, product, and the founder all think they're driving growth while the number stalls?",
+          "structure": [
+            "Open with the scenario of three teams optimizing three different growth definitions",
+            "Explain why this misalignment is invisible until growth slows",
+            "Example: a team celebrating logo growth while revenue growth flatlined",
+            "Give a short exercise to force one shared definition across the team",
+            "Close with how to pick the one number that should drive decisions this quarter"
+          ],
+          "keywords": "growth strategy, alignment, startup metrics, prioritization",
+          "tone": "Clarifying. Reframes a vague problem into a solvable one."
+        }
+      ]
+    }
+  ],
+  "closing_sections": [
+    { "heading": "OVERALL QUARTER DIRECTION", "level": 1 },
+    {
+      "heading": "Thematic Progression:",
+      "level": 2,
+      "bullets": [
+        "January → Cash as a decision tool",
+        "February → The illusion of growth metrics"
+      ]
+    },
+    {
+      "heading": "Connected Narrative:",
+      "level": 2,
+      "paragraphs": [
+        "Both months build toward the same idea: financial metrics are only useful when they change a decision before it's too late. Founders who treat numbers as a scoreboard react late; founders who treat them as a steering wheel act early."
+      ]
+    },
+    {
+      "heading": "Target Audience:",
+      "level": 2,
+      "paragraphs": [
+        "Pre-seed to Series A founders managing their own finances without a dedicated CFO."
+      ]
+    },
+    {
+      "heading": "Overall Tone:",
+      "level": 2,
+      "bullets": [
+        "Direct (names the gap between what founders say and do)",
+        "Practical (every piece ends in something usable this week)",
+        "Non-alarmist (no fear-based finance content)"
+      ]
+    },
+    { "heading": "QUARTER SUMMARY", "level": 1 },
+    {
+      "bullets": [
+        "Total pieces: 4 (2 pieces x 2 months)",
+        "Frequency: 1 piece every two weeks",
+        "Audience: Pre-seed to Series A founders",
+        "Language: Plain, no finance jargon without explanation",
+        "Focus: Decision-making, not reporting",
+        "Objective: Position the newsletter as the place founders learn to use their numbers, not just read them"
+      ]
+    }
+  ]
+}
