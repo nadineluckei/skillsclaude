@@ -1,6 +1,6 @@
 ---
 name: orquestrador-conteudo
-description: Coordena o pipeline completo de planejamento de conteúdo (pesquisa → planejamento → redação → vídeo), chamando cada skill em sequência e monitorando o Gmail para aprovações em cada etapa. Aguarda confirmação explícita antes de passar para a próxima fase.
+description: Coordena o pipeline de planejamento de conteúdo (pesquisa → planejamento → vídeo → blog), monitorando Gmail para aprovações. Roteirista de vídeo vem ANTES do redator de blog — só redige blog se roteiro estiver aprovado.
 ---
 
 # Orquestrador de Conteúdo
@@ -11,8 +11,8 @@ Esta skill **coordena todo o pipeline** de planejamento de conteúdo do zero ao 
 
 1. **Fase 1.1** — `pesquisador-conteudo`: Pesquisa temas
 2. **Fase 1.2** — `planejador-conteudo`: Planejamento trimestral
-3. **Fase 2** — `redator-conteudo`: Blog posts
-4. **Fase 3** — `roteirista-video`: Roteiros de vídeo/Reels (opcional)
+3. **Fase 3** — `roteirista-video`: Roteiros de vídeo/Reels (ANTES do blog)
+4. **Fase 2** — `redator-conteudo`: Blog posts (DEPOIS de aprovar roteiro)
 
 A orquestradora **monitora o Gmail** para aprovações em cada etapa, **aguarda confirmação explícita**, e só passa para a próxima fase quando o usuário confirma (respondendo o e-mail de aprovação).
 
@@ -28,7 +28,7 @@ Você confirma o **briefing mínimo** uma só vez:
 - Quantas peças por mês
 - Restrições
 
-### Fluxo automático
+### Fluxo automático (ORDEM CORRIGIDA)
 
 ```
 [INÍCIO]
@@ -50,22 +50,25 @@ Você confirma o **briefing mínimo** uma só vez:
 └─────────────────────────────────┘
   ↓ [Aprova no Gmail]
 ┌─────────────────────────────────┐
-│ Fase 2: Redação (redator)       │
-├─────────────────────────────────┤
-│ Redige blog posts               │
-│ → Entrega posts (não precisa    │
-│   aprovação formal)             │
-└─────────────────────────────────┘
-  ↓ [Opcional: quer vídeos?]
-┌─────────────────────────────────┐
 │ Fase 3: Vídeo (roteirista)      │
 ├─────────────────────────────────┤
 │ Cria roteiros YouTube + Reels   │
-│ → Entrega roteiros              │
+│ → Envia roteiros para Gmail     │
+│ → AGUARDA aprovação             │
+└─────────────────────────────────┘
+  ↓ [Aprova roteiros no Gmail]
+┌─────────────────────────────────┐
+│ Fase 2: Redação (redator)       │
+├─────────────────────────────────┤
+│ Redige blog posts com base no   │
+│ roteiro aprovado (SEO/GEO)      │
+│ → Entrega posts                 │
 └─────────────────────────────────┘
   ↓
 [FIM]
 ```
+
+**Mudança crítica**: O roteirista de vídeo vem ANTES do redator de blog. Blog é redígido usando o roteiro de vídeo como base estratégica/narrativa.
 
 ## Detalhes técnicos
 
@@ -90,13 +93,16 @@ A orquestradora faz isto **automaticamente**:
 
 4. **Aguarda resposta no Gmail** — similar a cima
 
-5. **Fase 2 (Redação)**: Não precisa gate formal
-   - Redige conforme demanda do usuário (quais pautas quer redigidas agora)
-   - Entrega posts prontos
+5. **Fase 3 (Vídeo) — NOVO GATE**: Manda roteiros dos vídeos com assunto
+   ```
+   "Roteiros de vídeo e cortes para Reels — para aprovação"
+   ```
+   - Se aprova → passa para Fase 2
+   - Se pede ajustes → volta ao roteirista
 
-6. **Fase 3 (Vídeo)** — Optional
-   - Se o usuário disser que quer vídeos, chama roteirista
-   - Entrega roteiros + cortes para Reels
+6. **Fase 2 (Redação)**: Não precisa gate formal
+   - Redige conforme demanda do usuário (quais pautas quer redigidas agora)
+   - Entrega posts prontos, usando roteiros aprovados como referência
 
 ### Checagem periódica do Gmail
 
