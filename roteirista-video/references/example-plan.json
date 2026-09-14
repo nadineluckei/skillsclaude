@@ -1,0 +1,291 @@
+{
+  "title": "PLANEJAMENTO ESTRATÉGICO DE CONTEÚDO",
+  "subtitle": "Outubro • Novembro • Dezembro / 2026",
+  "channel": "Blog: Estratégia, Inovação e Comportamento de Negócios",
+  "sections_before_months": [
+    {
+      "heading": "VISÃO GERAL",
+      "level": 1,
+      "paragraphs": [
+        "Este planejamento cobre 12 semanas de conteúdo estratégico (3 pautas mensais = 24 artigos no trimestre).",
+        "Cada mês explora um eixo temático diferente, mas mantém a mesma narrativa central: empresas falham não por falta de ferramentas, mas por falta de compreensão estratégica sobre comportamento, mercado e tomada de decisão."
+      ]
+    },
+    {
+      "heading": "PÚBLICO",
+      "level": 2,
+      "paragraphs": [
+        "C-Level (CEOs, COOs, CFOs), empresários, líderes de operação, profissionais de estratégia que buscam entender o que realmente importa em seus negócios."
+      ]
+    },
+    {
+      "heading": "ESTRUTURA",
+      "level": 2,
+      "bullets": [
+        "Outubro: Liderança e Decisão (como líderes pensam)",
+        "Novembro: Crescimento e Eficiência (como escalar com inteligência)",
+        "Dezembro: Futuro e Adaptação (como se preparar para o que vem)"
+      ]
+    }
+  ],
+  "months": [
+    {
+      "label": "OUTUBRO / 2026",
+      "axis_title": "EIXO TEMÁTICO: Liderança e Decisão",
+      "axis_description": "O que diferencia líderes que entendem mercado de líderes que apenas executam. Como pensamento estratégico muda organização.",
+      "pautas": [
+        {
+          "number": 1,
+          "title": "\"Seu time não falha. Você está pedindo para eles fracassarem.\"",
+          "type": "Liderança + Responsabilidade",
+          "direcionamento": [
+            { "label": "Narrativa comum", "text": "\"Time não é bom, preciso trocar pessoas\"" },
+            { "label": "Realidade", "text": "A maioria dos problemas de time vem de liderança que não deixa claro: qual é a estratégia, o que mede sucesso, como decide" },
+            { "label": "Ângulo", "text": "Líderes culpam time por falta de performance quando o problema é falta de clareza na direção" },
+            { "label": "Tese", "text": "\"Seus melhores talentos estão deixando porque você não é claro sobre pra onde vai.\"" }
+          ],
+          "central_question": "Por que a mesma pessoa é estrela em uma empresa e medíocre em outra?",
+          "structure": [
+            "Mapear os 3 pilares que líderes frequentemente negligenciam: clareza, confiança, permissão",
+            "Explicar como falta de clareza estratégica paralisa time",
+            "Exemplo: empresa que perde talento porque não deixa claro qual é a visão",
+            "Diferenciar entre \"ter bons talentos\" e \"colocar bons talentos em contexto certo\"",
+            "Checklist: sinais de que seu time está desmotivado por causa da liderança, não da capacidade"
+          ],
+          "keywords": "Liderança, gestão de pessoas, retenção de talentos, motivação, clareza estratégica",
+          "tone": "Incisivo. Responsabiliza o líder pelo fracasso, não o time."
+        },
+        {
+          "number": 2,
+          "title": "\"Decisão sem dados é opinião. Decisão com dados errados é pior que opinião.\"",
+          "type": "Decisão + Evidência",
+          "direcionamento": [
+            { "label": "Narrativa comum", "text": "\"Precisamos ser data-driven\"" },
+            { "label": "Realidade", "text": "Empresas colhem dados ruins, os interpretam errado, e tomam decisão pior que se tivessem seguido instinto" },
+            { "label": "Ângulo", "text": "A obsessão por dados sem compreensão de causalidade deixa empresa cega" },
+            { "label": "Tese", "text": "\"Dado sem contexto é ruído. Contexto sem dado é achismo. Líderes precisam de ambos.\"" }
+          ],
+          "central_question": "Por que empresas com os melhores dashboards continuam tomando decisões erradas?",
+          "structure": [
+            "Explicar diferença entre correlação e causalidade (erro mais comum)",
+            "Mapear como empresas interpretam dados errado (viés de confirmação, falta de contexto)",
+            "Exemplo: métrica que subiu mas empresa ficou pior (e ninguém percebeu porque olhava só o número)",
+            "Mostrar por que dados históricos não predizem futuro quando contexto muda",
+            "Modelo: como pensar sobre dados como evidência, não como verdade"
+          ],
+          "keywords": "Dados, decisão, análise, viés, evidência, interpretação",
+          "tone": "Crítico. Questiona a religião dos dados sem contexto."
+        },
+        {
+          "number": 3,
+          "title": "\"Quando 'ouvir o cliente' vira desculpa para não ter visão.\"",
+          "type": "Estratégia + Liderança",
+          "direcionamento": [
+            { "label": "Narrativa comum", "text": "\"O cliente é o rei, fazemos exatamente o que ele pede\"" },
+            { "label": "Realidade", "text": "Cliente pede o que conhece, não o que precisa. Se você só faz o que cliente pede, nunca inova" },
+            { "label": "Ângulo", "text": "Empresas transformacionais (Apple, Netflix, Uber) não fizeram o que cliente pediu. Fizeram o que acreditavam que cliente precisava" },
+            { "label": "Tese", "text": "\"Ouça o cliente para entender problema. Não ouça para copiar solução.\"" }
+          ],
+          "central_question": "Se você tivesse perguntado ao cliente o que queria em 2005, ele teria pedido iPhone?",
+          "structure": [
+            "Diferenciar entre ouvir cliente (bom) e deixar cliente desenhar seu produto (ruim)",
+            "Mapear níveis de listening: ouvir o quê ele diz vs. ouvir o problema por trás",
+            "Exemplo: empresas que seguem feedback ao pé da letra e viram mediocres",
+            "Explicar diferença entre \"customer-centric\" (entender necessidade) e \"customer-driven\" (copiar pedido)",
+            "Modelo: como inovar mantendo foco no cliente sem virar escravo de feedback"
+          ],
+          "keywords": "Inovação, customer feedback, visão estratégica, liderança, mudança",
+          "tone": "Desafiador. Questiona o dogma de \"o cliente sempre tem razão\"."
+        }
+      ]
+    },
+    {
+      "label": "NOVEMBRO / 2026",
+      "axis_title": "EIXO TEMÁTICO: Crescimento e Eficiência",
+      "axis_description": "O que diferencia empresas que crescem com propósito de empresas que crescem caoticamente. Como escalar sem se desorganizar.",
+      "pautas": [
+        {
+          "number": 1,
+          "title": "\"Foco é a palavra mais cara que você nunca implementa.\"",
+          "type": "Estratégia + Operação",
+          "direcionamento": [
+            { "label": "Narrativa comum", "text": "\"Precisamos focar no cliente/produto/mercado\"" },
+            { "label": "Realidade", "text": "Empresa diz que foca, mas faz tudo. Investe em 10 projetos simultâneos. Tem 5 prioridades \"críticas\"" },
+            { "label": "Ângulo", "text": "Foco real significa dizer \"não\" repetidas vezes. A maioria das empresas não consegue dizer não" },
+            { "label": "Tese", "text": "\"Você não é focado. Você é indeciso disfarçado de ambicioso.\"" }
+          ],
+          "central_question": "Por que empresa que investe em tudo cresce menos que empresa que escolhe e aprofunda?",
+          "structure": [
+            "Explicar por que \"fazer de tudo\" é estratégia de empresas fracas",
+            "Mapear custo oculto da falta de foco: contexto switching, time fragmentado, resultados mediocres",
+            "Exemplo: startup que tenta vender em 5 mercados simultâneos vs. startup que domina 1",
+            "Mostrar diferença entre \"ter muitas ideias\" (bom) e \"perseguir muitas ideias\" (ruim)",
+            "Checklist: como identificar se sua empresa é realmente focada ou apenas diz que é"
+          ],
+          "keywords": "Foco, estratégia, priorização, eficiência, crescimento",
+          "tone": "Provocador. Mostra a hipocrisia entre discurso e prática de foco."
+        },
+        {
+          "number": 2,
+          "title": "\"Qualidade não é feita no final. É decidida no começo.\"",
+          "type": "Operação + Cultura",
+          "direcionamento": [
+            { "label": "Narrativa comum", "text": "\"Vamos lançar rápido e corrigir depois\"" },
+            { "label": "Realidade", "text": "Empresas que lançam com qualidade ruim nunca recuperam percepção. Custo de corrigir depois é 10x maior que fazer certo" },
+            { "label": "Ângulo", "text": "Qualidade não é feature extra. É decisão sobre o que você aceita começar" },
+            { "label": "Tese", "text": "\"Você não economiza tempo lançando rápido e corrigindo. Você economiza tempo não fazendo errado.\"" }
+          ],
+          "central_question": "Por que empresa que investe em qualidade no início cresce mais rápido que empresa que tira atalhos?",
+          "structure": [
+            "Explicar diferença entre velocidade (quanto tempo demora) e aceleração (quanto tempo pega recuperar de erro)",
+            "Mapear custo real de \"lançar rápido e corrigir depois\"",
+            "Exemplo: empresa que lança produto ruim e nunca consegue mudar percepção",
+            "Mostrar como decisões de qualidade no desenho economizam retrabalho depois",
+            "Aplicação: como pensar sobre qualidade como investimento, não custo"
+          ],
+          "keywords": "Qualidade, eficiência, operação, percepção, crescimento sustentável",
+          "tone": "Educador. Conecta qualidade a crescimento de forma prática."
+        },
+        {
+          "number": 3,
+          "title": "\"Escala não é fazer mais do mesmo. É fazer diferente.\"",
+          "type": "Crescimento + Transformação",
+          "direcionamento": [
+            { "label": "Narrativa comum", "text": "\"Já temos processo, agora é aumentar volume\"" },
+            { "label": "Realidade", "text": "Processos que funcionam em pequena escala quebram em grande escala. Você precisa redesenhar" },
+            { "label": "Ângulo", "text": "Empresas que tentam escalar sem mudar processo fracassam. Quem muda vence" },
+            { "label": "Tese", "text": "\"O que funciona para 10 pessoas não funciona para 100. O que funciona para 100 não funciona para 1000.\"" }
+          ],
+          "central_question": "Por que empresas que crescem rápido frequentemente desabam ou ficam dysfuncionais?",
+          "structure": [
+            "Explicar o que muda quando empresa cresce (complexidade, comunicação, decisão)",
+            "Mapear os pontos de falha quando tenta escalar sem redesenhar",
+            "Exemplo: startup que cresce de 20 para 200 pessoas mantendo estrutura antiga",
+            "Mostrar diferença entre \"fazer mais\" (cresce chaos) e \"escalar\" (cresce ordem)",
+            "Modelo: quando redesenhar processos conforme cresce"
+          ],
+          "keywords": "Escala, crescimento, operação, processo, transformação",
+          "tone": "Realista. Mostra que crescimento exige mudança, não mais do mesmo."
+        }
+      ]
+    },
+    {
+      "label": "DEZEMBRO / 2026",
+      "axis_title": "EIXO TEMÁTICO: Futuro e Adaptação",
+      "axis_description": "Como se preparar para o que vem. Por que adaptabilidade é mais importante que previsão. Lições que valem para qualquer mercado.",
+      "pautas": [
+        {
+          "number": 1,
+          "title": "\"Cenários futuros são previsões. O que importa é como você se move.\"",
+          "type": "Estratégia + Adaptação",
+          "direcionamento": [
+            { "label": "Narrativa comum", "text": "\"Precisamos prever o futuro para estar preparado\"" },
+            { "label": "Realidade", "text": "Futuro é impredizível. O que importa não é adivinhar, é ter estrutura para mudar rapidamente" },
+            { "label": "Ângulo", "text": "Empresas que gastam predizendo futuro perdem para empresas com capacidade de se adaptar rápido" },
+            { "label": "Tese", "text": "\"Você não pode prever. Pode se preparar para o inesperado.\"" }
+          ],
+          "central_question": "Por que empresa que \"previu\" mudança do mercado fracassa enquanto empresa que \"se adaptou\" vence?",
+          "structure": [
+            "Diferenciar entre cenários (úteis) e previsão (perigosa)",
+            "Mapear diferença entre empresa rígida (preparada para futuro específico) vs. elástica (preparada para mudar)",
+            "Exemplo: empresa que se preparou para um futuro que não aconteceu",
+            "Mostrar custo de estar errado sobre futuro quando você é rígido",
+            "Modelo: como estruturar organização para adaptação rápida"
+          ],
+          "keywords": "Futuro, adaptação, resiliência, estratégia, cenários",
+          "tone": "Realista. Desafia obsessão com previsão."
+        },
+        {
+          "number": 2,
+          "title": "\"Canibalize seu próprio produto antes que concorrência canibalize.\"",
+          "type": "Inovação + Risco",
+          "direcionamento": [
+            { "label": "Narrativa comum", "text": "\"Não vamos descontinuar produto que funciona bem\"" },
+            { "label": "Realidade", "text": "Se você não descontinua seu produto bom, concorrência faz. E você fica com nada" },
+            { "label": "Ângulo", "text": "Empresas que amam demais seu passado perdem para empresas que abraçam o futuro" },
+            { "label": "Tese", "text": "\"Você precisa estar disposto a matar seu bestseller. Se não estiver, alguém mata pra você.\"" }
+          ],
+          "central_question": "Por que empresa deixa de lado produto que gera receita hoje para inovar em produto que pode gerar amanhã?",
+          "structure": [
+            "Explicar o conceito de canibalização como oportunidade, não ameaça",
+            "Mapear por que empresas maduras têm dificuldade com auto-destruição criativa",
+            "Exemplo: Kodak tinha tecnologia digital mas não descontinuou filme (e perdeu)",
+            "Mostrar diferença entre apego emocional a produto e raciocínio estratégico",
+            "Aplicação: como estruturar inovação sem medo de matar o que funciona"
+          ],
+          "keywords": "Inovação, canibalização, disrupção, evolução, liderança",
+          "tone": "Provocador. Mostra que lealdade ao passado é estratégia suicida."
+        },
+        {
+          "number": 3,
+          "title": "\"A vantagem competitiva que importa não é tecnologia. É como você pensa.\"",
+          "type": "Estratégia + Mentalidade",
+          "direcionamento": [
+            { "label": "Narrativa comum", "text": "\"Vantagem competitiva vem de tecnologia, marca ou preço\"" },
+            { "label": "Realidade", "text": "Tecnologia pode ser copiada em 6 meses. Marca pode ser perdida em um dia. Preço é frágil. A verdadeira vantagem é como você pensa" },
+            { "label": "Ângulo", "text": "Empresas que entendem mundo diferente ganham de empresas com melhor ferramenta" },
+            { "label": "Tese", "text": "\"Você não compete com concorrência. Você compete com a forma como pensa sobre o mundo.\"" }
+          ],
+          "central_question": "Por que empresa com melhores recursos, melhores tecnologias e melhor preço perde para startup desconhecida?",
+          "structure": [
+            "Explicar a diferença entre vantagem competitiva (temporária) e vantagem de pensamento (duradoura)",
+            "Mapear como mentalidade de organização afeta velocidade, inovação, adaptação",
+            "Exemplo: empresa que pensa \"como escalo\" vs. empresa que pensa \"como soluciono melhor\"",
+            "Mostrar por que diversidade de pensamento é vantagem competitiva",
+            "Modelo: como cultivar mentalidade estratégica na organização"
+          ],
+          "keywords": "Vantagem competitiva, mentalidade, estratégia, pensamento sistêmico, liderança",
+          "tone": "Filosófico mas prático. Mostra que estratégia começa em como você pensa."
+        }
+      ]
+    }
+  ],
+  "closing_sections": [
+    { "heading": "DIRECIONAMENTO GERAL DO TRIMESTRE", "level": 1 },
+    {
+      "heading": "Progressão Temática:",
+      "level": 2,
+      "bullets": [
+        "Outubro → Liderança (como líderes pensam)",
+        "Novembro → Operação (como organizações executam)",
+        "Dezembro → Futuro (como se preparar para o que vem)"
+      ]
+    },
+    {
+      "heading": "Narrativa Conectada:",
+      "level": 2,
+      "paragraphs": [
+        "Todas as 9 pautas (3 meses) completam a jornada: você entende que vantagem competitiva real não vem de ferramenta, mas de pensamento. E pensamento melhor começa em liderança clara, execução focada, e capacidade de se adaptar ao futuro."
+      ]
+    },
+    {
+      "heading": "Público Alvo:",
+      "level": 2,
+      "paragraphs": [
+        "C-Level de qualquer indústria. Cada pauta é aplicável a varejo, tech, serviço, indústria, software."
+      ]
+    },
+    {
+      "heading": "Tom Geral:",
+      "level": 2,
+      "bullets": [
+        "Provocador (questiona o óbvio)",
+        "Educador (ensina através de exemplos)",
+        "Realista (não oferece soluções mágicas)",
+        "Estratégico (foca no por quê antes do como)",
+        "Sem guru-ismo (compartilha insights, não receitas prontas)"
+      ]
+    },
+    { "heading": "RESUMO DO TRIMESTRE", "level": 1 },
+    {
+      "bullets": [
+        "Total de pautas: 9 (3 pautas × 3 meses)",
+        "Frequência: 1 pauta por semana (2-3 pautas por mês, conforme calendário)",
+        "Público: C-Level, executivos, líderes de estratégia",
+        "Linguagem: Simples, direta, sem jargão técnico",
+        "Foco: Comportamento, decisão, estratégia (não ferramentas)",
+        "Objetivo: Posicionar Carol como pensadora estratégica que conecta liderança, operação e futuro"
+      ]
+    }
+  ]
+}
