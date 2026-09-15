@@ -36,7 +36,7 @@ Busque em:
 6. **Boston Consulting Group (BCG)** — competitividade, estratégia, inovação
 7. **World Economic Forum** — tendências globais, future of work
 
-**Nunca invente uma citação.** Se não encontrar a fonte, não inclua na lista.
+**Regra inegociável: Nunca invente uma citação OU um link.** Se não encontrar a fonte completa (incluindo URL verificada), não inclua na lista.
 
 ### Passo 3 — Cruze com a marca
 
@@ -53,7 +53,8 @@ Liste os **10-15 temas aprovados** assim:
 
 ```
 **Tema**: [Título claro da ideia]
-**Fonte**: [Publicação + data/autor + link se possível]
+**Fonte**: [Publicação + data/autor]
+**Link**: [URL da fonte — OBRIGATÓRIO]
 **Por que em alta**: [1-2 frases: por que isso importa agora]
 **Ângulo para a marca**: [como esse tema toca nos pilares/inimigos da marca]
 ```
@@ -62,9 +63,12 @@ Exemplo:
 ```
 **Tema**: "Líderes que focam em clareza estratégica retêm mais talentos que líderes com 'cultura top'"
 **Fonte**: McKinsey, "Why talent is leaving your organization" (2024)
+**Link**: https://www.mckinsey.com/articles/why-talent-is-leaving-your-organization
 **Por que em alta**: Retenção de talento é a crise #1 em operações agora; empresas estão percebendo que "cultura legal" sem direção clara não segura ninguém
 **Ângulo para a marca**: Conecta com o pilar de Liderança + o inimigo "ditadura das receitas prontas" (a fórmula genérica de "basta ter boa cultura" não funciona)
 ```
+
+**Regra crítica**: Cada tema DEVE ter um link verificado. Se não conseguir encontrar a URL da fonte, não inclua o tema na lista — é preferível entregar 8-12 temas com links reais do que 15 temas com fontes inventadas.
 
 ### Passo 5 — Gate de aprovação
 
