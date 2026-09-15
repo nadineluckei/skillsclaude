@@ -121,14 +121,16 @@ O script garante formatação consistente (títulos, listas, negrito, hyperlinks
 
 ### Passo 6 — Gate de aprovação
 
-Envie o documento .docx para aprovação **antes de qualquer redação**:
+Apresente o planejamento **aqui na conversa** antes de qualquer redação:
 
-1. Pergunte como revisar: direto na conversa, como arquivo, ou por e-mail?
-2. Se for e-mail, use `luckeitolotti@gmail.com` (do brand-profile) ou outro indicado
-3. Anexe o .docx gerado
-4. Aguarde **confirmação explícita** — não presuma aprovação por silêncio
-5. Se o usuário aprovar só parte (alguns meses, algumas pautas), trabalhe apenas com o aprovado
+1. Compartilhe o resumo das 9 pautas com seu direcionamento (narrativa, realidade, ângulo, tese)
+2. Aguarde **confirmação explícita do usuário** (responder "aprovado") — não presuma aprovação por silêncio
+3. Se o usuário disser "aprovado", passa para a próxima fase
+4. Se aprovar só parte (alguns meses, algumas pautas), trabalhe apenas com o aprovado
 
 ## Próxima fase
 
-Assim que o plano for aprovado, o usuário chama a skill `redator-conteudo` para redigir os blog posts de cada pauta.
+Assim que o plano for aprovado:
+
+1. Usuário chama a skill `redator-conteudo` para redigir os blog posts de cada pauta
+2. Depois, chama a skill de **roteiros de carrosséis** (ex: `roteirista-carrossel` ou similar) para criar roteiros de Reels + legendas baseado nas mesmas pautas

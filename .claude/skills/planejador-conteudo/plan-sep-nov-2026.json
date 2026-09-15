@@ -1,0 +1,345 @@
+{
+  "title": "PLANEJAMENTO ESTRATÉGICO DE CONTEÚDO",
+  "subtitle": "Setembro • Outubro • Novembro / 2026",
+  "channel": "Blog: Estratégia, Marca e Comportamento de Negócios",
+  "sections_before_months": [
+    {
+      "heading": "VISÃO GERAL",
+      "level": 1,
+      "paragraphs": [
+        "Este planejamento cobre 12 semanas de conteúdo estratégico (3 pautas mensais = 9 artigos no trimestre + 24 Reels Instagram).",
+        "Cada pauta responde a uma pergunta que diretores e gerentes de marketing enfrentam. A narrativa conectada é: empresas falham não por falta de ferramentas ou criatividade, mas por compreensão estratégica sobre como líderes pensam, como marcas crescem de verdade, e como se adaptam ao futuro."
+      ]
+    },
+    {
+      "heading": "PÚBLICO",
+      "level": 2,
+      "paragraphs": [
+        "Diretores e gerentes de marketing em pequenas e médias empresas (PMEs) que buscam crescimento real, estratégia diferenciada, e entendimento sobre o que realmente impacta resultado."
+      ]
+    },
+    {
+      "heading": "ESTRUTURA",
+      "level": 2,
+      "bullets": [
+        "Setembro: Liderança e Decisão (como líderes pensam)",
+        "Outubro: Crescimento e Eficiência (como marcas crescem com propósito)",
+        "Novembro: Futuro e Adaptação (como se preparar para o que vem)"
+      ]
+    },
+    {
+      "heading": "OUTPUT TOTAL",
+      "level": 2,
+      "bullets": [
+        "9 artigos de blog (1 por semana, aproximadamente)",
+        "24 Reels Instagram (2-3 por pauta)",
+        "12 vídeos YouTube (1 por pauta base, roteirizados após aprovação)"
+      ]
+    }
+  ],
+  "months": [
+    {
+      "label": "SETEMBRO / 2026",
+      "axis_title": "EIXO TEMÁTICO: Liderança e Decisão",
+      "axis_description": "Como líderes de marketing pensam — e por que muitos pensam errado. Comportamento de líder, clareza estratégica, dados vs. intuição.",
+      "pautas": [
+        {
+          "number": 1,
+          "title": "\"Seu time não fracassa. Você está pedindo para eles fracassarem.\"",
+          "type": "Liderança + Responsabilidade",
+          "headline_social": "Por que seu melhor talento está saindo (e não é culpa dele)",
+          "direcionamento": [
+            { "label": "Narrativa comum", "text": "\"Time não é bom, preciso trocar pessoas\"" },
+            { "label": "Realidade", "text": "Segundo McKinsey (2024), 70% dos problemas de performance vêm de falta de clareza estratégica do líder, não de capacidade do time. Falta clareza sobre: qual é a estratégia, o que mede sucesso, como decide." },
+            { "label": "Ângulo", "text": "Líderes culpam time por falta de performance quando o problema é falta de clareza na direção" },
+            { "label": "Tese", "text": "\"Seus melhores talentos estão deixando porque você não é claro sobre pra onde vai.\"" }
+          ],
+          "central_question": "Por que a mesma pessoa é estrela em uma empresa e medíocre em outra?",
+          "structure": [
+            "Mapear os 3 pilares que líderes frequentemente negligenciam: clareza, confiança, permissão",
+            "Explicar como falta de clareza estratégica paralisa time",
+            "Exemplo: empresa que perde talento porque não deixa claro qual é a visão",
+            "Diferenciar entre \"ter bons talentos\" e \"colocar bons talentos em contexto certo\"",
+            "Checklist: sinais de que seu time está desmotivado por causa da liderança, não da capacidade"
+          ],
+          "keywords": "Liderança, gestão de pessoas, retenção de talentos, motivação, clareza estratégica",
+          "tone": "Incisivo. Responsabiliza o líder pelo fracasso, não o time.",
+          "sources": [
+            "McKinsey, \"Why Talent is Leaving Your Organization\" (2024)",
+            "Harvard Business Review, \"Leadership and Retention\" (2024)"
+          ]
+        },
+        {
+          "number": 2,
+          "title": "\"Decisão sem dados é opinião. Decisão com dados errados é pior.\"",
+          "type": "Liderança + Dados",
+          "headline_social": "Por que seus dashboards bonitos te deixam cego",
+          "direcionamento": [
+            { "label": "Narrativa comum", "text": "\"Precisamos ser data-driven\"" },
+            { "label": "Realidade", "text": "Empresas colhem dados ruins, interpretam errado (confundem correlação com causalidade), e tomam decisão pior que se tivessem seguido instinto puro. A obsessão por dados sem compreensão de contexto causa decisões piores." },
+            { "label": "Ângulo", "text": "A obsessão por dados sem compreensão de causalidade deixa empresa cega" },
+            { "label": "Tese", "text": "\"Dado sem contexto é ruído. Contexto sem dado é achismo. Líderes precisam de ambos.\"" }
+          ],
+          "central_question": "Por que empresas com os melhores dashboards continuam tomando decisões erradas?",
+          "structure": [
+            "Explicar diferença entre correlação e causalidade (erro mais comum em análise)",
+            "Mapear como empresas interpretam dados errado (viés de confirmação, falta de contexto, amostra viesada)",
+            "Exemplo: métrica que subiu mas empresa ficou pior (e ninguém percebeu porque olhava só o número)",
+            "Mostrar por que dados históricos não predizem futuro quando contexto muda",
+            "Modelo: como pensar sobre dados como evidência, não como verdade absoluta"
+          ],
+          "keywords": "Dados, decisão, análise, viés, evidência, interpretação, contexto",
+          "tone": "Crítico. Questiona a religião dos dados sem contexto.",
+          "sources": [
+            "McKinsey, \"Decision-Making and Data in Marketing\" (2024)",
+            "Harvard Business Review, \"Data Interpretation Bias\" (2023)"
+          ]
+        },
+        {
+          "number": 3,
+          "title": "\"Foco é a palavra mais cara que você nunca implementa.\"",
+          "type": "Crescimento + Estratégia",
+          "headline_social": "Você não é focado. Você é indeciso disfarçado de ambicioso",
+          "direcionamento": [
+            { "label": "Narrativa comum", "text": "\"Precisamos focar no cliente/produto/mercado\"" },
+            { "label": "Realidade", "text": "Empresa diz que foca, mas faz tudo. Investe em 10 projetos simultâneos, tem 5 prioridades \"críticas\", muda de estratégia a cada trimestre. Foco real significa dizer \"não\" repetidas vezes." },
+            { "label": "Ângulo", "text": "Foco real significa dizer \"não\" repetidas vezes. A maioria das empresas não consegue" },
+            { "label": "Tese", "text": "\"Você não é focado. Você é indeciso disfarçado de ambicioso.\"" }
+          ],
+          "central_question": "Por que empresa que investe em tudo cresce menos que empresa que escolhe e aprofunda?",
+          "structure": [
+            "Explicar por que \"fazer de tudo\" é estratégia de empresas fracas",
+            "Mapear custo oculto da falta de foco: context switching, time fragmentado, resultados mediocres",
+            "Exemplo: startup que tenta vender em 5 mercados simultâneos vs. startup que domina 1",
+            "Mostrar diferença entre \"ter muitas ideias\" (bom) e \"perseguir muitas ideias\" (ruim)",
+            "Checklist: como identificar se sua empresa é realmente focada ou apenas diz que é"
+          ],
+          "keywords": "Foco, estratégia, priorização, eficiência, crescimento, decisão",
+          "tone": "Provocador. Mostra a hipocrisia entre discurso e prática de foco.",
+          "sources": [
+            "McKinsey, \"The Focused Corporation\" (2024)",
+            "BCG, \"Strategic Focus and Growth\" (2023)"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "OUTUBRO / 2026",
+      "axis_title": "EIXO TEMÁTICO: Crescimento e Eficiência",
+      "axis_description": "O que diferencia marcas que crescem com propósito de marcas que crescem caoticamente. Como escalar sem se desorganizar ou perder identidade.",
+      "pautas": [
+        {
+          "number": 4,
+          "title": "\"Qualidade não é feita no final. É decidida no começo.\"",
+          "type": "Crescimento + Operação",
+          "headline_social": "Lançar rápido e corrigir depois é ilusão (muito cara)",
+          "direcionamento": [
+            { "label": "Narrativa comum", "text": "\"Vamos lançar rápido e corrigir depois\"" },
+            { "label": "Realidade", "text": "Marcas que lançam conteúdo/produto com qualidade ruim nunca recuperam percepção. Custo de corrigir depois é 10x maior que fazer certo desde o início. Decisões de qualidade são tomadas no desenho, não na execução." },
+            { "label": "Ângulo", "text": "Qualidade não é feature extra. É decisão sobre o que você aceita começar" },
+            { "label": "Tese", "text": "\"Você não economiza tempo lançando rápido e corrigindo. Economiza tempo não fazendo errado.\"" }
+          ],
+          "central_question": "Por que empresa que investe em qualidade no início cresce mais rápido que empresa que tira atalhos?",
+          "structure": [
+            "Explicar diferença entre velocidade (quanto tempo demora) e aceleração (quanto tempo leva pra recuperar de erro)",
+            "Mapear custo real de \"lançar rápido e corrigir depois\": reputação, retrabalho, confiança perdida",
+            "Exemplo: empresa que lança produto ruim e nunca consegue mudar percepção",
+            "Mostrar como decisões de qualidade no desenho economizam retrabalho depois",
+            "Aplicação: como pensar sobre qualidade como investimento, não custo"
+          ],
+          "keywords": "Qualidade, eficiência, operação, percepção, crescimento sustentável, reputação",
+          "tone": "Educador. Conecta qualidade a crescimento de forma prática.",
+          "sources": [
+            "Deloitte, \"Brand Quality and Customer Perception\" (2024)",
+            "Harvard Business Review, \"Quality and Growth\" (2023)"
+          ]
+        },
+        {
+          "number": 5,
+          "title": "\"Diferenciação real não é logo novo. É como você pensa diferente.\"",
+          "type": "Crescimento + Marca",
+          "headline_social": "Seu rebranding falhou porque a estratégia de fundo é igual",
+          "direcionamento": [
+            { "label": "Narrativa comum", "text": "\"Vamos fazer rebranding, mudar cores e palavras\"" },
+            { "label": "Realidade", "text": "Marcas fazem rebranding e continuam oferecendo o mesmo. Percepção não muda porque o insight estratégico é o mesmo. Diferenciação vem de entender de forma diferente o problema do cliente." },
+            { "label": "Ângulo", "text": "Diferenciação real não vem de visual diferente, vem de pensamento diferente" },
+            { "label": "Tese", "text": "\"Você não diferencia mudando logo. Diferencia mudando como você pensa.\"" }
+          ],
+          "central_question": "Por que empresa que muda identidade visual mas mantém estratégia igual fracassa em crescimento?",
+          "structure": [
+            "Diferenciar: identidade visual vs. diferenciação estratégica (são coisas diferentes)",
+            "Mapear por que rebranding genérico não funciona",
+            "Exemplo: marca que mudou cores mas continuou vendo concorrência ganhar mercado",
+            "Mostrar como insight estratégico real gera diferenciação durável",
+            "Modelo: como desenvolver pensamento diferente sobre seu mercado"
+          ],
+          "keywords": "Marca, diferenciação, identidade, posicionamento, estratégia, rebranding",
+          "tone": "Desafiador. Questiona investimentos em \"rebranding cosmético\".",
+          "sources": [
+            "BCG, \"The Art and Science of Brand Differentiation\" (2024)",
+            "Harvard Business Review, \"What Makes a Brand Distinctive\" (2023)"
+          ]
+        },
+        {
+          "number": 6,
+          "title": "\"Quando você copia estratégia do competitor, você já perdeu.\"",
+          "type": "Crescimento + Comportamento",
+          "headline_social": "Copiar tática do player maior é receita para fracasso",
+          "direcionamento": [
+            { "label": "Narrativa comum", "text": "\"O competitor grande faz assim, vamos fazer igual\"" },
+            { "label": "Realidade", "text": "O que funciona pra player grande (com recursos, marca, escala) não funciona pra empresa menor. Copy-paste de estratégia ignora diferenças estruturais: público, recursos, posição de mercado, capacidade de investimento." },
+            { "label": "Ângulo", "text": "Copy-paste de estratégia falha porque contextos são radicalmente diferentes" },
+            { "label": "Tese", "text": "\"Você não vence competidor maior copiando. Vence entendendo seu próprio mercado melhor.\"" }
+          ],
+          "central_question": "Por que empresa que copia tática de concorrente maior fracassa mesmo executando bem?",
+          "structure": [
+            "Explicar por que copy-paste falha (contextos diferentes, capacidades diferentes)",
+            "Mapear diferenças estruturais: recursos, brand equity, posição de mercado, público",
+            "Exemplo: PME que tenta replicar campanha de enterprise e fracassa",
+            "Mostrar como \"cópia bem executada\" é estratégia de fracasso",
+            "Modelo: como desenvolver estratégia própria baseada em realidade local, não em imitação"
+          ],
+          "keywords": "Estratégia, concorrência, diferenciação, posicionamento, contexto, competição",
+          "tone": "Provocador. Questiona o impulso automático de imitar líderes de mercado.",
+          "sources": [
+            "BCG, \"Competing in an Age of Disruption\" (2024)",
+            "McKinsey, \"Competitive Strategy for SMBs\" (2023)"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "NOVEMBRO / 2026",
+      "axis_title": "EIXO TEMÁTICO: Futuro e Adaptação",
+      "axis_description": "Como se preparar para o que vem. Por que adaptabilidade é mais importante que previsão. Lições que valem para qualquer mercado.",
+      "pautas": [
+        {
+          "number": 7,
+          "title": "\"Vantagem competitiva real não é tecnologia. É como você pensa.\"",
+          "type": "Futuro + Estratégia",
+          "headline_social": "A startup sem budget vence a empresa com melhor ferramenta",
+          "direcionamento": [
+            { "label": "Narrativa comum", "text": "\"Vantagem competitiva vem de tecnologia, marca ou preço\"" },
+            { "label": "Realidade", "text": "Tecnologia pode ser copiada em 6 meses. Marca pode ser perdida em um dia. Preço é frágil. A verdadeira vantagem é como você pensa sobre o mundo e sobre seu mercado." },
+            { "label": "Ângulo", "text": "Empresas que entendem mundo diferente ganham de empresas com melhor ferramenta" },
+            { "label": "Tese", "text": "\"Você não compete com concorrência. Você compete com a forma como pensa.\"" }
+          ],
+          "central_question": "Por que empresa com piores recursos, pior tecnologia e pior preço vence concorrente com tudo melhor?",
+          "structure": [
+            "Explicar a diferença entre vantagem competitiva temporária e vantagem de pensamento (duradoura)",
+            "Mapear como mentalidade de organização afeta velocidade, inovação, adaptação",
+            "Exemplo: empresa que pensa \"como escalo\" vs. empresa que pensa \"como soluciono melhor\"",
+            "Mostrar por que diversidade de pensamento é vantagem competitiva real",
+            "Modelo: como cultivar mentalidade estratégica na organização"
+          ],
+          "keywords": "Vantagem competitiva, mentalidade, estratégia, pensamento sistêmico, liderança, inovação",
+          "tone": "Filosófico mas prático. Mostra que estratégia começa em como você pensa.",
+          "sources": [
+            "Harvard Business Review, \"Sustainable Competitive Advantage\" (2024)",
+            "BCG, \"Thinking Differently to Compete\" (2023)"
+          ]
+        },
+        {
+          "number": 8,
+          "title": "\"Comportamento do consumidor mudou. Sua estratégia mudou também?\"",
+          "type": "Futuro + Comportamento",
+          "headline_social": "Seu playbook de 2023 não funciona mais em 2026",
+          "direcionamento": [
+            { "label": "Narrativa comum", "text": "\"O que funcionava antes continua funcionando\"" },
+            { "label": "Realidade", "text": "Padrões de compra, confiança em marcas, sensibilidade a preço, canais de busca — tudo mudou pós-2020. Empresas rodam com playbook antigo enquanto mercado já se transformou." },
+            { "label": "Ângulo", "text": "Empresas que observam mudança de comportamento em tempo real adaptam; as que rodam playbook desatualizado perdem mercado" },
+            { "label": "Tese", "text": "\"Você não cresce mantendo a mesma estratégia. Cresce observando como o cliente mudou.\"" }
+          ],
+          "central_question": "Por que estratégia que funcionava em 2023 fracassa em 2026?",
+          "structure": [
+            "Mapear principais mudanças de comportamento do consumidor (2020-2026)",
+            "Explicar por que playbooks envelhecem rápido no contexto atual",
+            "Exemplo: marca que rodou estratégia antiga e perdeu posição de mercado",
+            "Mostrar sinais de que sua estratégia está desatualizada",
+            "Modelo: como monitorar mudança de comportamento em tempo real e adaptar"
+          ],
+          "keywords": "Comportamento, consumidor, adaptação, mercado, tendências, mudança",
+          "tone": "Realista e urgente. Mostra risco de ficar pra trás.",
+          "sources": [
+            "Deloitte, \"Consumer Behavior in 2025\" (2024)",
+            "McKinsey, \"The Changing Consumer\" (2024)"
+          ]
+        },
+        {
+          "number": 9,
+          "title": "\"Escala não é fazer mais do mesmo. É fazer diferente.\"",
+          "type": "Futuro + Operação",
+          "headline_social": "Seu processo de 10 pessoas quebra quando você tem 100",
+          "direcionamento": [
+            { "label": "Narrativa comum", "text": "\"Já temos processo, agora é aumentar volume\"" },
+            { "label": "Realidade", "text": "Processos que funcionam em pequena escala quebram em grande escala. Você precisa redesenhar estrutura, comunicação, decisão. Empresas que tentam escalar sem mudança de processo fracassam." },
+            { "label": "Ângulo", "text": "Empresas que tentam escalar sem mudar processo fracassam. Quem muda vence" },
+            { "label": "Tese", "text": "\"O que funciona para 10 pessoas não funciona para 100. O que funciona para 100 não funciona para 1000.\"" }
+          ],
+          "central_question": "Por que empresas que crescem rápido frequentemente desabam ou ficam dysfuncionais?",
+          "structure": [
+            "Explicar o que muda quando empresa cresce (complexidade, comunicação, decisão, alinhamento)",
+            "Mapear os pontos de falha quando tenta escalar sem redesenhar",
+            "Exemplo: startup que cresce de 20 para 200 pessoas mantendo estrutura antiga",
+            "Mostrar diferença entre \"fazer mais\" (cresce chaos) e \"escalar\" (cresce ordem)",
+            "Modelo: quando e como redesenhar processos conforme cresce"
+          ],
+          "keywords": "Escala, crescimento, operação, processo, transformação, estrutura, organização",
+          "tone": "Realista. Mostra que crescimento exige mudança, não mais do mesmo.",
+          "sources": [
+            "MIT Sloan, \"Organizational Transformation at Scale\" (2024)",
+            "Deloitte, \"Scaling Operations\" (2023)"
+          ]
+        }
+      ]
+    }
+  ],
+  "closing_sections": [
+    { "heading": "DIRECIONAMENTO GERAL DO TRIMESTRE", "level": 1 },
+    {
+      "heading": "Progressão Temática:",
+      "level": 2,
+      "bullets": [
+        "Setembro → Liderança (como líderes pensam)",
+        "Outubro → Operação (como marcas crescem)",
+        "Novembro → Futuro (como se preparar para mudanças)"
+      ]
+    },
+    {
+      "heading": "Narrativa Conectada:",
+      "level": 2,
+      "paragraphs": [
+        "Todas as 9 pautas (3 meses) completam a jornada: você entende que vantagem competitiva real não vem de ferramenta ou criatividade, mas de pensamento estratégico. E pensamento melhor começa em liderança clara, execução focada, e capacidade de se adaptar ao futuro que muda rápido."
+      ]
+    },
+    {
+      "heading": "Público Alvo:",
+      "level": 2,
+      "paragraphs": [
+        "Diretores e gerentes de marketing em PMEs. Tomadores de decisão que buscam crescimento real, diferenciação estratégica, e entendimento sobre o que realmente impacta resultado de negócio."
+      ]
+    },
+    {
+      "heading": "Tom Geral:",
+      "level": 2,
+      "bullets": [
+        "Provocador (questiona o óbvio, desafia suposições comuns)",
+        "Educador (ensina através de exemplos reais e dados)",
+        "Realista (não oferece soluções mágicas ou receitas prontas)",
+        "Estratégico (foca no por quê antes do como)",
+        "Sem guru-ismo (compartilha insights, não oferece consultoria)"
+      ]
+    },
+    { "heading": "RESUMO DO TRIMESTRE", "level": 1 },
+    {
+      "bullets": [
+        "Total de pautas: 9 (3 pautas × 3 meses)",
+        "Frequência: 1 pauta por semana (aproximadamente 3 semanas por mês)",
+        "Público: Diretores e gerentes de marketing em PMEs",
+        "Linguagem: Simples, direta, sem jargão técnico",
+        "Foco: Comportamento, marca, liderança, decisão (não ferramentas)",
+        "Objetivo: Posicionar Nadine Luckei como pensadora estratégica que conecta liderança, operação e futuro"
+      ]
+    }
+  ]
+}
