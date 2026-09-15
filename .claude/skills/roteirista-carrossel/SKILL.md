@@ -65,68 +65,82 @@ Se não tiver planejamento ainda, recomende fazer `pesquisador-conteudo` e `plan
 
 ### Passo 3 — Escrita de cada slide
 
+**Princípios de conteúdo**:
+- Texto é **robusto, não raso** — cada slide tem densidade de conteúdo
+- Quebra em **linhas curtas** para legibilidade mobile, mas com ideias completas
+- Usa **narrativa pessoal ou storytelling** quando possível (experiência real > abstração)
+- **Dados/evidência** sustenta cada afirmação
+- Exemplo específico > exemplo genérico
+- **Voz autêntica** (coloquial, com analogias, incisivo)
+
 **Formato por slide:**
 
 ```
 **SLIDE [N]**: [Título/tema]
-**Texto**: [15-30 palavras max — fácil de ler na thumb]
-**Ação visual**: [Descrição de o que aparece na tela — gráfico, número, imagem conceitual]
-**Tom**: [Provocador, educador, desafiador]
+**Texto**:
+[Bloco narrativo/argumentativo — quebra em linhas curtas para ler bem em mobile]
+[Pode ser 2-3 parágrafos curtos ou um parágrafo denso quebrado]
+[Cada linha é uma ideia, mas o slide como todo tem narrativa coerente]
 ```
 
 ### Passo 4 — Exemplo completo
 
 ```
-**PAUTA**: "Decisão sem dados é opinião"
-**DURAÇÃO**: 8 slides
-**TOM**: Provocador, incisivo
+**PAUTA**: "Crescimento também pode quebrar sua operação"
+**DURAÇÃO**: 6 slides
+**ESTRUTURA**: Narrativa pessoal + revelação + síntese
 
 ---
 
 **SLIDE 1 — CAPA**
-Texto: "Você está tomando decisões erradas"
-Ação visual: Número grande (tipo "64%") com background minimalista
-Tom: Provocador
-
-**SLIDE 2 — CONTEXTO**
-Texto: "64% dos marketers decidem por feeling. Pura opinião disfarçada de estratégia."
-Ação visual: Citação em fundo contrastante + fonte (McKinsey)
-Tom: Crítico
-
-**SLIDE 3 — REALIDADE**
-Texto: "Dados sem contexto é ruído. Você vê um número subir e acha sucesso. Mas enquanto isso a empresa inteira está piorando em outro lugar."
-Ação visual: Gráfico que sobe + seta para baixo (contradição visual)
-Tom: Educador
-
-**SLIDE 4 — ANALOGIA**
-Texto: "É como ver o velocímetro do carro subindo enquanto você perde o controle na curva. Velocidade ≠ chegada."
-Ação visual: Carro/velocidade (conceitual ou real)
-Tom: Coloquial
-
-**SLIDE 5 — ÂNGULO**
-Texto: "O problema não é ter dados. É confundir correlação com causalidade. Você precisa de contexto."
-Ação visual: Dois elementos lado a lado com "≠" no meio
-Tom: Incisivo
-
-**SLIDE 6 — POR QUE IMPORTA**
-Texto: "Em 2026, dados errados custam mais que dados nenhum. Porque você fica confiante em decisão errada."
-Ação visual: Símbolo de custo/perda + 2026
-Tom: Provocador
-
-**SLIDE 7 — PRÁTICA**
-Texto: "Antes de decidir por um número, faça 3 perguntas: 1) Por que está acontecendo? 2) O contexto mudou? 3) Como chegar se contexto mudar novamente?"
-Ação visual: Checklist visual (3 caixas de check)
-Tom: Educador
-
-**SLIDE 8 — ENCERRAMENTO**
-Texto: "Dados sem contexto = ilusão. Contexto com dados = decisão. Qual você tem escolhido?"
-Ação visual: Pergunta em grande (provocação final)
-Tom: Reflexivo
+CRESCIMENTO TAMBÉM PODE QUEBRAR UMA OPERAÇÃO.
+Como trazer clientes demais fez minha área ser cortada.
 
 ---
 
-**CAPTION (texto pra ir junto no post):**
-"64% dos marketers decidem por feeling. Se você é um deles, essa série é pra você. Swipe pra saber como dados realmente funcionam. E conta aí: quantas decisões você toma por puro instinto?"
+**SLIDE 2 — CONTEXTO**
+Eu estava em uma operação que começou a crescer rápido.
+Novos clientes entravam.
+A demanda aumentava.
+E a empresa sabia que precisaria estruturar a operação para acompanhar.
+O plano era preparar a casa antes de acelerar a aquisição.
+
+---
+
+**SLIDE 3 — PROBLEMA**
+Só que a aquisição acelerou.
+A operação, não.
+Os clientes continuaram chegando, enquanto a estrutura que deveria sustentá-los não foi construída no mesmo ritmo.
+E aí o crescimento começou a criar o próprio gargalo.
+
+---
+
+**SLIDE 4 — REALIDADE**
+Até que chegou ao ponto em que a operação não conseguia absorver a demanda.
+A consequência?
+Minha área foi cortada.
+É curioso: o problema não era falta de clientes.
+Era ter adquirido mais clientes do que a operação conseguia sustentar.
+
+---
+
+**SLIDE 5 — INSIGHT**
+Foi aí que ficou muito claro para mim:
+aquisição não deveria ser o primeiro passo do crescimento.
+Antes de colocar mais demanda na máquina, a empresa precisa saber se consegue:
+entregar,
+atender,
+reter
+e sustentar o crescimento.
+Primeiro estrutura. Depois acelera.
+
+---
+
+**SLIDE 6 — SÍNTESE**
+Porque não adianta investir para trazer 2x mais clientes
+se a operação não está preparada para entregar para 2x mais clientes.
+Crescimento sustentável começa antes da aquisição.
+A empresa precisa estar pronta para receber o crescimento que está buscando.
 ```
 
 ### Passo 5 — Validação
