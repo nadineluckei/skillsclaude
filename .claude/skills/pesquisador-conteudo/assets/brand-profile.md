@@ -52,6 +52,12 @@ Síntese de posicionamento: **Estrategista de Campo de Batalha que Recusa o
   processo e a cultura ("feijão com arroz") estão bem construídos —
   comprar a ferramenta certa não substitui isso.
 
+## 3 Pilares de Conteúdo
+
+1. **Comportamento do Consumidor**: Como pessoas reais tomam decisão, mudam hábitos, escolhem marcas. O que funciona vs. o que marketing acha que funciona.
+2. **Eficiência Operacional e de Receita**: Processos, dados, automação, RevOps — o "feijão com arroz" que faz máquina rodar sem desperdício.
+3. **Liderança Estratégica**: Clareza de direção, tomada de decisão em incerteza, cultura que atrai e retém talento. Não é management, é pensamento estratégico.
+
 ## Os 3 inimigos em comum
 
 Toda pauta forte desta marca ataca, direta ou indiretamente, um destes
