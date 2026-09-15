@@ -114,3 +114,170 @@ indicar outro endereço na conversa.
 - **Stories** — conteúdo de **bastidores e conexão**: rotina na agência,
   opiniões sobre o mercado, e pitadas do lifestyle como reforço de
   identidade (nunca como o conteúdo principal).
+
+## Autoridade e Propósito
+
+O que mais odeio no mercado?
+
+**Inimigo 1 — A ditadura das receitas prontas**
+Fórmulas mágicas, hacks, lançamentos e metodologias que prometem resultado sem entender o negócio.
+
+**Inimigo 2 — A miopia operacional e a ilusão da tecnologia**
+A ideia de que comprar a ferramenta certa resolve o problema:
+- CRM não resolve processo ruim.
+- Automação não resolve estratégia ruim.
+- IA não resolve falta de direção.
+
+**Inimigo 3 — A colocação em caixas**
+A ideia de que pessoas, profissionais e empresas precisam se encaixar em categorias rígidas para serem reconhecidos.
+
+## O que o público está de saco cheio?
+
+Meu público está cansado de:
+
+- Gastar dinheiro sem saber exatamente por quê
+- Contratar ferramentas que não resolvem o problema
+- Trocar de estratégia o tempo inteiro
+- Copiar concorrentes
+- Receber leads que não viram vendas
+- Marketing e Vendas não se entenderem
+- Contratar pessoas sem estruturar a operação
+- Crescer sem conseguir sustentar o crescimento
+- Tomar decisões no achismo
+- Ouvir que "é só fazer mais"
+- Ouvir que "é só contratar"
+- Ouvir que "é só investir em tráfego"
+- Ouvir que "é só usar IA"
+
+Quem está começando um novo negócio está cansado de receber conselhos genéricos sobre crescimento sem aprender como estruturar o negócio antes de sair executando.
+
+## O que diferencia esta marca
+
+**Habilidade principal**: Conectar pontos entre Marketing, Vendas, RevOps, planejamento, tecnologia, dados, processos, cultura e comportamento — traduzindo complexidade para linguagem simples.
+
+**Autoridade vem de**:
+- Vivência real
+- Bagagem técnica
+- Capacidade de diagnóstico
+- Didática
+
+**Repertório amplo**: música, surf, yoga, espiritualidade, tecnologia, comportamento — amplia capacidade de observar pessoas e contextos.
+
+## Propósito + Público
+
+**Propósito**: Ajudar pessoas que querem construir ou fazer crescer um negócio a entender como estruturar estratégia, processos, Marketing, Vendas e tecnologia de acordo com a realidade da própria operação — em vez de copiar fórmulas prontas.
+
+**Quem se conecta**:
+
+1. **Quem já tem um negócio**: Empreendedores, gestores, gerentes e coordenadores de empresas pequenas e médias profissionalizadas que precisam destravar ou estruturar melhor uma operação existente.
+
+2. **Quem está construindo um novo negócio**: Pessoas que estão começando e querem entender qual problema resolver, para quem, como estruturar a oferta, como pensar aquisição, como organizar jornada, quais canais utilizar, quais indicadores acompanhar, como estruturar Marketing e Vendas, como preparar a operação para crescer.
+
+## O que o público não enxerga
+
+Muitas vezes o problema não está onde ele aparece:
+- Uma queda de vendas pode não ser um problema de Marketing
+- Uma baixa conversão pode não ser um problema de leads
+- Uma equipe improdutiva pode não ser um problema de pessoas
+- Uma ferramenta subutilizada pode não ser um problema de tecnologia
+- Uma empresa que não cresce pode não precisar simplesmente de mais aquisição
+- Um negócio novo não precisa começar pela ferramenta
+
+Precisa começar pela lógica: **problema → cliente → proposta de valor → modelo → jornada → estratégia → operação → canais → métricas**.
+
+## Expertise que quer ser vista
+
+Estrategista de campo que entende Marketing, Vendas e RevOps e consegue conectar estratégia, operação, pessoas e tecnologia.
+
+Quem acompanha encontra:
+- Pensamento estratégico
+- Clareza
+- Repertório
+- Visão sistêmica
+- Didática
+- Opiniões fortes
+- Capacidade de enxergar o que está por trás do problema
+
+**Sensação final**: "Agora eu entendi."
+
+## Valores Centrais
+
+1. **Pensamento crítico**: Não aceitar uma solução só porque o mercado diz que funciona
+2. **Clareza**: Entender o problema antes de agir
+3. **Autonomia**: Ensinar as pessoas a pensar, não criar dependência de especialistas
+4. **Profundidade**: Não tratar problemas complexos como se fossem simples
+5. **Autenticidade**: Não colocar pessoas e negócios em caixas artificiais
+
+## Posicionamentos Obrigatórios
+
+Comunicar regularmente que:
+
+- Fórmula não substitui estratégia
+- Tecnologia não substitui processo
+- CRM não substitui gestão
+- IA não substitui pensamento
+- Mais leads não resolvem qualquer problema
+- Crescer sem estrutura pode destruir valor
+- Marketing e Vendas precisam funcionar como sistema
+- Estratégia precisa considerar o contexto
+- Pessoas precisam de direção, não apenas cobrança
+- Profissionais não precisam caber em uma única caixa
+- Negócios diferentes precisam de decisões diferentes
+- Antes de executar, é preciso entender
+
+## Storytelling de Origem
+
+Visão nasceu de observar empresas tentando resolver problemas complexos com soluções superficiais:
+- Ferramentas antes de processos
+- Tecnologia antes de estratégia
+- Marketing separado de Vendas
+- Líderes cobrando sem estruturar
+- Empresas copiando concorrentes
+- Negócios querendo crescer antes de estarem preparados
+
+Trabalhando dentro de uma operação real, começou a perceber que esses problemas não são teóricos — acontecem todos os dias.
+
+Por isso a abordagem parte de uma pergunta: **"Qual é o problema de verdade?"**
+
+Antes de comprar. Antes de contratar. Antes de automatizar. Antes de aumentar mídia. Antes de culpar alguém.
+
+Primeiro: **entender**.
+
+## Promessa da Marca
+
+Ajudar empreendedores e profissionais responsáveis por negócios a entender, estruturar e fazer suas operações crescerem com estratégia — conectando Marketing, Vendas, processos, dados, tecnologia e pessoas, sem depender de fórmulas prontas.
+
+## Estereótipo — O Arquétipo
+
+**A Estrategista de Campo** é aquela pessoa que:
+- Não fica apenas na teoria
+- Conhece a operação
+- Entende ferramenta, mas não é refém dela
+- Entende Marketing e Vendas
+- Pergunta antes de recomendar
+- Olha para o processo
+- Olha para as pessoas
+- Olha para os dados
+- Conecta tudo
+
+E quando todo mundo está discutindo a solução, ela pergunta: **"Tá. Mas qual é o problema de verdade?"**
+
+## O que NÃO quer transmitir
+
+Não parecer:
+- Guru
+- Coach
+- Consultora de palco
+- Executiva fake
+- "Boss"
+- Especialista em tudo
+- Influenciadora corporativa
+- Ferramenta ambulante
+- Pessoa fria de dados
+- Profissional inacessível
+
+## Eixos Centrais de Conteúdo
+
+1. **Liderança & Decisão**: Como líderes pensam e tomam decisão
+2. **Crescimento & Eficiência**: Como marcas crescem de verdade e escalam
+3. **Futuro, Tendências e Adaptação**: Como se preparar para o que vem

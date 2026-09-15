@@ -160,7 +160,15 @@ Antes de entregar, checklist:
 
 Entregue:
 1. **Carrossel completo** (todos os slides com textos e ações visuais)
-2. **Caption formatado** (texto que vai no post, com call-to-action reflexivo)
+2. **Caption robusto e estratégico** (150-250 palavras — não é uma frase)
+   - Conecta à autoridade e aos 3 inimigos que a marca combate (receitas prontas, ilusão da tecnologia, colocação em caixas)
+   - Mostra por que o problema importa AGORA em 2026 (não é genérico ou atemporal)
+   - Menciona o público-alvo específico e o que está cansado (gestores PMEs, empreendedores, tomadores de decisão)
+   - Traz opiniões fortes sobre o tema — não consenso blando
+   - Reconhece o dilema do público: quer crescer mas não quer repetir os erros do mercado
+   - Call-to-action é reflexivo: pede comentário com experiência, DM com dúvida, ou compartilhamento de opinião — NUNCA venda
+   - Tom é de "pensadora, não executora" — revela um jeito de ver o problema, não oferece solução enlatada
+   - Referencia o storytelling/repertório quando faz sentido (não força)
 3. **Sugestão de visual** (paleta de cores, estilo, tom geral)
 
 Usuário pode usar para design + produção.
